@@ -1,0 +1,4 @@
+mkdocs
+mkdocs-material==9.5.3
+mike
+mkdocs-static-i18n==1.2.0

@@ -1,7 +1,74 @@
-site_name: My Docs
+site_name: SceneBuilder Manual
+site_description: 'SceneBuilderの公式マニュアルです!'
+site_author: 'HIKKY'
+
+theme:
+  favicon: images/VketCloudIcon.png
+  logo: images/VketCloudIcon.png
+  name: material
+  palette:
+  - scheme: default
+    primary: blue
+    accent: blue
+    toggle:
+        icon: material/toggle-switch-off-outline
+        name: ダークモードに切り替えます。
+  - scheme: slate
+    primary: blue
+    accent: blue
+    toggle:
+        icon: material/toggle-switch
+        name: ライトモードに切り替えます。
+  features:
+    - navigation.indexes
+    - header.autohide
+    - search.suggest
+    - search.highlight
+  footer:
+    logo: images/HikkyLogo.png
+    copyright: ©HIKKY Co.,Ltd. All rights reserved.
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  nav_style: dark
+  custom_dir: custom_theme
+
+extra:
+  generator: false
+  version:
+    provider: mike
+    default: latest
+
+use_directory_urls: false
+
 plugins:
+  - search:
+      lang: 
+        - en
+        - ja
   - mike:
       version_selector: true
       css_dir: css
       javascript_dir: js
       canonical_version: null
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+          default: true
+      
+
+markdown_extensions:
+    - admonition
+    - codehilite
+    - attr_list
+
+nav:
+- Introduction: index.md
