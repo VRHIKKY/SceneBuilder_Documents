@@ -1,0 +1,7 @@
+site_name: My Docs
+plugins:
+  - mike:
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+      canonical_version: null
