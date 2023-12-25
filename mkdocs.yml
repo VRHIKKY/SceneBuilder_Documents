@@ -8,14 +8,14 @@ theme:
   name: material
   palette:
   - scheme: default
-    primary: blue
-    accent: blue
+    primary: DC3A88
+    accent: DC3A88
     toggle:
         icon: material/toggle-switch-off-outline
         name: ダークモードに切り替えます。
   - scheme: slate
-    primary: blue
-    accent: blue
+    primary: DC3A88
+    accent: DC3A88
     toggle:
         icon: material/toggle-switch
         name: ライトモードに切り替えます。
@@ -40,6 +40,7 @@ extra:
   version:
     provider: mike
     default: latest
+    homepage: https://www.hikky.co.jp/vketcloud
 
 use_directory_urls: false
 
