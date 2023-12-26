@@ -67,7 +67,24 @@ plugins:
           name: 日本語
           build: true
           default: true
-      
+          nav_translations:
+            Introduction: はじめに
+            Glossary: 用語集
+            Getting Started: SceneBuilderの基本
+            SceneBuilder Setup: SceneBuilderのセットアップ
+            Reformatting Assets: アセットの再フォーマット
+            How to Import Items: アイテムの読み込み・配置
+            How to Create Gimmicks: ギミックを作成する
+            World Upload: ワールドをアップロードする
+            Controls and Properties: 各種操作・設定
+            Builder Window Overview: 各ウィンドウの機能
+            Using the Manipulator: マニピュレーターの操作方法
+            Camera Controls: カメラの操作方法
+            Item Configuration: アイテムごとのプロパティ
+            Creation Tips: ワールド制作のためのTips
+            Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
+            Actions: アクションについて
+            Release Note: リリースノート      
 
 markdown_extensions:
     - admonition
@@ -76,3 +93,22 @@ markdown_extensions:
 
 nav:
 - Introduction: index.md
+- Glossary: Glossary/Glossary.md
+- Getting Started:
+  - SceneBuilder Setup: GettingStarted/SceneBuilderSetup.md
+  - Reformatting Assets: GettingStarted/ReformattingAssets.md
+  - How to Import Items: GettingStarted/ImportItems.md
+  - How to Create Gimmicks: GettingStarted/CreateGimmicks.md
+  - World Upload: GettingStarted/WorldUpload.md
+- Controls and Properties:
+  - Builder Window Overview: ControlsProperties/WindowOverview.md
+  - Using the Manipulator: ControlsProperties/Manipulator.md
+  - Camera Controls: ControlsProperties/CameraControls.md
+  - Item Configuration: ControlsProperties/ItemConfig.md
+- Creation Tips:
+  - Light and RefProbe Baking: CreationTips/LightRefProbe.md
+# - Actions:
+# - HeliScript:
+- Release Note:
+  - SceneBuilder(α):
+    - v0.1: releasenote/releasenote-0.1.md
