@@ -71,6 +71,7 @@ plugins:
             Introduction: はじめに
             Glossary: 用語集
             Getting Started: SceneBuilderの基本
+            Operating Environment: 動作環境
             SceneBuilder Setup: SceneBuilderのセットアップ
             Reformatting Assets: アセットの再フォーマット
             How to Import Items: アイテムの読み込み・配置
@@ -95,6 +96,7 @@ nav:
 - Introduction: index.md
 - Glossary: Glossary/Glossary.md
 - Getting Started:
+  - Operating Environment: GettingStarted/OperatingEnvironment.md
   - SceneBuilder Setup: GettingStarted/SceneBuilderSetup.md
   - Reformatting Assets: GettingStarted/ReformattingAssets.md
   - How to Import Items: GettingStarted/ImportItems.md
