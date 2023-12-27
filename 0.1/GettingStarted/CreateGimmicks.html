@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -13,8 +13,10 @@
       
       
       
+        <link rel="prev" href="ImportItems.html">
       
-        <link rel="next" href="Glossary/Glossary.html">
+      
+        <link rel="next" href="WorldUpload.html">
       
       
       <link rel="icon" href="../images/VketCloudIcon.png">
@@ -22,7 +24,7 @@
     
     
       
-        <title>Introduction - SceneBuilder Manual</title>
+        <title>ギミックを作成する - SceneBuilder Manual</title>
       
     
     
@@ -81,11 +83,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#welcome-to-the-scenebuilder-official-manual" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -101,8 +98,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="SceneBuilder Manual" class="md-header__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../index.html" title="SceneBuilder Manual" class="md-header__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
       
   <img src="../images/VketCloudIcon.png" alt="logo">
 
@@ -121,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              ギミックを作成する
             
           </span>
         </div>
@@ -161,20 +158,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="index.html" hreflang="en" class="md-select__link">
+            <a href="../en/GettingStarted/CreateGimmicks.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../index.html" hreflang="ja" class="md-select__link">
+            <a href="CreateGimmicks.html" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -193,16 +190,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="検索">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -215,7 +212,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            検索を初期化
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -248,9 +245,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="SceneBuilder Manual" class="md-nav__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
+    <a href="../index.html" title="SceneBuilder Manual" class="md-nav__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
       
   <img src="../images/VketCloudIcon.png" alt="logo">
 
@@ -264,85 +261,18 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Introduction
+    はじめに
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      さあ、はじめましょう！
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      各種操作・設定について
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      質問・要望・バグ報告について
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -354,11 +284,11 @@
   
   
     <li class="md-nav__item">
-      <a href="Glossary/Glossary.html" class="md-nav__link">
+      <a href="../Glossary/Glossary.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Glossary
+    用語集
   </span>
   
 
@@ -371,8 +301,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -392,29 +324,29 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Getting Started
+    SceneBuilderの基本
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            SceneBuilderの基本
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -425,11 +357,11 @@
   
   
     <li class="md-nav__item">
-      <a href="GettingStarted/OperatingEnvironment.html" class="md-nav__link">
+      <a href="OperatingEnvironment.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Operating Environment
+    動作環境
   </span>
   
 
@@ -446,11 +378,11 @@
   
   
     <li class="md-nav__item">
-      <a href="GettingStarted/SceneBuilderSetup.html" class="md-nav__link">
+      <a href="SceneBuilderSetup.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    SceneBuilder Setup
+    SceneBuilderのセットアップ
   </span>
   
 
@@ -467,11 +399,11 @@
   
   
     <li class="md-nav__item">
-      <a href="GettingStarted/ReformattingAssets.html" class="md-nav__link">
+      <a href="ReformattingAssets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Reformatting Assets
+    アセットの再フォーマット
   </span>
   
 
@@ -488,11 +420,11 @@
   
   
     <li class="md-nav__item">
-      <a href="GettingStarted/ImportItems.html" class="md-nav__link">
+      <a href="ImportItems.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    How to Import Items
+    アイテムの読み込み・配置
   </span>
   
 
@@ -506,18 +438,26 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="GettingStarted/CreateGimmicks.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="CreateGimmicks.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    How to Create Gimmicks
+    ギミックを作成する
   </span>
   
 
       </a>
+      
     </li>
   
 
@@ -530,11 +470,11 @@
   
   
     <li class="md-nav__item">
-      <a href="GettingStarted/WorldUpload.html" class="md-nav__link">
+      <a href="WorldUpload.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    World Upload
+    ワールドをアップロードする
   </span>
   
 
@@ -584,7 +524,7 @@
             
   
   <span class="md-ellipsis">
-    Controls and Properties
+    各種操作・設定
   </span>
   
 
@@ -594,7 +534,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Controls and Properties
+            各種操作・設定
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -605,11 +545,11 @@
   
   
     <li class="md-nav__item">
-      <a href="ControlsProperties/WindowOverview.html" class="md-nav__link">
+      <a href="../ControlsProperties/WindowOverview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Builder Window Overview
+    各ウィンドウの機能
   </span>
   
 
@@ -626,11 +566,11 @@
   
   
     <li class="md-nav__item">
-      <a href="ControlsProperties/Manipulator.html" class="md-nav__link">
+      <a href="../ControlsProperties/Manipulator.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Using the Manipulator
+    マニピュレーターの操作方法
   </span>
   
 
@@ -647,11 +587,11 @@
   
   
     <li class="md-nav__item">
-      <a href="ControlsProperties/CameraControls.html" class="md-nav__link">
+      <a href="../ControlsProperties/CameraControls.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Camera Controls
+    カメラの操作方法
   </span>
   
 
@@ -668,11 +608,11 @@
   
   
     <li class="md-nav__item">
-      <a href="ControlsProperties/ItemConfig.html" class="md-nav__link">
+      <a href="../ControlsProperties/ItemConfig.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Item Configuration
+    アイテムごとのプロパティ
   </span>
   
 
@@ -716,7 +656,7 @@
             
   
   <span class="md-ellipsis">
-    Creation Tips
+    ワールド制作のためのTips
   </span>
   
 
@@ -726,7 +666,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Creation Tips
+            ワールド制作のためのTips
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -737,11 +677,11 @@
   
   
     <li class="md-nav__item">
-      <a href="CreationTips/LightRefProbe.html" class="md-nav__link">
+      <a href="../CreationTips/LightRefProbe.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Light and RefProbe Baking
+    アセットのライトマップとRefProbeのベイクについて
   </span>
   
 
@@ -785,7 +725,7 @@
             
   
   <span class="md-ellipsis">
-    Release Note
+    リリースノート
   </span>
   
 
@@ -795,7 +735,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Release Note
+            リリースノート
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -847,7 +787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="releasenote/releasenote-0.1.html" class="md-nav__link">
+      <a href="../releasenote/releasenote-0.1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -889,47 +829,10 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      さあ、はじめましょう！
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      各種操作・設定について
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      質問・要望・バグ報告について
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -944,47 +847,9 @@
                   
 
 
-<h1 id="welcome-to-the-scenebuilder-official-manual">Welcome to the SceneBuilder official manual!</h1>
-<p>Scene Builder(α)は、Webブラウザで動作するVket Cloudエンジンを使用したコンテンツ・ワールド制作のための開発キットです。</p>
-<p>Scene Builder(α)は、<a href="https://discord.com/invite/wJjtZRKjqU">VketCloud/MyVket discordサーバー</a>でのみ公開しておりますので、discord以外の場所でのScene Builder(α)の公開は、お控えいただきますようお願いいたします。</p>
-<p>また、Scene Builder(α)の仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。</p>
-<h2 id="_1">さあ、はじめましょう！</h2>
-<p>シーンビルダーの利用、ワールドのアップロードを行うには下記の手順ページから手順のご確認をお願いいたします。</p>
-<ol>
-<li>
-<p><a href="GettingStarted/SceneBuilderSetup.html">SceneBuilderのセットアップ</a></p>
-</li>
-<li>
-<p><a href="GettingStarted/ReformattingAssets.html">VketCloudSDK / UniVRMでScene Builder用にアセットを出力する</a></p>
-</li>
-<li>
-<p><a href="GettingStarted/ImportItems.html">アイテムの読み込み・配置</a></p>
-</li>
-<li>
-<p><a href="GettingStarted/CreateGimmicks.html">ギミックを作成する</a></p>
-</li>
-<li>
-<p><a href="GettingStarted/WorldUpload.html">ワールドをアップロードする</a></p>
-</li>
-</ol>
-<h2 id="_2">各種操作・設定について</h2>
-<p>そのほか画面の見方や操作の仕方については、下記ページをご参照ください:</p>
-<ul>
-<li>
-<p><a href="ControlsProperties/WindowOverview.html">各ウィンドウの機能</a></p>
-</li>
-<li>
-<p><a href="ControlsProperties/Manipulator.html">マニピュレーターの操作方法</a></p>
-</li>
-<li>
-<p><a href="ControlsProperties/CameraControls.html">カメラの操作方法</a></p>
-</li>
-<li>
-<p><a href="ControlsProperties/ItemConfig.html">アイテムごとのプロパティ</a></p>
-</li>
-</ul>
-<h2 id="_3">質問・要望・バグ報告について</h2>
-<p>質問、要望、バグ報告については<a href="https://discord.com/invite/wJjtZRKjqU">VketCloud/MyVket discordサーバー</a>のチャンネルにてお願いいたします！</p>
+  <h1>ギミックを作成する</h1>
+
+
 
 
 
@@ -1028,7 +893,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
     
     
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>

@@ -2,16 +2,198 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>Noneindex.html</loc>
-        <lastmod>2023-12-25</lastmod>
+        <lastmod>2023-12-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ja" href="Noneindex.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/index.html"/>
     </url>
     <url>
+        <loc>NoneControlsProperties/CameraControls.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/CameraControls.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/CameraControls.html"/>
+    </url>
+    <url>
+        <loc>NoneControlsProperties/ItemConfig.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/ItemConfig.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/ItemConfig.html"/>
+    </url>
+    <url>
+        <loc>NoneControlsProperties/Manipulator.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/Manipulator.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/Manipulator.html"/>
+    </url>
+    <url>
+        <loc>NoneControlsProperties/WindowOverview.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/WindowOverview.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/WindowOverview.html"/>
+    </url>
+    <url>
+        <loc>NoneCreationTips/LightRefProbe.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneCreationTips/LightRefProbe.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/CreationTips/LightRefProbe.html"/>
+    </url>
+    <url>
+        <loc>NoneGettingStarted/CreateGimmicks.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/CreateGimmicks.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/CreateGimmicks.html"/>
+    </url>
+    <url>
+        <loc>NoneGettingStarted/ImportItems.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/ImportItems.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/ImportItems.html"/>
+    </url>
+    <url>
+        <loc>NoneGettingStarted/OperatingEnvironment.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/OperatingEnvironment.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/OperatingEnvironment.html"/>
+    </url>
+    <url>
+        <loc>NoneGettingStarted/ReformattingAssets.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/ReformattingAssets.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/ReformattingAssets.html"/>
+    </url>
+    <url>
+        <loc>NoneGettingStarted/SceneBuilderSetup.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/SceneBuilderSetup.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/SceneBuilderSetup.html"/>
+    </url>
+    <url>
+        <loc>NoneGettingStarted/WorldUpload.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/WorldUpload.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/WorldUpload.html"/>
+    </url>
+    <url>
+        <loc>NoneGlossary/Glossary.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGlossary/Glossary.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Glossary/Glossary.html"/>
+    </url>
+    <url>
+        <loc>Nonereleasenote/releasenote-0.1.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonereleasenote/releasenote-0.1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/releasenote/releasenote-0.1.html"/>
+    </url>
+    <url>
         <loc>Noneen/index.html</loc>
-        <lastmod>2023-12-25</lastmod>
+        <lastmod>2023-12-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/index.html"/>
         <xhtml:link rel="alternate" hreflang="ja" href="Noneindex.html"/>
+    </url>
+    <url>
+        <loc>Noneen/ControlsProperties/CameraControls.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/CameraControls.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/CameraControls.html"/>
+    </url>
+    <url>
+        <loc>Noneen/ControlsProperties/ItemConfig.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/ItemConfig.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/ItemConfig.html"/>
+    </url>
+    <url>
+        <loc>Noneen/ControlsProperties/Manipulator.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/Manipulator.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/Manipulator.html"/>
+    </url>
+    <url>
+        <loc>Noneen/ControlsProperties/WindowOverview.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/ControlsProperties/WindowOverview.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneControlsProperties/WindowOverview.html"/>
+    </url>
+    <url>
+        <loc>Noneen/CreationTips/LightRefProbe.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/CreationTips/LightRefProbe.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneCreationTips/LightRefProbe.html"/>
+    </url>
+    <url>
+        <loc>Noneen/GettingStarted/CreateGimmicks.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/CreateGimmicks.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/CreateGimmicks.html"/>
+    </url>
+    <url>
+        <loc>Noneen/GettingStarted/ImportItems.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/ImportItems.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/ImportItems.html"/>
+    </url>
+    <url>
+        <loc>Noneen/GettingStarted/OperatingEnvironment.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/OperatingEnvironment.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/OperatingEnvironment.html"/>
+    </url>
+    <url>
+        <loc>Noneen/GettingStarted/ReformattingAssets.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/ReformattingAssets.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/ReformattingAssets.html"/>
+    </url>
+    <url>
+        <loc>Noneen/GettingStarted/SceneBuilderSetup.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/SceneBuilderSetup.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/SceneBuilderSetup.html"/>
+    </url>
+    <url>
+        <loc>Noneen/GettingStarted/WorldUpload.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/GettingStarted/WorldUpload.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGettingStarted/WorldUpload.html"/>
+    </url>
+    <url>
+        <loc>Noneen/Glossary/Glossary.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Glossary/Glossary.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneGlossary/Glossary.html"/>
+    </url>
+    <url>
+        <loc>Noneen/releasenote/releasenote-0.1.html</loc>
+        <lastmod>2023-12-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/releasenote/releasenote-0.1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonereleasenote/releasenote-0.1.html"/>
     </url>
 </urlset>
