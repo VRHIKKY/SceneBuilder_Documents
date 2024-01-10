@@ -2,7 +2,7 @@
 
 Scene Builder(α)は、Webブラウザで動作するVket Cloudエンジンを使用したコンテンツ・ワールド制作のための開発キットです。
 
-Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU)でのみ公開しておりますので、discord以外の場所でのScene Builder(α)の公開は、お控えいただきますようお願いいたします。
+Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}でのみ公開しておりますので、discord以外の場所でのScene Builder(α)の公開は、お控えいただきますようお願いいたします。
 
 また、Scene Builder(α)の仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
 
@@ -34,4 +34,4 @@ Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.co
 
 ## 質問・要望・バグ報告について
 
-質問、要望、バグ報告については[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU)のチャンネルにてお願いいたします！
+質問、要望、バグ報告については[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}のチャンネルにてお願いいたします！
