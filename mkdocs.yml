@@ -136,13 +136,13 @@ nav:
       - Enable/DisableClickableNode: Actions/Node/EnableDisableClickableNode.md
       - Enable/DisableCollider: Actions/Node/EnableDisableCollider.md
     - Item:
-      - PlayItem: Actions/Item/PlayItem.md #αではStopトル
-      - ShowItem: Actions/Item/ShowItem.md #αではHideトル
+      - Play/StopItem: Actions/Item/PlayStopItem.md
+      - Show/HideItem: Actions/Item/ShowHideItem.md
       - SetPosRelativePlayer: Actions/Item/SetPosRelativePlayer.md
       - MoveTo: Actions/Item/MoveTo.md
     - Avatar:
    #   - Play/StopObject: Actions/Avatar/PlayStopObject.md
-      - HideObject: Actions/Avatar/HideObject.md #αではShowトル
+      - Show/HideObject: Actions/Avatar/ShowHideObject.md
    #   - Emote: Actions/Avatar/Emote.md
    #   - Motion: Actions/Avatar/Motion.md
    #   - NextMotion: Actions/Avatar//NextMotion.md
