@@ -92,10 +92,34 @@ plugins:
             Actions: アクション
             Actions Overview: アクションとは
             System: システム
-            Item: Itemクラス
+            Item Action: Itemアクション
             TextChat: テキストチャット
             Physics: 物理演算
             #HeliScript
+            HeliScript - Overview: HeliScript概要
+            Statements and flow control: 文法・制御構文
+            Declarations and definitions: 定義・宣言
+            Control Statement: 制御構文
+            Reference (ref): 参照(ref)
+            Constant Variable (const): 定数(const)
+            Built-in Types: 組み込み型
+            Basic Types: 基本型
+            String: 文字列(String)
+            List: 配列(List)
+            Operator: 演算子
+            Class: クラス
+            Components / Callback functions: コンポーネント / コールバック関数
+            Built-in Classes And Functions: 組み込みクラス・関数
+            Vector3: Vector3クラス
+            Quaternion: Quaternionクラス
+            Matrix: Matrixクラス
+            Item: Itemクラス
+            Player: Playerクラス
+            Built-in Functions: 組み込み関数
+            Math: 数学
+            Network: ネットワーク
+            NamePlate: ネームプレート
+            #リリースノート
             Release Note: リリースノート      
 
 markdown_extensions:
@@ -136,7 +160,7 @@ nav:
       - Show/HideNode: Actions/Node/ShowHideNode.md
       - Enable/DisableClickableNode: Actions/Node/EnableDisableClickableNode.md
       - Enable/DisableCollider: Actions/Node/EnableDisableCollider.md
-    - Item:
+    - Item Action:
       - Play/StopItem: Actions/Item/PlayStopItem.md
       - Show/HideItem: Actions/Item/ShowHideItem.md
       - SetPosRelativePlayer: Actions/Item/SetPosRelativePlayer.md
@@ -162,7 +186,33 @@ nav:
    #   - Random: Actions/Programmatic/Random.md
    #   - SetCookieText: Actions/Programmatic/SetCookieText.md
       - CallScript: Actions/Programmatic/CallScript.md
-# - HeliScript: #HeliScript
+- HeliScript: #HeliScript
+    - HeliScript - Overview: hs/hs_overview.md
+    - Built-in Types:
+        - Basic Types: hs/hs_var.md
+        - String: hs/hs_string.md
+        - List: hs/hs_list.md
+    - Class: hs/hs_class.md
+    - Components / Callback functions: hs/hs_component.md
+    - Built-in Classes And Functions:
+        - Vector3: hs/hs_struct_vector3.md
+        - Quaternion: hs/hs_struct_quaternion.md
+        - Matrix: hs/hs_struct_matrix.md
+        - Item: hs/hs_class_item.md
+        - Player: hs/hs_class_player.md
+    - Built-in Functions:
+        - System: hs/hs_system_function.md
+        - Math: hs/hs_system_function_math.md
+        - Network: hs/hs_system_function_net.md
+        - NamePlate: hs/hs_system_function_nameplate.md
+        - GUI: hs/hs_system_function_gui.md
+        - TextChat: hs/hs_system_function_textchat.md
+        - ChatGPT: hs/hs_system_function_chatgpt.md
+        - Physics: hs/hs_system_function_physics.md
+    - Statements and flow control:
+        - Declarations and definitions: hs/hs_statement_def.md
+        - Control Statement: hs/hs_statement_constrol.md
+        - Operator: hs/hs_operator.md
 - Release Note: #リリースノート
   - SceneBuilder(α):
     - v0.1: releasenote/releasenote-0.1.md
