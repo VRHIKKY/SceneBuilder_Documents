@@ -82,7 +82,7 @@ plugins:
             Builder Window Overview: 各ウィンドウの機能
             Using the Manipulator: マニピュレーターの操作方法
             Camera Controls: カメラの操作方法
-            Item Configuration: アイテムごとのプロパティ
+            Item Configuration: アイテムタイプごとのプロパティ
             Creation Tips: ワールド制作のためのTips
             Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
             Actions: アクションについて
