@@ -12,13 +12,15 @@ Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.co
 
 1. [SceneBuilderのセットアップ](GettingStarted/SceneBuilderSetup.md)
 
-2. [VketCloudSDK / UniVRMでScene Builder用にアセットを出力する](GettingStarted/ReformattingAssets.md)
+2. [シーンを保存する方法](GettingStarted/SavingScenes.md)
 
-3. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
+3. [アセットの再フォーマット](GettingStarted/ReformattingAssets.md)
 
-4. [ギミックを作成する](GettingStarted/CreateGimmicks.md)
+4. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
 
-5. [ワールドをアップロードする](GettingStarted/WorldUpload.md)
+5. [ギミックを作成する](GettingStarted/CreateGimmicks.md)
+
+6. [ワールドをアップロードする](GettingStarted/WorldUpload.md)
 
 ## 各種操作・設定について
 

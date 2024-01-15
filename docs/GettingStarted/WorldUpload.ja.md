@@ -14,7 +14,7 @@
 
 Vket Accountへのログインは、[https://account.vket.com/](https://account.vket.com) で行われるため、Scene Builderのサイトから一度離れる必要があります。
 
-保存していないシーンがある場合は、その編集が破棄されてしまいますので、おなじファイルメニューからシーンを保存を行ってください。
+保存していないシーンがある場合は、その編集が破棄されてしまいますので、同じファイルメニューからシーンの保存を行ってください。
 
 ![WorldUpload_2](img/WorldUpload_2.jpg)
 
