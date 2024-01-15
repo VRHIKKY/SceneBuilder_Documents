@@ -2,12 +2,13 @@
 
 ![Warp](img/Warp.jpg)
 
-The action "Warp" teleports the player to the designated object's position.
+ワープアクションは、プレイヤーを指定の座標・向きに瞬間移動させます。
 
-|  Label |  Function  |
+| 名称 |  機能  |
 | ----   | ---- |
-| Target | Designates the warp target |
+| ポジション | ワープ目標となる座標を指定します |
+| ローテート | ワープ後のプレイヤーの向きを指定します |
 
-!!! Caution "Usage Cautions"
-    - Rotation only applies to the Y-axis.
-    - The avatar may fall due to gravity after warp.
+!!! Caution "注意点"
+    - 向きが適用されるのはY方向のみです。
+    - アバターは移動後に重力によって落下する場合があります。
