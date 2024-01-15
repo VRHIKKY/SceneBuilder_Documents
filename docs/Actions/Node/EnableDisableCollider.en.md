@@ -1,7 +1,13 @@
 
 # Enable/DisableCollider
-![EnableDisableCollider](img/EnableDisableCollider.jpg)
 
-Enable/DisableColldier lets you toggle a collider inside an HEOField or an HEOObject.
+![EnableCollider](img/EnableCollider.jpg)
 
-For Target, specify either HEOField or HEOObject. As for Collider In Target, specify the collider inside the chosen HEOField/HEOObject.
+![DisableCollider](img/DisableCollider.jpg)
+
+Enable/DisableColliderは、アイテムを構成するノードに含まれるコライダーの無効化・有効化をコントロールします。
+
+| 名称 | 機能 |
+| ---- | ---- |
+| Name | コライダーを切り替えたいノードが含まれるアイテムのハイラルキ上の名前を入力します |
+| Node Name | アイテムに紐づいているノードの名前を記入します |

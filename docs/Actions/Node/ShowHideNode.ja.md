@@ -1,16 +1,12 @@
-
 # Show/HideNode
-![ShowHideNode](img/ShowHideNode.jpg)
 
-ShowNodeやHideNodeは、.heoに含まれるメッシュの表示・非表示をコントロールすることができます。
+![ShowNode](img/ShowNode.jpg)
 
-Selectボタンより、targetに指定できるオブジェクトの一覧を表示することができます。
+![HideNode](img/HideNode.jpg)
 
-なお、Targetに指定できるオブジェクトは、
+ShowNodeやHideNodeは、アイテムを構成するノードのメッシュの表示・非表示をコントロールすることができます。
 
-- HEOObject
-- HEOField
-
-を持つオブジェクトで、その種類によって、その下で入力できるフィールドが異なります。HEOFieldなら、シーンにあるオブジェクトを指定できますが、HEOObjectなら、.heoファイルに含まれるモデル名をテキスト入力する必要があります。
-
-![ShowHideNode2](img/ShowHideNode2.jpg)
+| 名称 | 機能 |
+| ---- | ---- |
+| Name | メッシュ表示を切り替えたいノードが含まれるアイテムのハイラルキ上の名前を入力します |
+| Node Name | アイテムに紐づいているノードの名前を記入します |
