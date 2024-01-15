@@ -1,6 +1,14 @@
 # Scene Builderの動作環境
 
-Scene Builderは、以下のブラウザ環境が必要です。
+Scene Builder(α)の動作には、以下の環境が必要です。
+
+## OS
+
+- Windows 10以降のバージョン
+
+※mac OSでは一部動作に不具合があることが確認できています。
+
+## ブラウザ
 
 - Chrome
 
