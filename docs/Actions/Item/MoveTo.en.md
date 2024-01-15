@@ -1,11 +1,12 @@
-
 # MoveTo
+
 ![MoveTo](img/MoveTo.jpg)
 
-MoveTo lets you move an HEOObject linearly to a specified Object.
+MoveToは、指定したアイテムをターゲットとして設定したアイテムのノードの位置まで線形移動させます。
 
-For target, set the HEOObject you wish to move.
-For destination, set the HEOField GameObject that contains the goal GameObject.
-For Object In Destination, set the GameObject the "target" is going to move towards.
-
-For time, set the amount of seconds it takes to reach the destination.
+| 名称 | 機能 |
+| ---- | ---- |
+| Name | 移動させたいアイテムをハイアラキ上の名前で指定します。|
+| Target Name | 移動目標となるノードが含まれたアイテムをハイアラキ上の名前で指定します。 |
+| Target Node Name | 移動目標となるノードの名前を指定します。 |
+| Time | 移動にかかる秒数を設定します。 |

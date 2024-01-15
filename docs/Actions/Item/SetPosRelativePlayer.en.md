@@ -1,6 +1,6 @@
-
 # SetPosRelativePlayer
+
 ![SetPosRelativePlayer](img/SetPosRelativePlayer.jpg)
 
-SetPosRelativePlayer moves an HEOObject to a position relative to the player.
-With Pos, the target destination can be adjusted using the local coordinates from the player's perspective.
+SetPosRelativePlayerは、`Name`で指定したアイテムをプレイヤーの相対的な位置に移動させます。
+ポジションには、プレイヤーから見たローカル座標を設定します。
