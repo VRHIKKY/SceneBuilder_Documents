@@ -19,3 +19,21 @@
 以下のURLにアクセスします。
 
 [https://scenebuilder.vket.com/](https://scenebuilder.vket.com/){target=_blank}
+
+その際、ユーザー名とパスワードを問われるので以下の情報を入力します。
+
+ユーザー名：
+
+scenebuilder-prd
+
+パスワード：
+
+8GkcAnVn
+
+## プロジェクトを開く
+
+Scene Builder(α)が開けたら、どのプロジェクトを開くか問われるので、ダウンロードしたScene Builder(α)用のプロジェクトファイルを開きます。
+
+![SceneBuilderSetup_1](img/SceneBuilderSetup_1.jpg)
+
+アセットパネルのModelにプリセットのモデルが複数個表示されていれば成功です。
