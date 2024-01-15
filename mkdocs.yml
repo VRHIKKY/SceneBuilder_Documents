@@ -84,7 +84,7 @@ plugins:
             Camera Controls: カメラの操作方法
             Item Configuration: アイテムタイプごとのプロパティ
             Creation Tips: ワールド制作のためのTips
-            Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
+            Light and Reflection Probe Baking: アセットのライトマップとReflection Probeのベイクについて
             Actions: アクションについて
             Release Note: リリースノート      
 
@@ -110,7 +110,7 @@ nav:
   - Camera Controls: ControlsProperties/CameraControls.md
   - Item Configuration: ControlsProperties/ItemConfig.md
 - Creation Tips:
-  - Light and RefProbe Baking: CreationTips/LightRefProbe.md
+  - Light and Reflection Probe Baking: CreationTips/LightRefProbe.md
 # - Actions:
 # - HeliScript:
 - Release Note:
