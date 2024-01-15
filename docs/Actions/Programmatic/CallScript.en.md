@@ -1,9 +1,12 @@
 # CallScript
+
 ![CallScript](img/CallScript.jpg)
 
-You can use "CallScript" to call methods from HeliScript or Script. When specifying arguments, you should separate the component name, method name, and arguments with commas.
+ActionsからHeliScriptを呼び出す際に使用します。
 
-For example, if you want to call the following method
+引数にはコンポーネント名・メソッド名・引数をカンマ区切りで指定します。
+
+例えば、
 
 ```csharp
 component Foo {
@@ -13,9 +16,10 @@ void Method(string Param)
 }
 ```
 
-If you specify "Foo,Method,abc" as the argument, the "Method" will be called with "abc" assigned to the parameter.
+を呼び出したい場合は、”Foo,Method,abc”などと指定すると、Paramに”abc”が代入された状態でMethodが呼び出されます。
 
-| Label |  Function  |
-| ----   | ---- |
-| Name | Specify ItemName |
-| Text | Specify the Ccmponent name, method name, and arguments|
+| フィールド | 初期値 |  機能  |
+| ---- | ---- | ---- |
+| Name || Item名、またはレイヤー名を指定します。 |
+| Category | scene | “scene“ または “canvas” で、呼び出し対象のコンポーネントの所属カテゴリーを指定します。 |
+| Text | | 呼び出し対象のコンポーネントやメソッド名、引数をまとめてカンマ区切りで記述します。「コンポーネント名,メソッド名,文字列引数」の順番で記述します。 |
