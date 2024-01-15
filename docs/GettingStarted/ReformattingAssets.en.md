@@ -16,7 +16,7 @@ Scene Builderでは将来的にプリセットのアセットを多数用意し�
 
 ![ReformattingAssets_1](img/ReformattingAssets_1.jpg)
 
-!!! note caution
+!!! note warning
     ※Scene Builderにモデルをアップロードする際は、モデルの利用ライセンスあるいはガイドライン等に違反していないか注意してください。
 
 ## 下準備：見た目の調整
