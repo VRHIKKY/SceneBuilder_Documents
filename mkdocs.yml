@@ -70,6 +70,7 @@ plugins:
           nav_translations:
             Introduction: はじめに
             Glossary: 単語集
+            #基本ページ
             Getting Started: SceneBuilderの基本
             Operating Environment: 動作環境
             SceneBuilder Setup: SceneBuilderのセットアップ
@@ -78,6 +79,7 @@ plugins:
             How to Import Items: アイテムの読み込み・配置
             How to Create Gimmicks: ギミックを作成する
             World Upload: ワールドをアップロードする
+            #操作解説
             Controls and Properties: 各種操作・設定
             Builder Window Overview: 各ウィンドウの機能
             Using the Manipulator: マニピュレーターの操作方法
@@ -85,7 +87,14 @@ plugins:
             Item Configuration: アイテムごとのプロパティ
             Creation Tips: ワールド制作のためのTips
             Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
-            Actions: アクションについて
+            #アクション
+            Actions: アクション
+            Actions Overview: アクションとは
+            System: システム
+            Item: Itemクラス
+            TextChat: テキストチャット
+            Physics: 物理演算
+            #HeliScript
             Release Note: リリースノート      
 
 markdown_extensions:
@@ -96,7 +105,7 @@ markdown_extensions:
 nav:
 - Introduction: index.md
 - Glossary: Glossary/Glossary.md
-- Getting Started:
+- Getting Started: #基本ページ
   - Operating Environment: GettingStarted/OperatingEnvironment.md
   - SceneBuilder Setup: GettingStarted/SceneBuilderSetup.md
   - Saving Scenes: GettingStarted/SavingScenes.md
@@ -104,15 +113,55 @@ nav:
   - How to Import Items: GettingStarted/ImportItems.md
   - How to Create Gimmicks: GettingStarted/CreateGimmicks.md
   - World Upload: GettingStarted/WorldUpload.md
-- Controls and Properties:
+- Controls and Properties: #操作解説
   - Builder Window Overview: ControlsProperties/WindowOverview.md
   - Using the Manipulator: ControlsProperties/Manipulator.md
   - Camera Controls: ControlsProperties/CameraControls.md
   - Item Configuration: ControlsProperties/ItemConfig.md
-- Creation Tips:
+- Creation Tips: #Tips
   - Light and RefProbe Baking: CreationTips/LightRefProbe.md
-# - Actions:
-# - HeliScript:
-- Release Note:
+- Actions: #アクション
+#α段階でSDK本体にあってSceneBuilderにないアクションは除外
+    - Actions Overview: Actions/ActionsOverview.md
+    - System:
+      - Openweb: Actions/System/Openweb.md
+    #  - StopVideo: Actions/System/StopVideo.md
+    #   - Wait: Actions/System/Wait.md
+      - Warp: Actions/System/Warp.md
+    #  - Enter/LeaveVoiceGroup: Actions/System/EnterLeaveVoiceGroup.md
+      - WhiteOut/In: Actions/System/WhiteOutIn.md
+      - FadeOut/In: Actions/System/FadeOutIn.md
+    - Node:
+      - Show/HideNode: Actions/Node/ShowHideNode.md
+      - Enable/DisableClickableNode: Actions/Node/EnableDisableClickableNode.md
+      - Enable/DisableCollider: Actions/Node/EnableDisableCollider.md
+    - Item:
+      - PlayItem: Actions/Item/PlayItem.md #αではStopトル
+      - ShowItem: Actions/Item/ShowItem.md #αではHideトル
+      - SetPosRelativePlayer: Actions/Item/SetPosRelativePlayer.md
+      - MoveTo: Actions/Item/MoveTo.md
+    - Avatar:
+   #   - Play/StopObject: Actions/Avatar/PlayStopObject.md
+      - HideObject: Actions/Avatar/HideObject.md #αではShowトル
+   #   - Emote: Actions/Avatar/Emote.md
+   #   - Motion: Actions/Avatar/Motion.md
+   #   - NextMotion: Actions/Avatar//NextMotion.md
+   # - Physics:
+   # - AddVelocity: Actions/Physics/PhysicsAddVelocity.md
+   # - Add / ClearForce: Actions/Physics/PhysicsClearAddForce.md
+   # - SetPhysicsEnable: Actions/Physics/PhysicsSetEnable.md
+   # - SetPosition / Rotation: Actions/Physics/PhysicsSetPosRot.md
+    - Programmatic:
+   #   - AddVar: Actions/Programmatic/AddVar.md
+   #   - SetVar: Actions/Programmatic/SetVar.md
+   #   - If A == B: Actions/Programmatic/IfEqual.md
+   #   - If A != B: Actions/Programmatic/IfNotEqual.md
+   #   - If A >= B: Actions/Programmatic/IfGreaterThanOrEqual.md
+   #   - If A <= B: Actions/Programmatic/IfLessThanOrEqual.md
+   #   - Random: Actions/Programmatic/Random.md
+   #   - SetCookieText: Actions/Programmatic/SetCookieText.md
+      - CallScript: Actions/Programmatic/CallScript.md
+# - HeliScript: #HeliScript
+- Release Note: #リリースノート
   - SceneBuilder(α):
     - v0.1: releasenote/releasenote-0.1.md
