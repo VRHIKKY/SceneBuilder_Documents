@@ -69,7 +69,7 @@ plugins:
           default: true
           nav_translations:
             Introduction: はじめに
-            Glossary: 用語集
+            Glossary: 単語集
             Getting Started: SceneBuilderの基本
             Operating Environment: 動作環境
             SceneBuilder Setup: SceneBuilderのセットアップ
