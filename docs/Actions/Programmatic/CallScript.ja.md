@@ -1,4 +1,4 @@
-# CallScript
+# Heliscriptを呼び出す
 
 ![CallScript](img/CallScript.jpg)
 

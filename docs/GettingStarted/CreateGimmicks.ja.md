@@ -32,7 +32,7 @@ Add Actionボタンを押下することで、アクションを追加するた�
 
 ![CreateGimmicks_5](img/CreateGimmicks_5.jpg)
 
-ここではOpenWeb（Webを開く）を選択し、URLの欄に任意のURLを追加します。
+ここではWebを開くを選択し、URLの欄に任意のURLを追加します。
 
 ![CreateGimmicks_6](img/CreateGimmicks_6.jpg)
 
@@ -65,7 +65,7 @@ Add Actionボタンを押下することで、アクションを追加するた�
 
 ![CreateGimmicks_10](img/CreateGimmicks_10.jpg)
 
-ここではOpenWeb（Webを開く）を選択し、URLの欄に任意のURLを追加します。
+ここではWebを開くを選択し、URLの欄に任意のURLを追加します。
 
 ![CreateGimmicks_11](img/CreateGimmicks_11.jpg)
 
