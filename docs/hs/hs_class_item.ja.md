@@ -2,9 +2,9 @@
 # Item クラス
 
 Vket Cloud上でワールドを構成する際、Player以外の各要素はItemとして表現されます。<br>
-[HEOField](../HEOComponents/HEOField.md), [HEOObject](../HEOComponents/HEOObject.md), [HEOPlane](../HEOComponents/HEOPlane.md), [HEOActivity](../HEOComponents/HEOActivity.md)などがこれにあたります。
+SceneBuilderではハイアラキにて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
 
-Itemクラスは、ワールド内に配置された[HEOField](../HEOComponents/HEOField.md)及びその子オブジェクトであるNodeなど、個々のアイテムをHeliScriptにて操作するためのものです。
+Itemクラスは、ワールド内に配置されたアイテム及びその子オブジェクトであるNodeなど、個々のアイテムをHeliScriptにて操作するためのものです。
 
 hsItemGet()でアイテム名を指定、あるいはhsItemGetSelf()を実行してItemクラスオブジェクトを取得することが出来ます。
 
@@ -250,13 +250,11 @@ Item のロードが完了していた場合は true を、そうでない場合
 `public bool SetCamera()`
 
 カメラタイプのアイテムをカメラとして設定する。
-使い方については[HEOCamera](../HEOComponents/HEOCamera.md)を参照してください。
 
 ### ResetCamera
 `public void ResetCamera()`
 
 SetCameraで設定したものを解除する。
-使い方については[HEOCamera](../HEOComponents/HEOCamera.md)を参照してください。
 
 ### ReplaceItem
 `public bool ReplaceItem(string URL)`

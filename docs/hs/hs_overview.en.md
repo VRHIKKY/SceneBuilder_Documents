@@ -19,7 +19,7 @@ HeliScriptの文法については[基本系](./hs_var.md))から順番に読む
 
 ![hs_overview_2](img/hs_overview_2.jpg)
 
-### 2\. HEOScriptをシーンに追加する
+### 2\. スクリプトをシーンに追加する
 
 HeliScriptファイルを追加したら、次はシーンにHeliScriptの設定を行います。 HeliScriptは
 

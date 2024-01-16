@@ -1,185 +1,183 @@
 
-# Components / Callback functions
+# コンポーネント / コールバック関数
 
-## Defining components
+## コンポーネントの定義
 
-A component is a class object added to the items described in the Scene file.
+コンポーネントとは、Sceneファイルに記述されたアイテムに対して追加するクラスオブジェクトです。
 
-Define a block that specifies the component name after the reserved word component.
+予約語のcomponentの次にコンポーネント名を指定したブロックを定義します。
 
 ```
-component [component name] {
-         // Inside the component, methods and fields equivalent to classes can be defined
+component コンポーネント名 {
+        // component内部にはクラスと同等のメソッド・フィールド定義が可能
 }
 ```
 
-Also, if you define a public method with the same name as the component name inside the block, it becomes a constructor. This is called only once when the component object is created.
+また、ブロック内でコンポーネント名と同じ名前でpublicのメソッドを定義するとコンストラクタになります。これはコンポーネントオブジェクト生成時に一度だけ呼び出されます。
 
-If you define a public void Update() method, it will be called every frame when the screen is drawn.
+public void Update()メソッドを定義すると、画面描画時に毎フレーム呼び出されます。
 
-Below is a minimal sample code.
+以下が最小限のサンプルコードになります。
 
 ```
-component test
+component Test
 {
-     public Test()
-     {
-     }
+    public Test()
+    {
+    }
 
-     public void Update()
-     {
-     }
+    public void Update()
+    {
+    }
 }
 ```
 
-As the Update() method shown above, if the method having a preset name and arguments is defined within component, it will act as a callback when certain events are triggered.
+上記の Update() のように、あらかじめ決められた名前と引数を持つメソッドをcomponent内に定義すると、特定のイベントが発生した際に呼び出し(コールバック)が行われます。
 
-## Callback - Load complete
+## コールバック - ロード完了
 
-After the Vket Cloud engine is booted, and completed resource loading and  initialization, OnLoaded() will be called just once.
+Vket Cloudエンジンが起動し、リソースのロードや初期化処理が完了した際に1回だけ OnLoaded() が呼び出されます。
 
 ```
 public void OnLoaded()
 ```
 
-## Callback - Activation / Deactivation of browser tab
+## コールバック - タブの表示・非表示
 
-This callback can be triggered on the Activation / Deactivation of browser tab.
+ブラウザのタブがアクティブ・非アクティブ化した際にコールバックを受け取ることができます。
 
-If the tab becomes active, the IsActivate will be true, while on deactivation IsActivate will be false.
+タブがアクティブ化すると IsActivate が true に、非アクティブ化すると IsActivate が false として呼ばれます。
 
 ```
 public void OnWindowActivate(bool IsActivate)
 ```
 
-## Callback - Beginning of page unload
+## コールバック - ページのアンロード開始
 
-This callback can be triggered on closing the browser tab, or jumping to another URL which actions will cause the current page to unload.
+ブラウザのタブを閉じたり、別のURLへ遷移する際に、現在のページのアンロード開始を通知するコールバック処理です。
 
-At the moment of this event to trigger, the page resources will still be kept.
+このイベントが発生したタイミングでは、ページの内容はまだ保持されています。
 
 ```
 public void OnBeforeUnload()
 ```
 
-## Callback - Page unload
+## コールバック - ページのアンロード
 
-This callback will be triggered before complete unload of the current page.
+現在のページが完全にアンロードされる直前に通知されるコールバック処理です。
 
 ```
 public void OnUnload()
 ```
 
-## Callback - Click node
+## コールバック - クリックノード
 
-If you define the OnClickNode method as follows, it will be called when the item's node is clicked.
+以下のようにOnClickNodeメソッドを定義しておくと、そのアイテムのノードがクリックされた時に呼び出されます。
 
 ```
 component Test
 {
-     public void OnClickNode(int NodeIndex)
-     {
-     }
+    public void OnClickNode(int NodeIndex)
+    {
+    }
 }
 ```
 
-## Callback - Click empty space
+## コールバック - 無効空間クリック
 
-This callback will be triggered on clicking an empty space.
+以下のようにOnClickEmptyメソッドを定義しておくと、何もない空間をクリックしたときに呼び出されます。
 
 ```
 public void OnClickEmpty()
 ```
 
-## Callback - AreaCollider
+## コールバック - AreaCollider
 
-If you define the OnEnterAreaCollider and OnLeaveAreaCollider methods as follows, they will be called when entering or leaving an "areacollider" type item.
+以下のようにOnEnterAreaCollider,OnLeaveAreaColliderメソッドを定義しておくと、"areacollider"タイプのアイテムに侵入・退出したときに呼び出されます。
 
 ```
 component AreaCollider
 {
-     Item m_Item;
+    Item    m_Item;
     
-     public CAreaCollider()
-     {
-         m_Item = hsItemGet("component name");
-     }
+    public CAreaCollider()
+    {
+        m_Item = hsItemGet("コンポーネント名");
+    }
     
-     public void OnEnterAreaCollider()
-     {
-         hsSystemOutput("OnEnterAreaCollider" + m_Item.GetName() + "\n");
-     }
+    public void OnEnterAreaCollider()
+    {
+        hsSystemOutput("OnEnterAreaCollider " + m_Item.GetName() + "\n");
+    }
     
-     public void OnLeaveAreaCollider()
-     {
-         hsSystemOutput("OnLeaveAreaCollider" + m_Item.GetName() + "\n");
-     }
+    public void OnLeaveAreaCollider()
+    {
+        hsSystemOutput("OnLeaveAreaCollider " + m_Item.GetName() + "\n");
+    }
 }
 ```
 
-## Callback - Screen  Size Change
+## コールバック - スクリーンサイズ変更
 
-This callback will be triggered when the screen size is changed.
-
-The width and height arguments contains the screen's width and height after resize.
+スクリーンサイズが変更された際に OnResize() が呼び出されます。引数 width と height には、変更後のスクリーンの縦横サイズが渡されます。
 
 ```
 public void OnResize(int width, int height)
 ```
 
-## Callback - Custom State/Custom Data
+## コールバック - カスタムステート/カスタムデータ
 
-A callback method that receives any data sent by the room's manager.
+ルームの管理者から送信された任意のデータを受信するコールバックメソッドです。
 
 ```
 component CustomDataReceiver
 {
-     public void OnReceiveCustomState(string id, string type, string data)
-     {
-     }
+    public void OnReceiveCustomState(string id, string type, string data)
+    {
+    }
 
-     public void OnReceiveCustomData(string id, string type, string data)
-     {
-     }
+    public void OnReceiveCustomData(string id, string type, string data)
+    {
+    }
 }
 ```
 
-## Callback - GUI button
+## コールバック - GUIボタン
 
-  `public void OnClickedButton(string layerName, string buttonName)`
+ `public void OnClickedButton(string layerName, string buttonName)`
 
-If you define the OnClickedButton() method as below, it will be called when the GUI button is tapped.
+以下のようにOnClickedButton()メソッドを定義しておくと、GUIのボタンがタップされたときに呼び出されます。
 
 ```
 component ButtonClickable
 {
-     public void OnClickedButton(string layerName, string buttonname)
-     {
-         if (layerName == "MenuUI") {
-             hsSystemOutput("Button Clicked! :" + buttonname + "\n");
-         }
-     }
+    public void OnClickedButton(string layerName, string buttonname)
+    {
+        if (layerName == "MenuUI") {
+            hsSystemOutput("Button Clicked! :" + buttonname + "\n");
+        }
+    }
 }
 ```
 
-## Callback - physics collision detection
+## コールバック - 物理衝突判定
 
-  `public void OnPhysicsCollision(int ID0, int ID1)`
+ `public void OnPhysicsCollision(int ID0, int ID1)`
 
-Called when objects with physics set collide with each other.
+物理処理を設定しているオブジェクト同士が衝突したときに呼び出されます。
 
-The ID is called PhysicsID and can be obtained from GetPhysicsIDByNodeName of the Item class or GetPhysicsID of the Player class.
+IDはPhysicsIDと呼ばれるもので、ItemクラスのGetPhysicsIDByNodeNameや、PlayerクラスのGetPhysicsIDから取得できます。
 
-Get the PhysicsID in advance in the constructor, etc., save it in a member variable, and compare it in the callback function to determine if there is a collision.
+コンストラクタ等で前もってPhysicsIDを取得してメンバ変数に保存しておき、コールバック関数で比較して衝突したかどうかを判定します。
 
-Note that the callback function may be called many times with the same combination of IDs immediately after a collision, so when a collision causes particles to regenerate, it is necessary to prevent them from regenerating too many times.
+なお、衝突した直後に何度も同じIDの組み合わせでコールバック関数が呼び出される場合があるので、衝突によってパーティクル再生などをおこなう場合は、何度も再生しないように処理する必要があります。
 
 ```
 component Test {
-Item m_Field;
-
-int m_PhysicsIDFloor,
-m_PhysicsIDCube;
+	Item	m_Field;
+	
+	int		m_PhysicsIDFloor,
+			m_PhysicsIDCube;
 
 	public Test()
 	{
@@ -195,68 +193,68 @@ m_PhysicsIDCube;
 		if ((ID0 == m_PhysicsIDFloor && ID1 == m_PhysicsIDCube) ||
 			(ID1 == m_PhysicsIDFloor && ID0 == m_PhysicsIDCube))
 		{
-			// Floor and Cube collided
+			// FloorとCubeが衝突した
 		}
 	}
 }
 ```
 
-## Callback - In-field collider detection
-
-Called when the collider with HEOCollider specified "InView" enters the field of view or goes out of the field of view.
-
-Components must be set to the same item.
+## コールバック - 視野内コライダー判定
 
 ```
 public void OnEnterViewCollider(string NodeName)
 public void OnLeaveViewCollider(string NodeName)
 ```
 
-## Callback - Text chat
+コライダーで「InView」を指定したコライダーが視野内に入った場合または視野外に出た場合に呼び出されます。
 
-Called when user sent message to the text chat.
+コンポーネントは同一のアイテムに設定する必要があります。
+
+## コールバック - テキストチャット
 
 ```
 public void OnReceiveTextChat(string ID, string PlayerName, string Text)
 ```
 
-## Callback - Player Avatar Click
+ユーザーがテキストチャットを送信した場合に呼び出されます。
 
-This callback is triggered when other player's avatars are clicked.
+## コールバック - プレイヤーアバタークリック
 
 ```
 public void OnClickedAvatar(string PlayerID)
 ```
 
-## Callback - Video
+他のプレイヤーのアバターがクリックされた時に呼び出されます。
 
-This callback is triggered on the beginning of playing a video.
+## コールバック - 動画再生
+
+動画の再生開始時に呼び出されます。
 
 ```
 public void OnPlayVideo()
 ```
 
-This callback is triggered on pausing a video.
+動画の一時停止の際に呼び出されます。
 
 ```
 public void OnPauseVideo()
 ```
 
-This callback is triggered on resuming a paused video.
+動画の再生を再開した時に呼び出されます。
 
 ```
 public void OnResumeVideo()
 ```
 
-This callback is triggered on stopping a video.
+動画の再生を停止した時に呼び出されます。
 
 ```
 public void OnStopVideo()
 ```
 
-## Callback - Property Change
+## コールバック - プロパティ
 
-This callback is triggered when the item's property has been changed. if the Value is same as before, this will not be triggered.
+Itemのプロパティが更新されたときに呼び出されます。同一のValueの場合は呼び出されません。
 
 ```
 public void OnChangedProperty(string Key, string Value)
