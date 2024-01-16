@@ -165,9 +165,9 @@ nav:
       - Show/HideItem: Actions/Item/ShowHideItem.md
       - SetPosRelativePlayer: Actions/Item/SetPosRelativePlayer.md
       - MoveTo: Actions/Item/MoveTo.md
-    - Avatar:
+   #  - Avatar:
    #   - Play/StopObject: Actions/Avatar/PlayStopObject.md
-      - Show/HideObject: Actions/Avatar/ShowHideObject.md
+   #   - Show/HideObject: Actions/Avatar/ShowHideObject.md
    #   - Emote: Actions/Avatar/Emote.md
    #   - Motion: Actions/Avatar/Motion.md
    #   - NextMotion: Actions/Avatar//NextMotion.md
