@@ -3,7 +3,7 @@
 Vket Cloudでは、HeliScriptというエンジン独自のスクリプトを使用してプログラミングを行うことができます。  
 HeliScriptを使用すると、[アクション](../Actions/ActionsOverview.md)と比べてより複雑なギミック・挙動を実装できます。
 
-HeliScriptの文法については[基本系](./hs_var.md))から順番に読むことで習得できます。  
+HeliScriptの文法については[基本系](./hs_var.md)から順番に読むことで習得できます。  
 また、ここでは以下にてHello Worldを出力する方法を通じて、基本的な実装の例を示します。
 
 ## HeliScriptの使い方の例 (Hello Worldをコンソールに出力する)
@@ -14,8 +14,6 @@ HeliScriptの文法については[基本系](./hs_var.md))から順番に読む
 
 初めに、HeliScriptを書き込むファイルを作ります。  
 アセットメニューからスクリプトを作成を選択することで、アセットパネルのScriptにnewscriptという.hsファイルが追加されます。
-
-例として、ここではAssetsフォルダにScriptsフォルダを追加し、HelloWorld.hsという名前でHeliScriptファイルを新規生成しています。
 
 ![hs_overview_2](img/hs_overview_2.jpg)
 
