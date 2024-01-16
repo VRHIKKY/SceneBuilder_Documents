@@ -70,6 +70,7 @@ plugins:
           nav_translations:
             Introduction: はじめに
             Glossary: 単語集
+            #基本ページ
             Getting Started: SceneBuilderの基本
             Operating Environment: 動作環境
             SceneBuilder Setup: SceneBuilderのセットアップ
@@ -78,14 +79,47 @@ plugins:
             How to Import Items: アイテムの読み込み・配置
             How to Create Gimmicks: ギミックを作成する
             World Upload: ワールドをアップロードする
+            #操作解説
             Controls and Properties: 各種操作・設定
             Builder Window Overview: 各ウィンドウの機能
             Using the Manipulator: マニピュレーターの操作方法
             Camera Controls: カメラの操作方法
             Item Configuration: アイテムタイプごとのプロパティ
+            #Tips
             Creation Tips: ワールド制作のためのTips
-            Light and Reflection Probe Baking: アセットのライトマップとReflection Probeのベイクについて
-            Actions: アクションについて
+            Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
+            #アクション
+            Actions: アクション
+            Actions Overview: アクションとは
+            System: システム
+            Item Action: Itemアクション
+            TextChat: テキストチャット
+            Physics: 物理演算
+            #HeliScript
+            HeliScript - Overview: HeliScript概要
+            Statements and flow control: 文法・制御構文
+            Declarations and definitions: 定義・宣言
+            Control Statement: 制御構文
+            Reference (ref): 参照(ref)
+            Constant Variable (const): 定数(const)
+            Built-in Types: 組み込み型
+            Basic Types: 基本型
+            String: 文字列(String)
+            List: 配列(List)
+            Operator: 演算子
+            Class: クラス
+            Components / Callback functions: コンポーネント / コールバック関数
+            Built-in Classes And Functions: 組み込みクラス・関数
+            Vector3: Vector3クラス
+            Quaternion: Quaternionクラス
+            Matrix: Matrixクラス
+            Item: Itemクラス
+            Player: Playerクラス
+            Built-in Functions: 組み込み関数
+            Math: 数学
+            Network: ネットワーク
+            NamePlate: ネームプレート
+            #リリースノート
             Release Note: リリースノート      
 
 markdown_extensions:
@@ -96,7 +130,7 @@ markdown_extensions:
 nav:
 - Introduction: index.md
 - Glossary: Glossary/Glossary.md
-- Getting Started:
+- Getting Started: #基本ページ
   - Operating Environment: GettingStarted/OperatingEnvironment.md
   - SceneBuilder Setup: GettingStarted/SceneBuilderSetup.md
   - Saving Scenes: GettingStarted/SavingScenes.md
@@ -104,15 +138,81 @@ nav:
   - How to Import Items: GettingStarted/ImportItems.md
   - How to Create Gimmicks: GettingStarted/CreateGimmicks.md
   - World Upload: GettingStarted/WorldUpload.md
-- Controls and Properties:
+- Controls and Properties: #操作解説
   - Builder Window Overview: ControlsProperties/WindowOverview.md
   - Using the Manipulator: ControlsProperties/Manipulator.md
   - Camera Controls: ControlsProperties/CameraControls.md
   - Item Configuration: ControlsProperties/ItemConfig.md
-- Creation Tips:
-  - Light and Reflection Probe Baking: CreationTips/LightRefProbe.md
-# - Actions:
-# - HeliScript:
-- Release Note:
+- Creation Tips: #Tips
+  - Light and RefProbe Baking: CreationTips/LightRefProbe.md
+- Actions: #アクション
+#α段階でSDK本体にあってSceneBuilderにないアクションは除外
+    - Actions Overview: Actions/ActionsOverview.md
+    - System:
+      - Openweb: Actions/System/Openweb.md
+    #  - StopVideo: Actions/System/StopVideo.md
+    #   - Wait: Actions/System/Wait.md
+      - Warp: Actions/System/Warp.md
+    #  - Enter/LeaveVoiceGroup: Actions/System/EnterLeaveVoiceGroup.md
+      - WhiteOut/In: Actions/System/WhiteOutIn.md
+      - FadeOut/In: Actions/System/FadeOutIn.md
+    - Node:
+      - Show/HideNode: Actions/Node/ShowHideNode.md
+      - Enable/DisableClickableNode: Actions/Node/EnableDisableClickableNode.md
+      - Enable/DisableCollider: Actions/Node/EnableDisableCollider.md
+    - Item Action:
+      - Play/StopItem: Actions/Item/PlayStopItem.md
+      - Show/HideItem: Actions/Item/ShowHideItem.md
+      - SetPosRelativePlayer: Actions/Item/SetPosRelativePlayer.md
+      - MoveTo: Actions/Item/MoveTo.md
+    - Avatar:
+   #   - Play/StopObject: Actions/Avatar/PlayStopObject.md
+      - Show/HideObject: Actions/Avatar/ShowHideObject.md
+   #   - Emote: Actions/Avatar/Emote.md
+   #   - Motion: Actions/Avatar/Motion.md
+   #   - NextMotion: Actions/Avatar//NextMotion.md
+   # - Physics:
+   # - AddVelocity: Actions/Physics/PhysicsAddVelocity.md
+   # - Add / ClearForce: Actions/Physics/PhysicsClearAddForce.md
+   # - SetPhysicsEnable: Actions/Physics/PhysicsSetEnable.md
+   # - SetPosition / Rotation: Actions/Physics/PhysicsSetPosRot.md
+    - Programmatic:
+   #   - AddVar: Actions/Programmatic/AddVar.md
+   #   - SetVar: Actions/Programmatic/SetVar.md
+   #   - If A == B: Actions/Programmatic/IfEqual.md
+   #   - If A != B: Actions/Programmatic/IfNotEqual.md
+   #   - If A >= B: Actions/Programmatic/IfGreaterThanOrEqual.md
+   #   - If A <= B: Actions/Programmatic/IfLessThanOrEqual.md
+   #   - Random: Actions/Programmatic/Random.md
+   #   - SetCookieText: Actions/Programmatic/SetCookieText.md
+      - CallScript: Actions/Programmatic/CallScript.md
+- HeliScript: #HeliScript
+    - HeliScript - Overview: hs/hs_overview.md
+    - Built-in Types:
+        - Basic Types: hs/hs_var.md
+        - String: hs/hs_string.md
+        - List: hs/hs_list.md
+    - Class: hs/hs_class.md
+    - Components / Callback functions: hs/hs_component.md
+    - Built-in Classes And Functions:
+        - Vector3: hs/hs_struct_vector3.md
+        - Quaternion: hs/hs_struct_quaternion.md
+        - Matrix: hs/hs_struct_matrix.md
+        - Item: hs/hs_class_item.md
+        - Player: hs/hs_class_player.md
+    - Built-in Functions:
+        - System: hs/hs_system_function.md
+        - Math: hs/hs_system_function_math.md
+        - Network: hs/hs_system_function_net.md
+        - NamePlate: hs/hs_system_function_nameplate.md
+        - GUI: hs/hs_system_function_gui.md
+        - TextChat: hs/hs_system_function_textchat.md
+        - ChatGPT: hs/hs_system_function_chatgpt.md
+        - Physics: hs/hs_system_function_physics.md
+    - Statements and flow control:
+        - Declarations and definitions: hs/hs_statement_def.md
+        - Control Statement: hs/hs_statement_constrol.md
+        - Operator: hs/hs_operator.md
+- Release Note: #リリースノート
   - SceneBuilder(α):
     - v0.1: releasenote/releasenote-0.1.md
