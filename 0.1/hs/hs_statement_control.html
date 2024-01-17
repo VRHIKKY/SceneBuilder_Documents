@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -13,28 +13,32 @@
       
       
       
+        <link rel="prev" href="hs_statement_def.html">
       
       
-      <link rel="icon" href="../../images/VketCloudIcon.png">
+        <link rel="next" href="hs_operator.html">
+      
+      
+      <link rel="icon" href="../images/VketCloudIcon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>Control structure - SceneBuilder Manual</title>
+        <title>制御構文 - SceneBuilder Manual</title>
       
     
     
   
-      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
 
     
-  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
 
     
       
@@ -49,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,8 +84,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#control-structure" class="md-skip">
-          Skip to content
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
         </a>
       
     </div>
@@ -99,10 +103,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
     <a href="../index.html" title="SceneBuilder Manual" class="md-header__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
       
-  <img src="../../images/VketCloudIcon.png" alt="logo">
+  <img src="../images/VketCloudIcon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -119,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Control structure
+              制御構文
             
           </span>
         </div>
@@ -159,20 +163,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="hs_statement_constrol.html" hreflang="en" class="md-select__link">
+            <a href="../en/hs/hs_statement_control.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../hs/hs_statement_constrol.html" hreflang="ja" class="md-select__link">
+            <a href="hs_statement_control.html" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -191,16 +195,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="検索">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -213,7 +217,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            検索を初期化
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -246,11 +250,11 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../index.html" title="SceneBuilder Manual" class="md-nav__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
       
-  <img src="../../images/VketCloudIcon.png" alt="logo">
+  <img src="../images/VketCloudIcon.png" alt="logo">
 
     </a>
     SceneBuilder Manual
@@ -269,7 +273,7 @@
         
   
   <span class="md-ellipsis">
-    Introduction
+    はじめに
   </span>
   
 
@@ -289,7 +293,7 @@
         
   
   <span class="md-ellipsis">
-    Glossary
+    単語集
   </span>
   
 
@@ -337,7 +341,7 @@
             
   
   <span class="md-ellipsis">
-    Getting Started
+    SceneBuilderの基本
   </span>
   
 
@@ -347,7 +351,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            SceneBuilderの基本
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -362,7 +366,7 @@
         
   
   <span class="md-ellipsis">
-    Operating Environment
+    動作環境
   </span>
   
 
@@ -383,7 +387,7 @@
         
   
   <span class="md-ellipsis">
-    SceneBuilder Setup
+    SceneBuilderのセットアップ
   </span>
   
 
@@ -404,7 +408,7 @@
         
   
   <span class="md-ellipsis">
-    Saving Scenes
+    シーンを保存する方法
   </span>
   
 
@@ -425,7 +429,7 @@
         
   
   <span class="md-ellipsis">
-    Reformatting Assets
+    アセットの再フォーマット
   </span>
   
 
@@ -446,7 +450,7 @@
         
   
   <span class="md-ellipsis">
-    How to Import Items
+    アイテムの読み込み・配置
   </span>
   
 
@@ -467,7 +471,7 @@
         
   
   <span class="md-ellipsis">
-    How to Create Gimmicks
+    ギミックを作成する
   </span>
   
 
@@ -488,7 +492,7 @@
         
   
   <span class="md-ellipsis">
-    World Upload
+    ワールドをアップロードする
   </span>
   
 
@@ -538,7 +542,7 @@
             
   
   <span class="md-ellipsis">
-    Controls and Properties
+    各種操作・設定
   </span>
   
 
@@ -548,7 +552,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Controls and Properties
+            各種操作・設定
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -563,7 +567,7 @@
         
   
   <span class="md-ellipsis">
-    Builder Window Overview
+    各ウィンドウの機能
   </span>
   
 
@@ -584,7 +588,7 @@
         
   
   <span class="md-ellipsis">
-    Using the Manipulator
+    マニピュレーターの操作方法
   </span>
   
 
@@ -605,7 +609,7 @@
         
   
   <span class="md-ellipsis">
-    Camera Controls
+    カメラの操作方法
   </span>
   
 
@@ -626,7 +630,7 @@
         
   
   <span class="md-ellipsis">
-    Item Configuration
+    アイテムタイプごとのプロパティ
   </span>
   
 
@@ -670,7 +674,7 @@
             
   
   <span class="md-ellipsis">
-    Creation Tips
+    ワールド制作のためのTips
   </span>
   
 
@@ -680,7 +684,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Creation Tips
+            ワールド制作のためのTips
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -695,7 +699,7 @@
         
   
   <span class="md-ellipsis">
-    Light and RefProbe Baking
+    アセットのライトマップとRefProbeのベイクについて
   </span>
   
 
@@ -747,7 +751,7 @@
             
   
   <span class="md-ellipsis">
-    Actions
+    アクション
   </span>
   
 
@@ -757,7 +761,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Actions
+            アクション
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -772,7 +776,7 @@
         
   
   <span class="md-ellipsis">
-    Actions Overview
+    アクションとは
   </span>
   
 
@@ -815,7 +819,7 @@
             
   
   <span class="md-ellipsis">
-    System
+    システム
   </span>
   
 
@@ -825,7 +829,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            System
+            システム
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1070,7 +1074,7 @@
             
   
   <span class="md-ellipsis">
-    Item
+    Itemクラス
   </span>
   
 
@@ -1080,7 +1084,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            Item
+            Itemクラス
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1257,6 +1261,834 @@
       
   
   
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    HeliScript
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            HeliScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_overview.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HeliScript概要
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    組み込み型
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            組み込み型
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_var.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    基本型
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_string.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    文字列(String)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_list.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    配列(List)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_class.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    クラス
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_component.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    コンポーネント / コールバック関数
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    組み込みクラス・関数
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            組み込みクラス・関数
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_struct_vector3.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vector3クラス
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_struct_quaternion.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quaternionクラス
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_struct_matrix.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Matrixクラス
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_class_item.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Itemクラス
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_class_player.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playerクラス
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    組み込み関数
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            組み込み関数
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    システム
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_math.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    数学
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_net.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ネットワーク
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_nameplate.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ネームプレート
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_gui.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GUI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_textchat.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    テキストチャット
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_chatgpt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ChatGPT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_physics.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    物理演算
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_7" id="__nav_7_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    文法・制御構文
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            文法・制御構文
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_statement_def.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    定義・宣言
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    制御構文
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="hs_statement_control.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    制御構文
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#if-" class="md-nav__link">
+    <span class="md-ellipsis">
+      if - 条件分岐
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#while-" class="md-nav__link">
+    <span class="md-ellipsis">
+      while - 繰り返し
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#for-" class="md-nav__link">
+    <span class="md-ellipsis">
+      for - 初期化と反復子込みの繰り返し
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch-" class="md-nav__link">
+    <span class="md-ellipsis">
+      switch - 多数の分岐条件を簡潔に記述
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_operator.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    演算子
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
   
   
     
@@ -1273,24 +2105,24 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Release Note
+    リリースノート
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
-            Release Note
+            リリースノート
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1314,10 +2146,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
         
           
-          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1328,8 +2160,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
             <span class="md-nav__icon md-icon"></span>
             SceneBuilder(α)
           </label>
@@ -1384,7 +2216,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
   
@@ -1393,41 +2225,41 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目次
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#if-conditional-branch" class="md-nav__link">
+  <a href="#if-" class="md-nav__link">
     <span class="md-ellipsis">
-      if - conditional branch
+      if - 条件分岐
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#while-repeat" class="md-nav__link">
+  <a href="#while-" class="md-nav__link">
     <span class="md-ellipsis">
-      while - repeat
+      while - 繰り返し
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#for-iteration-with-initialization-and-iterators" class="md-nav__link">
+  <a href="#for-" class="md-nav__link">
     <span class="md-ellipsis">
-      for - iteration with initialization and iterators
+      for - 初期化と反復子込みの繰り返し
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#switch-concise-description-of-many-branch-conditions" class="md-nav__link">
+  <a href="#switch-" class="md-nav__link">
     <span class="md-ellipsis">
-      switch - Concise description of many branch conditions
+      switch - 多数の分岐条件を簡潔に記述
     </span>
   </a>
   
@@ -1448,83 +2280,84 @@
                   
 
 
-<h1 id="control-structure">Control structure</h1>
-<p>Describes control constructs such as conditional branching and repetition.</p>
-<h2 id="if-conditional-branch">if - conditional branch</h2>
-<p>Conditional branching can be realized by dividing the processing with <em>{}</em> after <code>if (conditional expression)</code>.</p>
+<h1 id="_1">制御構文</h1>
+<p>条件分岐や繰り返しなどの、制御構文について説明します。</p>
+<h2 id="if-">if - 条件分岐</h2>
+<p><code>if (条件式)</code> の後に <em>{}</em> で処理を書き分けることで、条件分岐を実現できます。</p>
 <div class="codehilite"><pre><span></span><code><span class="nv">int</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">100</span><span class="c1">;</span>
 <span class="nv">int</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="c1">;</span>
 
 <span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="nv">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">y</span><span class="ss">)</span><span class="w"> </span>{
-<span class="w">     </span><span class="o">//</span><span class="w"> </span><span class="nv">what</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="nv">evaluates</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">true</span>
+<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span>の評価結果が<span class="w"> </span><span class="nv">true</span><span class="w"> </span>だった場合の処理
 }<span class="w"> </span><span class="k">else</span><span class="w"> </span>{
-<span class="w">     </span><span class="o">//</span><span class="w"> </span><span class="nv">What</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="nv">evaluates</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">false</span>
+<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span>の評価結果が<span class="w"> </span><span class="nv">false</span><span class="w"> </span>だった場合の処理
 }
 </code></pre></div>
 
-<h2 id="while-repeat">while - repeat</h2>
-<p>By writing <code>while (conditional expression) { }</code>, you can write a process that repeatedly executes <em>{}</em> until the conditional expression becomes <em>false</em>.</p>
-<p>Use <em>break</em> to force exit from the loop.</p>
+<h2 id="while-">while - 繰り返し</h2>
+<p><code>while (条件式) { }</code> と書くことで、条件式が <em>false</em> になるまで、<em>{}</em> の中を繰り返し実行する処理が書けます。</p>
+<p>ループを強制的に抜けるには <em>break</em> を利用します。</p>
 <div class="codehilite"><pre><span></span><code><span class="nv">int</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="c1">;</span>
 <span class="k">while</span><span class="w"> </span><span class="ss">(</span><span class="nv">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">100</span><span class="ss">)</span><span class="w"> </span>{
-<span class="w">     </span><span class="o">//</span><span class="w"> </span><span class="nv">repeat</span><span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">process</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">less</span><span class="w"> </span><span class="nv">than</span><span class="w"> </span><span class="mi">100</span>
-<span class="w">     </span><span class="o">++</span><span class="nv">x</span><span class="c1">;</span>
+<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span>が<span class="w"> </span><span class="mi">100</span>より小さい間は、この処理を繰り返し実行する
+<span class="w">    </span><span class="o">++</span><span class="nv">x</span><span class="c1">;</span>
 }
 
 <span class="nv">int</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="c1">;</span>
-<span class="o">//</span><span class="w"> </span><span class="nv">Since</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">conditional</span><span class="w"> </span><span class="nv">expression</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">always</span><span class="w"> </span><span class="nv">true</span>,<span class="w"> </span><span class="nv">repeat</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">processing</span><span class="w"> </span><span class="k">until</span><span class="w"> </span><span class="nv">you</span><span class="w"> </span><span class="nv">explicitly</span><span class="w"> </span><span class="k">exit</span><span class="w"> </span><span class="nv">with</span><span class="w"> </span><span class="k">break</span>
+<span class="o">//</span><span class="w"> </span>条件式が常に<span class="nv">true</span>なので、<span class="nv">break</span>で明示的に抜けるまで中の処理を繰り返す
 <span class="k">while</span><span class="w"> </span><span class="ss">(</span><span class="nv">true</span><span class="ss">)</span><span class="w"> </span>{
-<span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="nv">y</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">100</span><span class="ss">)</span><span class="w"> </span>{
-<span class="w">         </span><span class="o">//</span><span class="w"> </span><span class="nv">force</span><span class="w"> </span><span class="k">exit</span><span class="w"> </span><span class="nv">from</span><span class="w"> </span><span class="k">loop</span>
-<span class="w">         </span><span class="k">break</span><span class="c1">;</span>
-<span class="w">     </span>}
-<span class="w">     </span><span class="o">++</span><span class="nv">y</span><span class="c1">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="nv">y</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">100</span><span class="ss">)</span><span class="w"> </span>{
+<span class="w">        </span><span class="o">//</span><span class="w"> </span>強制的にループを抜ける
+<span class="w">        </span><span class="k">break</span><span class="c1">;</span>
+<span class="w">    </span>}
+<span class="w">    </span><span class="o">++</span><span class="nv">y</span><span class="c1">;</span>
 }
 </code></pre></div>
 
-<h2 id="for-iteration-with-initialization-and-iterators">for - iteration with initialization and iterators</h2>
-<p>By writing <code>for (initialization; conditional expression; iterator) { }</code>, the following process will occur.</p>
+<h2 id="for-">for - 初期化と反復子込みの繰り返し</h2>
+<p><code>for (初期化処理; 条件式; 反復子) { }</code> と書くことで、</p>
 <ol>
-<li>Initialize and</li>
-<li>If the result of evaluating the conditional expression is <em>true</em>, execute the processing within <em>{}</em>.</li>
-<li>After processing the iterator,</li>
-<li>Check the conditional expression again, and if it is <em>true</em>, return to 2. and repeat the process</li>
+<li>初期化処理を行い、</li>
+<li>条件式を評価した結果が <em>true</em> の場合は <em>{}</em> 内の処理を実行し、</li>
+<li>反復子を処理したあと、</li>
+<li>再度条件式を確認し、<em>true</em> であれば 2. に戻り処理を繰り返す </li>
 </ol>
-<p>Conditional branching is achieved by containing the processing statements in <em>{}</em>.</p>
+<p>という処理を実現できます。</p>
+<p>()の後に <em>{}</em> で処理を書き分けることで、条件分岐を実現できます。</p>
 <div class="codehilite"><pre><span></span><code><span class="nv">int</span><span class="w"> </span><span class="nv">i</span><span class="c1">;</span>
 <span class="k">for</span><span class="w"> </span><span class="ss">(</span><span class="nv">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="c1">; i &lt; 100; ++i) {</span>
-<span class="w">     </span><span class="o">//</span><span class="w"> </span><span class="nv">repeat</span><span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">process</span><span class="w"> </span><span class="mi">100</span><span class="w"> </span><span class="nv">times</span>
-<span class="w">     </span><span class="nv">hsSystemOutput</span><span class="ss">(</span><span class="s2">&quot;%d\n&quot;</span><span class="w"> </span><span class="o">%</span><span class="nv">i</span><span class="ss">)</span><span class="c1">;</span>
+<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="mi">100</span>回この処理を繰り返す
+<span class="w">    </span><span class="nv">hsSystemOutput</span><span class="ss">(</span><span class="s2">&quot;%d\n&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="nv">i</span><span class="ss">)</span><span class="c1">;</span>
 }
 </code></pre></div>
 
-<h2 id="switch-concise-description-of-many-branch-conditions">switch - Concise description of many branch conditions</h2>
-<div class="codehilite"><pre><span></span><code><span class="nt">switch</span><span class="w"> </span><span class="o">(</span><span class="nt">value</span><span class="w"> </span><span class="nt">used</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nt">condition</span><span class="w"> </span><span class="nt">judgment</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">     </span><span class="err">case</span><span class="w"> </span><span class="n">judgment_value_A</span><span class="p">:</span>
-<span class="w">         </span><span class="o">//</span><span class="w"> </span><span class="n">Process</span><span class="w"> </span><span class="n">A</span>
-<span class="w">         </span><span class="n">break</span><span class="p">;</span>
-<span class="w">     </span><span class="err">case</span><span class="w"> </span><span class="n">judgment_value_B</span><span class="p">:</span>
-<span class="w">         </span><span class="o">//</span><span class="w"> </span><span class="n">process</span><span class="w"> </span><span class="n">B</span>
-<span class="w">         </span><span class="n">break</span><span class="p">;</span>
-<span class="w">     </span><span class="err">//</span><span class="w"> </span><span class="err">...</span>
+<h2 id="switch-">switch - 多数の分岐条件を簡潔に記述</h2>
+<div class="codehilite"><pre><span></span><code><span class="nt">switch</span><span class="w"> </span><span class="o">(</span><span class="nt">条件判定に利用する値</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="err">case</span><span class="w"> </span><span class="err">判定に利用する値:</span>
+<span class="w">        </span><span class="err">//</span><span class="w"> </span><span class="err">処理A</span>
+<span class="w">        </span><span class="err">break</span><span class="p">;</span>
+<span class="w">    </span><span class="err">case</span><span class="w"> </span><span class="err">判定に利用する値:</span>
+<span class="w">        </span><span class="err">//</span><span class="w"> </span><span class="err">処理B</span>
+<span class="w">        </span><span class="err">break</span><span class="p">;</span>
+<span class="w">    </span><span class="err">//</span><span class="w"> </span><span class="err">...</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<p>You can concisely write multiple conditional expressions and the processing to be executed when true for one value.</p>
-<p>By putting a <em>default</em> clause at the end of a <em>case</em>, you can write the processing statements when none of the <em>cases</em> are met.</p>
+<p>と書くことで、1つの値に対して、複数の条件判定式と、それが真である場合に実行する処理を簡潔に書くことができます。</p>
+<p><em>case</em> の末尾に <em>default</em> 節を置くことで、それより上にある全ての <em>case</em> に一致しない場合の処理を書くことができます。</p>
 <div class="codehilite"><pre><span></span><code><span class="nt">int</span><span class="w"> </span><span class="nt">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nt">100</span><span class="o">;</span>
 <span class="nt">string</span><span class="w"> </span><span class="nt">message</span><span class="o">;</span>
 
 <span class="nt">switch</span><span class="w"> </span><span class="o">(</span><span class="nt">id</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">     </span><span class="err">case</span><span class="w"> </span><span class="err">-1:</span>
-<span class="w">         </span><span class="err">message</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="err">&quot;dummy</span><span class="w"> </span><span class="err">account&quot;</span><span class="p">;</span>
-<span class="w">         </span><span class="err">break</span><span class="p">;</span>
-<span class="w">     </span><span class="err">case</span><span class="w"> </span><span class="err">0:</span>
-<span class="w">         </span><span class="err">message</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="err">&quot;root</span><span class="w"> </span><span class="err">user&quot;</span><span class="p">;</span>
-<span class="w">         </span><span class="err">break</span><span class="p">;</span>
-<span class="w">     </span><span class="n">default</span><span class="p">:</span>
-<span class="w">         </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;restricted user&quot;</span><span class="p">;</span>
-<span class="w">         </span><span class="err">break</span><span class="p">;</span>
+<span class="w">    </span><span class="err">case</span><span class="w"> </span><span class="err">-1:</span>
+<span class="w">        </span><span class="err">message</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="err">&quot;dummy</span><span class="w"> </span><span class="err">account&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="err">break</span><span class="p">;</span>
+<span class="w">    </span><span class="err">case</span><span class="w"> </span><span class="err">0:</span>
+<span class="w">        </span><span class="err">message</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="err">&quot;root</span><span class="w"> </span><span class="err">user&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="err">break</span><span class="p">;</span>
+<span class="w">    </span><span class="n">default</span><span class="p">:</span>
+<span class="w">        </span><span class="n">message</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;restricted user&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="err">break</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 
@@ -1554,7 +2387,7 @@
       <div class="md-footer-nav md-grid md-grid--no-gutter">
         <div class="md-footer-nav__section">
           
-            <img class="md-footer-logo" src="../../images/HikkyLogo.png" alt="SceneBuilder Manual" />
+            <img class="md-footer-logo" src="../images/HikkyLogo.png" alt="SceneBuilder Manual" />
           
           <div class="md-footer-copyright">
             ©HIKKY Co.,Ltd. All rights reserved.
@@ -1570,10 +2403,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

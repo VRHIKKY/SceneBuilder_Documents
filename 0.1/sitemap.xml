@@ -239,11 +239,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/hs/hs_overview.html"/>
     </url>
     <url>
-        <loc>Nonehs/hs_statement_constrol.html</loc>
+        <loc>Nonehs/hs_statement_control.html</loc>
         <lastmod>2024-01-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Nonehs/hs_statement_constrol.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/hs/hs_statement_constrol.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonehs/hs_statement_control.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/hs/hs_statement_control.html"/>
     </url>
     <url>
         <loc>Nonehs/hs_statement_def.html</loc>
@@ -589,11 +589,11 @@
         <xhtml:link rel="alternate" hreflang="ja" href="Nonehs/hs_overview.html"/>
     </url>
     <url>
-        <loc>Noneen/hs/hs_statement_constrol.html</loc>
+        <loc>Noneen/hs/hs_statement_control.html</loc>
         <lastmod>2024-01-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/hs/hs_statement_constrol.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Nonehs/hs_statement_constrol.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/hs/hs_statement_control.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonehs/hs_statement_control.html"/>
     </url>
     <url>
         <loc>Noneen/hs/hs_statement_def.html</loc>
