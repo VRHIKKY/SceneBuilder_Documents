@@ -73,7 +73,7 @@ PlayerのHeliScriptでの取り扱いは[Playerクラス](./hs_class_player.md)�
 ## Item
 
 Vket Cloud上でワールドを構成する際、Player以外の各要素はItemとして表現されます。  
-SceneBuilderではハイアラキにて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
+SceneBuilderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
 
 ItemのHeliScriptでの取り扱いは[Itemクラス](./hs_class_item.md)をご参照ください。
 
