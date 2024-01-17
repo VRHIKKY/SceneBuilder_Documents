@@ -6,7 +6,8 @@
 
 [Join the VketCloud/MyVket Discord Server!](https://discord.gg/zEhM5T4MsK){target=_blank}
 
-○○というコメントに〇という絵文字を入力すると、Scene Builder(α)への参加ロールが付与されます。
+サーバーに参加後、「Scene Builder(α)公開のお知らせ」というタイトルの[投稿](https://discord.com/channels/900943744575103017/901023783748501504/1197116316147011624)に 🏛️ のリアクションを付けると、サーバー内ロールが付与されてSceneBuilderカテゴリのチャンネルが見えるようになります。<br>
+ここでは不具合報告やアナウンスが行われるため、必ず参加するようお願いします。
 
 ## プロジェクトをダウンロードする
 
