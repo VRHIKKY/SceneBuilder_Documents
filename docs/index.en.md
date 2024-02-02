@@ -37,3 +37,8 @@ Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.co
 ## 質問・要望・バグ報告について
 
 質問、要望、バグ報告については[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}のチャンネルにてお願いいたします！
+
+!!! note "VketCloudSDKマニュアル"
+    Unity上で自分のワールドを開発できる"VketCloudSDK"では、Scene Builderよりさらに多くの機能と複雑な実装のためのサポートツールが搭載されています。<br>
+    SDKを使ってみたい方は、ぜひ下のリンクからVketCloudSDKマニュアルをチェックしてみてください！<br>
+    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}
