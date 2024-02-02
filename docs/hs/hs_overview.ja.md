@@ -3,8 +3,13 @@
 Vket Cloudでは、HeliScriptというエンジン独自のスクリプトを使用してプログラミングを行うことができます。  
 HeliScriptを使用すると、[アクション](../Actions/ActionsOverview.md)と比べてより複雑なギミック・挙動を実装できます。
 
-HeliScriptの文法については[基本系](./hs_var.md)から順番に読むことで習得できます。   
+HeliScriptの文法については[基本系](./hs_var.md)から順番に読むことで習得できます。
 また、ここでは以下にてHello Worldを出力する方法を通じて、基本的な実装の例を示します。
+
+!!! note "VketCloudSDKについて"
+    Unity上で自分のワールドを開発できる"VketCloudSDK"では、HeliScriptを使ってScene Builderよりもさらに複雑なギミックが作れ、綿密なワールド実装のためのサポートツールが搭載されています。<br>
+    SDKを使ってみたい方は、ぜひ下のリンクからVketCloudSDKマニュアルをチェックしてみてください！<br>
+    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}
 
 ## HeliScriptの使い方の例 (Hello Worldをコンソールに出力する)
 
