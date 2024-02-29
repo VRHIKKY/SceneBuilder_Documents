@@ -3,6 +3,14 @@
 {% block extrahead %}
   {{ super() }}
   <meta name="google-site-verification" content="O_Fe963DKVjrsoUE4jwRK5QoLSN24XvnfIrnqtJJSjM" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6T69HT5HBZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6T69HT5HBZ');
+  </script>
 {% endblock %}
 
 {% block styles %}
