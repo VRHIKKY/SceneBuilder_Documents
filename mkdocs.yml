@@ -44,6 +44,9 @@ extra:
     provider: mike
     default: latest
     homepage: https://www.hikky.co.jp/vketcloud
+  analytics: 
+    provider: google
+    property: G-DYPYFYGCVX
 
 use_directory_urls: false
 
