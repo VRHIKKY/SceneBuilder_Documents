@@ -87,6 +87,7 @@ plugins:
             Item Configuration: アイテムタイプごとのプロパティ
             #Tips
             Creation Tips: ワールド制作のためのTips
+            How To Activity: アクティビティの使い方
             Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
             #アクション
             Actions: アクション
@@ -145,6 +146,7 @@ nav:
   - Item Configuration: ControlsProperties/ItemConfig.md
 - Creation Tips: #Tips
   - Light and RefProbe Baking: CreationTips/LightRefProbe.md
+  - How To Activity: CreationTips/HowToActivity.md
 - Actions: #アクション
 #α段階でSDK本体にあってSceneBuilderにないアクションは除外
     - Actions Overview: Actions/ActionsOverview.md
@@ -217,3 +219,4 @@ nav:
   - SceneBuilder(α):
     - v0.1: releasenote/releasenote-0.1.md
     - v0.2: releasenote/releasenote-0.2.md
+    - v0.3: releasenote/releasenote-0.3.md
