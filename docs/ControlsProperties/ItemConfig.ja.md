@@ -45,6 +45,20 @@
 | ループ | 繰り返し再生するかどうか設定します。 |
 | オートプレイ | ワールドBGMのように、入室後から自動で再生する場合に使用します。 |
 
+## アバター（Avatar）
+
+!!! warning "アバター（Avatar）について"
+    αテスト時点ではアバター未対応となります。
+
+## アクティビティ（Activity）
+
+| 項目 | 詳細 |
+|---|---|
+| オーバーライド | 個別のアクティビティに設定されているオーバーライドの項目を表示します。 |
+
+!!! info "アクティビティについて"
+    アクティビティについてや、アクティビティのダウンロード方法などについては、[HEOActivity - VketCloudSDK Manual](https://vrhikky.github.io/VketCloudSDK_Documents/12.3/HEOComponents/HEOActivity.html) をご参照ください。
+
 ## コライダー（Collider）
 
 設定できる項目はありません。
