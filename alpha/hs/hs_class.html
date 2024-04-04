@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="hs_list.html">
+        <link rel="prev" href="hs_delegate.html">
       
       
         <link rel="next" href="hs_component.html">
@@ -1389,6 +1389,8 @@
       
         
       
+        
+      
     
     
     
@@ -1473,6 +1475,27 @@
   
   <span class="md-ellipsis">
     配列(List)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_delegate.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    デリゲート(Delegate)
   </span>
   
 
@@ -1582,6 +1605,33 @@
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       アクセス指定子
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      オブジェクトの生成
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      オブジェクトの削除
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      オブジェクトが存在するかどうかの確認
     </span>
   </a>
   
@@ -1804,6 +1854,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -1993,6 +2047,48 @@
   
   <span class="md-ellipsis">
     物理演算
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_camera.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    カメラ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_commondialog.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    汎用ダイアログ
   </span>
   
 
@@ -2368,6 +2464,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      オブジェクトの生成
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      オブジェクトの削除
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      オブジェクトが存在するかどうかの確認
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2420,6 +2543,33 @@
 <h2 id="_6">アクセス指定子</h2>
 <p>メンバやメソッドの宣言の前に、public を指定すると、classの外部からこのメンバにアクセスできるようになります。</p>
 <p>private を指定すると、外部からそのメンバにアクセスすることはできません。アクセス指定子を省略した場合も、private 指定と同様の振る舞いになります。</p>
+<h2 id="_7">オブジェクトの生成</h2>
+<p>クラスオブジェクトを生成するにはnew演算子を使用します。</p>
+<div class="codehilite"><pre><span></span><code><span class="k">class</span> <span class="n">Test</span> {
+}
+
+<span class="n">Test</span> <span class="n">obj</span>;
+<span class="n">obj</span> = <span class="nb">new</span> <span class="n">Test</span>();
+</code></pre></div>
+
+<h2 id="_8">オブジェクトの削除</h2>
+<p>オブジェクトを削除するにはnullを代入します。どこからも参照されなくなれば削除されます。</p>
+<div class="codehilite"><pre><span></span><code>Test obj;
+obj = new Test();
+
+obj = null;
+</code></pre></div>
+
+<h2 id="_9">オブジェクトが存在するかどうかの確認</h2>
+<p>===演算子、!==演算子を使用してnullと比較します。</p>
+<div class="codehilite"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="nv">obj</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="nv">null</span><span class="ss">)</span><span class="w"> </span>{
+<span class="w">    </span><span class="o">//</span><span class="w"> </span>存在する
+}
+
+<span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="nv">obj</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="nv">null</span><span class="ss">)</span><span class="w"> </span>{
+<span class="w">    </span><span class="o">//</span><span class="w"> </span>存在しない
+}
+</code></pre></div>
 
 
 

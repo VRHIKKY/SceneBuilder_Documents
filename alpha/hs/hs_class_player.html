@@ -1389,6 +1389,8 @@
       
         
       
+        
+      
     
     
     
@@ -1473,6 +1475,27 @@
   
   <span class="md-ellipsis">
     配列(List)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_delegate.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    デリゲート(Delegate)
   </span>
   
 
@@ -1889,6 +1912,24 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#changeactivitymotion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ChangeActivityMotion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnextactivitymotion" class="md-nav__link">
+    <span class="md-ellipsis">
+      SetNextActivityMotion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#showchatballoon" class="md-nav__link">
     <span class="md-ellipsis">
       ShowChatBalloon
@@ -1933,6 +1974,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#setpresetavatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      SetPresetAvatar
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1963,6 +2013,10 @@
   
     
     
+      
+        
+      
+        
       
         
       
@@ -2169,6 +2223,48 @@
   
   <span class="md-ellipsis">
     物理演算
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_camera.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    カメラ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_commondialog.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    汎用ダイアログ
   </span>
   
 
@@ -2669,6 +2765,24 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#changeactivitymotion" class="md-nav__link">
+    <span class="md-ellipsis">
+      ChangeActivityMotion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnextactivitymotion" class="md-nav__link">
+    <span class="md-ellipsis">
+      SetNextActivityMotion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#showchatballoon" class="md-nav__link">
     <span class="md-ellipsis">
       ShowChatBalloon
@@ -2713,6 +2827,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#setpresetavatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      SetPresetAvatar
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2752,6 +2875,39 @@
 <h3 id="hsplayergetbyid">hsPlayerGetByID</h3>
 <p><code>Player hsPlayerGetByID(string PlayerID)</code></p>
 <p>PlayerIDを指定して他のプレイヤーの Player インスタンスを取得する。</p>
+<div class="admonition caution">
+<p class="admonition-title">Playerクラス関数の呼び出し仕様変更について</p>
+<p>Vket CloudエンジンVer12.x以降より、Playerクラスの関数はコンストラクタでの呼び出しができなくなりました。<br>
+インスタンスの取得を行いたい際は、例として以下のようなフラグとなるbool変数を用意して呼び出してください。</p>
+</div>
+<div class="codehilite"><pre><span></span><code>component PlayerInitSample
+{   
+    //Playerオブジェクトを定義
+    //ここではhsPlayerGetなどの取得関数を含め、オブジェクトの初期化はできないためにご注意ください
+    Player  ex_player;
+
+    bool    ex_isPlayerInit; //Playerクラス初期化管理
+
+    //コンストラクタ関数
+    public PlayerInitSample()
+    {
+    ex_isPlayerInit = false;
+    //ここでhsPlayerGet()は実行できません
+    }
+
+    //アップデート関数
+    public void update()
+    {
+        //Playerのインスタンス取得がまだの場合、一度だけhsPlayerGet()を実行する
+        if(!ex_isPlayerInit){
+        //Playerを認識・取得
+        ex_player = hsPlayerGet();
+        ex_isPlayerInit = true;
+        }
+    }
+}
+</code></pre></div>
+
 <hr />
 <h2 id="_2">メソッド</h2>
 <h3 id="getid">GetID</h3>
@@ -2794,6 +2950,12 @@
 <h3 id="setnextmotion">SetNextMotion</h3>
 <p><code>bool SetNextMotion(string MotionName)</code></p>
 <p>次に再生するモーションを設定する。</p>
+<h3 id="changeactivitymotion">ChangeActivityMotion</h3>
+<p><code>bool ChangeActivityMotion(string MotionName)</code></p>
+<p>アクティビティクラスのSceneファイルで定義されたモーションを再生する。</p>
+<h3 id="setnextactivitymotion">SetNextActivityMotion</h3>
+<p><code>bool SetNextActivityMotion(string MotionName)</code></p>
+<p>次に再生するアクティビティクラスのSceneファイルで定義されたモーションを設定する。</p>
 <h3 id="showchatballoon">ShowChatBalloon</h3>
 <p><code>bool ShowChatBalloon(string Text)</code></p>
 <p>チャットバルーンに指定のテキストを表示します。</p>
@@ -2809,6 +2971,9 @@
 <h3 id="getmovespeedupratio">GetMoveSpeedupRatio</h3>
 <p><code>float GetMoveSpeedupRatio()</code></p>
 <p>高速移動の倍率を取得します。</p>
+<h3 id="setpresetavatar">SetPresetAvatar</h3>
+<p><code>bool SetPresetAvatar(int AvatarIndex)</code></p>
+<p>プリセットアバターに切り替えます。自分自身のPlayerオブジェクトにのみ有効です。</p>
 
 
 

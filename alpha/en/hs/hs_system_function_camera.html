@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="ja" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -13,32 +13,32 @@
       
       
       
-        <link rel="prev" href="hs_system_function_textchat.html">
+        <link rel="prev" href="hs_system_function_physics.html">
       
       
-        <link rel="next" href="hs_system_function_physics.html">
+        <link rel="next" href="hs_system_function_commondialog.html">
       
       
-      <link rel="icon" href="../images/VketCloudIcon.png">
+      <link rel="icon" href="../../images/VketCloudIcon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>ChatGPT - SceneBuilder Manual</title>
+        <title>Camera - SceneBuilder Manual</title>
       
     
     
   
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
 
     
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../../css/styles.css">
 
     
       
@@ -53,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -102,8 +102,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#-chatgpt" class="md-skip">
-          コンテンツにスキップ
+        <a href="#-" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -121,10 +121,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+  <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../index.html" title="SceneBuilder Manual" class="md-header__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
       
-  <img src="../images/VketCloudIcon.png" alt="logo">
+  <img src="../../images/VketCloudIcon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -141,7 +141,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ChatGPT
+              Camera
             
           </span>
         </div>
@@ -181,20 +181,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="言語切り替え">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../en/hs/hs_system_function_chatgpt.html" hreflang="en" class="md-select__link">
+            <a href="hs_system_function_camera.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="hs_system_function_chatgpt.html" hreflang="ja" class="md-select__link">
+            <a href="../../hs/hs_system_function_camera.html" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -213,16 +213,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="検索">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -235,7 +235,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            検索を初期化
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -268,11 +268,11 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../index.html" title="SceneBuilder Manual" class="md-nav__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
       
-  <img src="../images/VketCloudIcon.png" alt="logo">
+  <img src="../../images/VketCloudIcon.png" alt="logo">
 
     </a>
     SceneBuilder Manual
@@ -291,7 +291,7 @@
         
   
   <span class="md-ellipsis">
-    はじめに
+    Introduction
   </span>
   
 
@@ -311,7 +311,7 @@
         
   
   <span class="md-ellipsis">
-    単語集
+    Glossary
   </span>
   
 
@@ -359,7 +359,7 @@
             
   
   <span class="md-ellipsis">
-    SceneBuilderの基本
+    Getting Started
   </span>
   
 
@@ -369,7 +369,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            SceneBuilderの基本
+            Getting Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -384,7 +384,7 @@
         
   
   <span class="md-ellipsis">
-    動作環境
+    Operating Environment
   </span>
   
 
@@ -405,7 +405,7 @@
         
   
   <span class="md-ellipsis">
-    SceneBuilderのセットアップ
+    SceneBuilder Setup
   </span>
   
 
@@ -426,7 +426,7 @@
         
   
   <span class="md-ellipsis">
-    シーンを保存する方法
+    Saving Scenes
   </span>
   
 
@@ -447,7 +447,7 @@
         
   
   <span class="md-ellipsis">
-    アセットの再フォーマット
+    Reformatting Assets
   </span>
   
 
@@ -468,7 +468,7 @@
         
   
   <span class="md-ellipsis">
-    アイテムの読み込み・配置
+    How to Import Items
   </span>
   
 
@@ -489,7 +489,7 @@
         
   
   <span class="md-ellipsis">
-    ギミックを作成する
+    How to Create Gimmicks
   </span>
   
 
@@ -510,7 +510,7 @@
         
   
   <span class="md-ellipsis">
-    ワールドをアップロードする
+    World Upload
   </span>
   
 
@@ -560,7 +560,7 @@
             
   
   <span class="md-ellipsis">
-    各種操作・設定
+    Controls and Properties
   </span>
   
 
@@ -570,7 +570,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            各種操作・設定
+            Controls and Properties
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -585,7 +585,7 @@
         
   
   <span class="md-ellipsis">
-    各ウィンドウの機能
+    Builder Window Overview
   </span>
   
 
@@ -606,7 +606,7 @@
         
   
   <span class="md-ellipsis">
-    マニピュレーターの操作方法
+    Using the Manipulator
   </span>
   
 
@@ -627,7 +627,7 @@
         
   
   <span class="md-ellipsis">
-    カメラの操作方法
+    Camera Controls
   </span>
   
 
@@ -648,7 +648,7 @@
         
   
   <span class="md-ellipsis">
-    アイテムタイプごとのプロパティ
+    Item Configuration
   </span>
   
 
@@ -694,7 +694,7 @@
             
   
   <span class="md-ellipsis">
-    ワールド制作のためのTips
+    Creation Tips
   </span>
   
 
@@ -704,7 +704,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            ワールド制作のためのTips
+            Creation Tips
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -719,7 +719,7 @@
         
   
   <span class="md-ellipsis">
-    アセットのライトマップとRefProbeのベイクについて
+    Light and RefProbe Baking
   </span>
   
 
@@ -740,7 +740,7 @@
         
   
   <span class="md-ellipsis">
-    アクティビティの使い方
+    How To Activity
   </span>
   
 
@@ -792,7 +792,7 @@
             
   
   <span class="md-ellipsis">
-    アクション
+    Actions
   </span>
   
 
@@ -802,7 +802,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            アクション
+            Actions
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -817,7 +817,7 @@
         
   
   <span class="md-ellipsis">
-    アクションとは
+    Actions Overview
   </span>
   
 
@@ -860,7 +860,7 @@
             
   
   <span class="md-ellipsis">
-    システム
+    System
   </span>
   
 
@@ -870,7 +870,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            システム
+            System
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1115,7 +1115,7 @@
             
   
   <span class="md-ellipsis">
-    Itemクラス
+    Item
   </span>
   
 
@@ -1125,7 +1125,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            Itemクラス
+            Item
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1364,7 +1364,7 @@
         
   
   <span class="md-ellipsis">
-    HeliScript概要
+    HeliScript - Overview
   </span>
   
 
@@ -1407,7 +1407,7 @@
             
   
   <span class="md-ellipsis">
-    組み込み型
+    Built-in Types
   </span>
   
 
@@ -1417,7 +1417,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
-            組み込み型
+            Built-in Types
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1432,7 +1432,7 @@
         
   
   <span class="md-ellipsis">
-    基本型
+    Basic Types
   </span>
   
 
@@ -1453,7 +1453,7 @@
         
   
   <span class="md-ellipsis">
-    文字列(String)
+    String
   </span>
   
 
@@ -1474,7 +1474,7 @@
         
   
   <span class="md-ellipsis">
-    配列(List)
+    List
   </span>
   
 
@@ -1495,7 +1495,7 @@
         
   
   <span class="md-ellipsis">
-    デリゲート(Delegate)
+    Delegate
   </span>
   
 
@@ -1524,7 +1524,7 @@
         
   
   <span class="md-ellipsis">
-    クラス
+    Class
   </span>
   
 
@@ -1545,7 +1545,7 @@
         
   
   <span class="md-ellipsis">
-    コンポーネント / コールバック関数
+    Components / Callback functions
   </span>
   
 
@@ -1590,7 +1590,7 @@
             
   
   <span class="md-ellipsis">
-    組み込みクラス・関数
+    Built-in Classes And Functions
   </span>
   
 
@@ -1600,7 +1600,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_5">
             <span class="md-nav__icon md-icon"></span>
-            組み込みクラス・関数
+            Built-in Classes And Functions
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1615,7 +1615,7 @@
         
   
   <span class="md-ellipsis">
-    Vector3クラス
+    Vector3
   </span>
   
 
@@ -1636,7 +1636,7 @@
         
   
   <span class="md-ellipsis">
-    Quaternionクラス
+    Quaternion
   </span>
   
 
@@ -1657,7 +1657,7 @@
         
   
   <span class="md-ellipsis">
-    Matrixクラス
+    Matrix
   </span>
   
 
@@ -1678,7 +1678,7 @@
         
   
   <span class="md-ellipsis">
-    Itemクラス
+    Item
   </span>
   
 
@@ -1699,7 +1699,7 @@
         
   
   <span class="md-ellipsis">
-    Playerクラス
+    Player
   </span>
   
 
@@ -1764,7 +1764,7 @@
             
   
   <span class="md-ellipsis">
-    組み込み関数
+    Built-in Functions
   </span>
   
 
@@ -1774,7 +1774,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7_6">
             <span class="md-nav__icon md-icon"></span>
-            組み込み関数
+            Built-in Functions
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1789,7 +1789,7 @@
         
   
   <span class="md-ellipsis">
-    システム
+    System
   </span>
   
 
@@ -1810,7 +1810,7 @@
         
   
   <span class="md-ellipsis">
-    数学
+    Math
   </span>
   
 
@@ -1831,7 +1831,7 @@
         
   
   <span class="md-ellipsis">
-    ネットワーク
+    Network
   </span>
   
 
@@ -1852,7 +1852,7 @@
         
   
   <span class="md-ellipsis">
-    ネームプレート
+    NamePlate
   </span>
   
 
@@ -1894,7 +1894,49 @@
         
   
   <span class="md-ellipsis">
-    テキストチャット
+    TextChat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_chatgpt.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ChatGPT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_physics.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Physics
   </span>
   
 
@@ -1924,18 +1966,18 @@
           
   
   <span class="md-ellipsis">
-    ChatGPT
+    Camera
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="hs_system_function_chatgpt.html" class="md-nav__link md-nav__link--active">
+      <a href="hs_system_function_camera.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    ChatGPT
+    Camera
   </span>
   
 
@@ -1943,7 +1985,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="目次">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -1952,31 +1994,61 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      目次
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#chatgpt" class="md-nav__link">
+  <a href="#hscameragetxvector" class="md-nav__link">
     <span class="md-ellipsis">
-      ChatGPT関連
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ChatGPT関連">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hsaddonreceivechatgpt" class="md-nav__link">
-    <span class="md-ellipsis">
-      hsAddOnReceiveChatGPT()
+      hsCameraGetXVector
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetyvector" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetYVector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetzvector" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetZVector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscamerasettpscamerayoffset" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraSetTPSCameraYOffset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetpos" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetPos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetposvector3" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetPosVector3
+    </span>
+  </a>
   
 </li>
       
@@ -1996,53 +2068,11 @@
   
   
     <li class="md-nav__item">
-      <a href="hs_system_function_physics.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    物理演算
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="hs_system_function_camera.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    カメラ
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="hs_system_function_commondialog.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    汎用ダイアログ
+    Common Dialog
   </span>
   
 
@@ -2091,7 +2121,7 @@
             
   
   <span class="md-ellipsis">
-    文法・制御構文
+    Statements and flow control
   </span>
   
 
@@ -2101,7 +2131,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_7">
             <span class="md-nav__icon md-icon"></span>
-            文法・制御構文
+            Statements and flow control
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2116,7 +2146,7 @@
         
   
   <span class="md-ellipsis">
-    定義・宣言
+    Declarations and definitions
   </span>
   
 
@@ -2137,7 +2167,7 @@
         
   
   <span class="md-ellipsis">
-    制御構文
+    Control Statement
   </span>
   
 
@@ -2158,7 +2188,7 @@
         
   
   <span class="md-ellipsis">
-    演算子
+    Operator
   </span>
   
 
@@ -2210,7 +2240,7 @@
             
   
   <span class="md-ellipsis">
-    リリースノート
+    Release Note
   </span>
   
 
@@ -2220,7 +2250,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
-            リリースノート
+            Release Note
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2360,7 +2390,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="目次">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -2369,31 +2399,61 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      目次
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#chatgpt" class="md-nav__link">
+  <a href="#hscameragetxvector" class="md-nav__link">
     <span class="md-ellipsis">
-      ChatGPT関連
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ChatGPT関連">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hsaddonreceivechatgpt" class="md-nav__link">
-    <span class="md-ellipsis">
-      hsAddOnReceiveChatGPT()
+      hsCameraGetXVector
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetyvector" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetYVector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetzvector" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetZVector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscamerasettpscamerayoffset" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraSetTPSCameraYOffset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetpos" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetPos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hscameragetposvector3" class="md-nav__link">
+    <span class="md-ellipsis">
+      hsCameraGetPosVector3
+    </span>
+  </a>
   
 </li>
       
@@ -2412,14 +2472,28 @@
                   
 
 
-<h1 id="-chatgpt">組み込み関数 - ChatGPT</h1>
-<p>ChatGPTに関連した関数です。</p>
+<h1 id="-">組み込み関数 - カメラ</h1>
+<p>カメラに関するユーティリティ関数</p>
 <hr />
-<h2 id="chatgpt">ChatGPT関連</h2>
-<h3 id="hsaddonreceivechatgpt">hsAddOnReceiveChatGPT()</h3>
-<p><code>delegate void hsDGOnReceivedChatGPT(string Text);</code></p>
-<p><code>void hsAddOnReceiveChatGPT(hsDGOnReceivedChatGPT dg);</code></p>
-<p>ChatGPTからの返答を受け取るコールバックメソッドを登録します。</p>
+<h3 id="hscameragetxvector">hsCameraGetXVector</h3>
+<p><code>void hsCameraGetXVector(ref float X, ref float Y, ref float Z)</code></p>
+<p>カメラのワールド座標系のＸベクトルを取得します。</p>
+<h3 id="hscameragetyvector">hsCameraGetYVector</h3>
+<p><code>void hsCameraGetYVector(ref float X, ref float Y, ref float Z)</code></p>
+<p>カメラのワールド座標系のＹベクトルを取得します。</p>
+<h3 id="hscameragetzvector">hsCameraGetZVector</h3>
+<p><code>void hsCameraGetZVector(ref float X, ref float Y, ref float Z)</code></p>
+<p>カメラのワールド座標系のＺベクトルを取得します。</p>
+<h3 id="hscamerasettpscamerayoffset">hsCameraSetTPSCameraYOffset</h3>
+<p><code>void hsCameraSetTPSCameraYOffset(float YOffset, float YDistanceOffset)</code></p>
+<p>TPSカメラのＹ方向のオフセットを指定します。単位はメートルです。YDistanceOffsetはカメラズームによってさらに補正させる場合に使用するパラメータです。</p>
+<h3 id="hscameragetpos">hsCameraGetPos</h3>
+<p><code>void hsCameraGetPos(ref float X, ref float Y, ref float Z)</code></p>
+<p>ワールド座標系におけるカメラの位置を取得します。</p>
+<h3 id="hscameragetposvector3">hsCameraGetPosVector3</h3>
+<p><code>Vector3 hsCameraGetPosVector3()</code></p>
+<p>ワールド座標系におけるカメラの位置をVector3として取得します。</p>
+<hr />
 
 
 
@@ -2449,7 +2523,7 @@
       <div class="md-footer-nav md-grid md-grid--no-gutter">
         <div class="md-footer-nav__section">
           
-            <img class="md-footer-logo" src="../images/HikkyLogo.png" alt="SceneBuilder Manual" />
+            <img class="md-footer-logo" src="../../images/HikkyLogo.png" alt="SceneBuilder Manual" />
           
           <div class="md-footer-copyright">
             ©HIKKY Co.,Ltd. All rights reserved.
@@ -2465,10 +2539,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

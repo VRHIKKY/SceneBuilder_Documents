@@ -1389,6 +1389,8 @@
       
         
       
+        
+      
     
     
     
@@ -1473,6 +1475,27 @@
   
   <span class="md-ellipsis">
     配列(List)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_delegate.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    デリゲート(Delegate)
   </span>
   
 
@@ -1719,6 +1742,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -1917,6 +1944,48 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_camera.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    カメラ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hs_system_function_commondialog.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    汎用ダイアログ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2069,6 +2138,39 @@
       for - 初期化と反復子込みの繰り返し
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#break-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      ループからの脱出 (break, continue)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ループからの脱出 (break, continue)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    <span class="md-ellipsis">
+      break
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2344,6 +2446,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#break-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      ループからの脱出 (break, continue)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ループからの脱出 (break, continue)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    <span class="md-ellipsis">
+      break
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#switch-" class="md-nav__link">
     <span class="md-ellipsis">
       switch - 多数の分岐条件を簡潔に記述
@@ -2387,6 +2522,7 @@
 <div class="codehilite"><pre><span></span><code><span class="nv">int</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="c1">;</span>
 <span class="k">while</span><span class="w"> </span><span class="ss">(</span><span class="nv">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">100</span><span class="ss">)</span><span class="w"> </span>{
 <span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span>が<span class="w"> </span><span class="mi">100</span>より小さい間は、この処理を繰り返し実行する
+<span class="w">    </span><span class="nv">hsSystemWriteLine</span><span class="ss">(</span><span class="s2">&quot;x=%d&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="nv">x</span><span class="ss">)</span><span class="c1">;</span>
 <span class="w">    </span><span class="o">++</span><span class="nv">x</span><span class="c1">;</span>
 }
 
@@ -2410,12 +2546,40 @@
 <li>再度条件式を確認し、<em>true</em> であれば 2. に戻り処理を繰り返す </li>
 </ol>
 <p>という処理を実現できます。</p>
-<p>()の後に <em>{}</em> で処理を書き分けることで、条件分岐を実現できます。</p>
-<div class="codehilite"><pre><span></span><code><span class="nv">int</span><span class="w"> </span><span class="nv">i</span><span class="c1">;</span>
-<span class="k">for</span><span class="w"> </span><span class="ss">(</span><span class="nv">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="c1">; i &lt; 100; ++i) {</span>
-<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="mi">100</span>回この処理を繰り返す
-<span class="w">    </span><span class="nv">hsSystemOutput</span><span class="ss">(</span><span class="s2">&quot;%d\n&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="nv">i</span><span class="ss">)</span><span class="c1">;</span>
+<div class="codehilite"><pre><span></span><code><span class="c1">// ループ開始前に、初期化処理によって i が 0 で初期化される。</span>
+<span class="c1">// ループ処理の開始前に、条件式の i &lt; 100 が毎回判定され、trueの間はループを繰り返す。</span>
+<span class="c1">// ループの末尾で、反復子である ++i が毎回実行される。</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="nb">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// i が 100 より小さい間、この処理を繰り返す。</span>
+<span class="w">    </span><span class="n">hsSystemWriteLine</span><span class="p">(</span><span class="s">&quot;i=%d&quot;</span><span class="w"> </span>%<span class="w"> </span><span class="n">i</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h2 id="break-continue">ループからの脱出 (break, continue)</h2>
+<p><em>break</em> または <em>continue</em> を利用することで、while や for によるループ処理の流れを制御することができます。</p>
+<h3 id="break">break</h3>
+<p><em>break</em> によって、ループ処理の途中で処理を中断させることができます。</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">int</span><span class="w"> </span><span class="nv">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="c1">;</span>
+<span class="o">//</span><span class="w"> </span>条件式が常に<span class="nv">true</span>なので、<span class="nv">break</span>で明示的に抜けるまで中の処理を繰り返す。
+<span class="k">while</span><span class="w"> </span><span class="ss">(</span><span class="nv">true</span><span class="ss">)</span><span class="w"> </span>{
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="ss">(</span><span class="nv">i</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">100</span><span class="ss">)</span><span class="w"> </span>{
+<span class="w">        </span><span class="o">//</span><span class="w"> </span><span class="nv">break</span>で強制的にループを終了させる。
+<span class="w">        </span><span class="k">break</span><span class="c1">;</span>
+<span class="w">    </span>}
+<span class="w">    </span><span class="o">++</span><span class="nv">i</span><span class="c1">;</span>
 }
+</code></pre></div>
+
+<h3 id="continue">continue</h3>
+<p><em>continue</em> によって、ループ処理の途中で処理をスキップし、次のループ処理に移ることができます。</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">// 変数 i の値を100回表示するループ処理。</span>
+<span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="nb">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// ただし i = 5 の場合にだけ、continueで処理を切り上げるため、何も表示されない。</span>
+<span class="w">        </span><span class="k">continue</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="n">hsSystemWriteLine</span><span class="p">(</span><span class="s">&quot;i=%d&quot;</span><span class="w"> </span>%<span class="w"> </span><span class="n">i</span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre></div>
 
 <h2 id="switch-">switch - 多数の分岐条件を簡潔に記述</h2>
