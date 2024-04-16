@@ -31,11 +31,11 @@ modelのHEO、もしくはアクティビティに関しては、メニューバ
 
 たとえば、modelを追加するには、SceneBuilderのProject>assets>modelに移動して、サポートしている3Dモデルを追加します。
 
-![ImportItems_1](img/ImportItems_1.jpg)
+![ImportItems_4](img/ImportItems_4.jpg)
 
 SceneBuilderで、モデルを追加したプロジェクトを開きアセットパネルのモデルタブを見ると、追加したアセットが表示されていることが確認できます。
 
-![ImportItems_2](img/ImportItems_2.jpg)
+![ImportItems_5](img/ImportItems_5.jpg)
 
 もしプロジェクトをブラウザで開いている状態でアセットの追加作業を行った場合、画面上で追加したアセットが反映がされない場合があります。
 
