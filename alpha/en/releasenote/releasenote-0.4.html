@@ -13,10 +13,8 @@
       
       
       
-        <link rel="prev" href="releasenote-0.1.html">
+        <link rel="prev" href="releasenote-0.3.html">
       
-      
-        <link rel="next" href="releasenote-0.3.html">
       
       
       <link rel="icon" href="../../images/VketCloudIcon.png">
@@ -24,7 +22,7 @@
     
     
       
-        <title>v0.2 - SceneBuilder Manual</title>
+        <title>v0.4 - SceneBuilder Manual</title>
       
     
     
@@ -141,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              v0.2
+              v0.4
             
           </span>
         </div>
@@ -188,13 +186,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="releasenote-0.2.html" hreflang="en" class="md-select__link">
+            <a href="releasenote-0.4.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../releasenote/releasenote-0.2.html" hreflang="ja" class="md-select__link">
+            <a href="../../releasenote/releasenote-0.4.html" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -2232,6 +2230,48 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="releasenote-0.2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v0.2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="releasenote-0.3.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v0.3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -2248,18 +2288,18 @@
           
   
   <span class="md-ellipsis">
-    v0.2
+    v0.4
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="releasenote-0.2.html" class="md-nav__link md-nav__link--active">
+      <a href="releasenote-0.4.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    v0.2
+    v0.4
   </span>
   
 
@@ -2326,48 +2366,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="releasenote-0.3.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    v0.3
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="releasenote-0.4.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    v0.4
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -2475,18 +2473,45 @@
 <h2 id="_2">機能調整</h2>
 <h3 id="_3">操作性向上</h3>
 <ul>
-<li>アセットパネル、設置アイテム一覧でマウスホイールを回転させたときのスクロール量を3倍程度に増やしました。</li>
-<li>シーンパネルで、マウスのホイールを回転させたときのカメラ移動量を3倍程度に増やしました。</li>
+<li>
+<p>設置アイテム一覧パネルと、シーン上のアイテムに対して、複数選択、編集が行えるようになりました。<br>
+マニピュレーターでの移動や、プロパティに表示された内容についてもまとめて変更できます。</p>
+<table>
+<thead>
+<tr>
+<th>ショートカット</th>
+<th>挙動</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shift + 左クリック</td>
+<td>1回目に選択したアイテムから、2回目に選択したアイテムの間のアイテム全てを選択</td>
+</tr>
+<tr>
+<td>Ctrl + 左クリック</td>
+<td>1回目に選択したアイテムから、2回目に選択したアイテムのみ選択 <br> 選択したアイテムを解除</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>ライトの【中間カラー】【グラウンドカラー】の設定項目を撤去しました。</p>
+</li>
 </ul>
 <h3 id="_4">アセット配置時の動作改善</h3>
 <ul>
-<li>Imageを設置したとき、アスペクト比が強制的に1:1になっていたので、元の画像のアスペクト比を維持するようになりました。</li>
+<li>アセット &gt; スクリプトを作成 を行ったとき、事前に記述されているスクリプトの内容をItemの名前がコンソールに表示されるスクリプトに変更しました。</li>
 </ul>
 <h2 id="_5">不具合修正</h2>
 <ul>
-<li>テキスト入力ボックスの位置がずれることがある問題を修正しました。</li>
-<li>Scriptをダブルクリック（連続してクリック）して、スクリプトエディタを開くと、保存や別のスクリプトを開くことができなくなる問題を修正しました。</li>
-<li>アセットを多数配置し、設置アイテム一覧がスクロールできるとき、ファイルメニューを開くことや、アセットパネルの操作ができなくなることがある問題を修正しました。</li>
+<li>シーンをアップロード時、アップロード後のシーンの背景が黒くなってしまう問題を修正しました。</li>
+<li>プロパティから直接数値を調整したものは元に戻す、やり直しが行なえない問題を修正しました。</li>
+<li>スクリプトを右クリック &gt; スクリプトの名前変更 でテキスト入力欄外をクリックするとスクリプトファイルが消える問題を修正しました。</li>
+<li>テキストプレーンのアクティブ非アクティブトグルを変更しても、シーン上に変更が反映されない問題を修正しました。</li>
+<li>シーンのプレビュー時にカメラを「Free」にした場合、WASD + 右クリック でカメラを移動すると、それに伴ってプレイヤーも移動してしまう問題を修正しました。</li>
+<li>ライトのディレクションが初期状態のとき、ディレクション設定項目表示されている数値と、実際のライトのディレクションが違っている問題を修正しました。</li>
+<li>プロパティでポジションやローテーションなどの数値変更時、常に頭に「0」が表示されてしまい、変更しづらい問題を修正しました。</li>
 </ul>
 
 

@@ -475,6 +475,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    アイテムの読み込み・配置
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="ImportItems.html" class="md-nav__link md-nav__link--active">
         
   
@@ -484,6 +495,52 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#glbpngmp3hs" class="md-nav__link">
+    <span class="md-ellipsis">
+      単一ファイル（.glb、.png、.mp3、.hs）の取り込み
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heo" class="md-nav__link">
+    <span class="md-ellipsis">
+      フォルダ（HEO、アクティビティの取り込み）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ファイルをプロジェクトフォルダに直接配置する
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2183,6 +2240,8 @@
       
         
       
+        
+      
     
     
     
@@ -2276,6 +2335,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releasenote/releasenote-0.4.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v0.4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2311,6 +2391,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#glbpngmp3hs" class="md-nav__link">
+    <span class="md-ellipsis">
+      単一ファイル（.glb、.png、.mp3、.hs）の取り込み
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heo" class="md-nav__link">
+    <span class="md-ellipsis">
+      フォルダ（HEO、アクティビティの取り込み）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ファイルをプロジェクトフォルダに直接配置する
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2325,12 +2440,12 @@
 
 
 <h1 id="_1">アイテムの読み込み・配置</h1>
-<p>Scene Builderにアイテムを追加するには、ローカルのプロジェクトファイルのassetフォルダ配下にある適切なフォルダに対して、モデルや画像を追加する必要があります。</p>
+<p>Scene Builderにアイテムを追加するには、ローカルのプロジェクトフォルダのassetフォルダ配下にある適切なフォルダに対して、モデルや画像を追加する必要があります。</p>
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th>項目名</th>
+<th>詳細</th>
 </tr>
 </thead>
 <tbody>
@@ -2354,13 +2469,26 @@
 <td>script</td>
 <td>スクリプト（.hs）を格納するフォルダです。</td>
 </tr>
+<tr>
+<td>activity</td>
+<td>アクティビティ（.json）を格納するフォルダです。</td>
+</tr>
 </tbody>
 </table>
-<p>たとえば、モデルの追加作業を行うには下記のように行います。</p>
-<p>SceneBuilderのProject&gt;assets&gt;modelに移動して、サポートしている3Dモデルを追加します。</p>
+<h2 id="glbpngmp3hs">単一ファイル（.glb、.png、.mp3、.hs）の取り込み</h2>
+<p>この内、modelの.glb、imageの.png、soundの.mp3、スクリプトの.hsファイルといった単一ファイルはアセットパネルにドラッグアンドドロップすることで、自動的に追加することが出来ます。</p>
 <p><img alt="ImportItems_1" src="img/ImportItems_1.jpg" /></p>
-<p>SceneBuilderで、モデルを追加したプロジェクトを開きアセットパネルのモデルタブを見ると、追加したアセットが表示されていることが確認できます。</p>
+<h2 id="heo">フォルダ（HEO、アクティビティの取り込み）</h2>
+<p>modelのHEO、もしくはアクティビティに関しては、メニューバーのファイルから、modelのHEOであれば、HEOを取り込み、アクティビティであれば、アクティビティを取り込みからプロジェクトに追加することが出来ます。</p>
 <p><img alt="ImportItems_2" src="img/ImportItems_2.jpg" /></p>
+<p>エクスプローラーが開かれるので、この時、.heo、もしくは、activityのjsonが含まれる、<strong>フォルダ</strong> を選択してください</p>
+<p><img alt="ImportItems_3" src="img/ImportItems_3.jpg" /></p>
+<h2 id="_2">ファイルをプロジェクトフォルダに直接配置する</h2>
+<p>プロジェクトフォルダのassetフォルダに、直接モデルの追加を行う事も出来ます。</p>
+<p>たとえば、modelを追加するには、SceneBuilderのProject&gt;assets&gt;modelに移動して、サポートしている3Dモデルを追加します。</p>
+<p><img alt="ImportItems_4" src="img/ImportItems_4.jpg" /></p>
+<p>SceneBuilderで、モデルを追加したプロジェクトを開きアセットパネルのモデルタブを見ると、追加したアセットが表示されていることが確認できます。</p>
+<p><img alt="ImportItems_5" src="img/ImportItems_5.jpg" /></p>
 <p>もしプロジェクトをブラウザで開いている状態でアセットの追加作業を行った場合、画面上で追加したアセットが反映がされない場合があります。</p>
 <p>その際は、アセットパネルの別のタブに移動して、再度戻ると反映されます。</p>
 
