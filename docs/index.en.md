@@ -1,30 +1,43 @@
-# Welcome to the SceneBuilder official manual!
+# **Scene Builder** マニュアル
 
-Scene Builder(α)は、Webブラウザで動作するVket Cloudエンジンを使用したコンテンツ・ワールド制作のための開発キットです。
+## Scene Builderとは
 
-Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}でのみ公開しておりますので、discord以外の場所でのScene Builder(α)の公開は、お控えいただきますようお願いいたします。
+![index_1](img/index_1.jpg)
 
-また、Scene Builder(α)の仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
+**Scene Builder**は、Webブラウザだけ動作するVket Cloudのコンテンツ・ワールド制作のための開発キットです。
+
+Scene Builderで3D空間を制作することで、特別なアプリのインストールや機器の用意をすることなく、ブラウザだけ他のユーザーと交流したり、コンテンツを楽しむことが出来る空間を自分の手で作ることが出来ます。
+
 
 ## さあ、はじめましょう！
 
-シーンビルダーの利用、ワールドのアップロードを行うには下記の手順ページから手順のご確認をお願いいたします。
+Scene Builderを使ってみるには、下記リンクのウェブサイトに遷移するだけで使い始めることが出来るようになります。
 
-1. [SceneBuilderのセットアップ](GettingStarted/SceneBuilderSetup.md)
+**[![index_2](img/index_2.jpg)](https://scenebuilder.vket.com/)**
 
-2. [シーンを保存する方法](GettingStarted/SavingScenes.md)
+ワールド制作に使える様々な素材を使いたくなった時は、
+[SceneBuilderProject_Alpha.zip](https://drive.google.com/file/d/1XTkBdcUL1scaxELPSQAdT5G6VAuzSHpd/view)からアセットをダウンロードすることが出来ます。
 
-3. [アセットの再フォーマット](GettingStarted/ReformattingAssets.md)
+詳しい使い方は、[SceneBuilderのセットアップ](GettingStarted/SceneBuilderSetup.md)をご確認ください。
 
-4. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
+<br>
 
-5. [ギミックを作成する](GettingStarted/CreateGimmicks.md)
+## より詳しく操作方法を知りたくなった時は
+より詳しくシーンビルダーの使い方を知りたくなった時や、ワールドのアップロードを行ないたくなった時は下記リンクを確認してみましょう。
 
-6. [ワールドをアップロードする](GettingStarted/WorldUpload.md)
+### Scene Builderの基本
 
-## 各種操作・設定について
+1. [シーンを保存する方法](GettingStarted/SavingScenes.md)
 
-そのほか画面の見方や操作の仕方については、下記ページをご参照ください:
+2. [アセットの再フォーマット](GettingStarted/ReformattingAssets.md)
+
+3. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
+
+4. [ギミックを作成する](GettingStarted/CreateGimmicks.md)
+
+5. [ワールドをアップロードする](GettingStarted/WorldUpload.md)
+
+### 各種操作・設定
 
 - [各ウィンドウの機能](ControlsProperties/WindowOverview.md)
 
@@ -34,11 +47,28 @@ Scene Builder(α)は、[VketCloud/MyVket discordサーバー](https://discord.co
 
 - [アイテムごとのプロパティ](ControlsProperties/ItemConfig.md)
 
+<br>
+
 ## 質問・要望・バグ報告について
 
 質問、要望、バグ報告については[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}のチャンネルにてお願いいたします！
+よりよいサービスとするため、皆様のご意見お待ちしております
 
-!!! note "VketCloudSDKマニュアル"
-    Unity上で自分のワールドを開発できる"VketCloudSDK"では、Scene Builderよりさらに多くの機能と複雑な実装のためのサポートツールが搭載されています。<br>
-    SDKを使ってみたい方は、ぜひ下のリンクからVketCloudSDKマニュアルをチェックしてみてください！<br>
-    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}
+また、Scene Builderの仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
+
+
+## Vket Cloudについて
+Scene Builderは、Vket Cloudという誰もが自分だけのメタバースを作成し利用できるメタバース開発エンジンによって開発されています。
+Vket Cloudの利用については、下記リンクのウェブサイトをご覧ください。
+
+**[![index_3](img/index_3.jpg)](https://cloud.vket.com/#about)**
+
+<br>
+
+## VketCloudSDKについて
+
+Vket Cloudのコンテンツ・ワールド制作のための開発キットとして、Unityで動作するVketCloudSDKを使った開発を行うことが出来ます。
+VketCloudSDKでは、Unityを扱えるユーザーにとってさらに多くの機能と複雑な実装のためのサポートツールが搭載されています。
+VketCloudSDKを使ってみたい方は、下のリンクからVketCloudSDKマニュアルをチェックしてみてください
+
+[VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}    

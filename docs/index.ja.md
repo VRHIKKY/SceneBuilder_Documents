@@ -1,23 +1,19 @@
 # **Scene Builder** マニュアル
 
 ## Scene Builderとは
+
 ![index_1](img/index_1.jpg)
 
 **Scene Builder**は、Webブラウザだけ動作するVket Cloudのコンテンツ・ワールド制作のための開発キットです。
 
 Scene Builderで3D空間を制作することで、特別なアプリのインストールや機器の用意をすることなく、ブラウザだけ他のユーザーと交流したり、コンテンツを楽しむことが出来る空間を自分の手で作ることが出来ます。
-<br>
-<br>
-Vket Cloudについては、下記リンクのウェブサイトをご覧ください。
 
-**[![index_2](img/index_2.jpg)](https://cloud.vket.com/#about)**
-
-<br>
 
 ## さあ、はじめましょう！
+
 Scene Builderを使ってみるには、下記リンクのウェブサイトに遷移するだけで使い始めることが出来るようになります。
 
-**[![index_3](img/index_3.jpg)](https://scenebuilder.vket.com/)**
+**[![index_2](img/index_2.jpg)](https://scenebuilder.vket.com/)**
 
 ワールド制作に使える様々な素材を使いたくなった時は、
 [SceneBuilderProject_Alpha.zip](https://drive.google.com/file/d/1XTkBdcUL1scaxELPSQAdT5G6VAuzSHpd/view)からアセットをダウンロードすることが出来ます。
@@ -58,11 +54,19 @@ Scene Builderを使ってみるには、下記リンクのウェブサイトに�
 質問、要望、バグ報告については[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}のチャンネルにてお願いいたします！
 よりよいサービスとするため、皆様のご意見お待ちしております
 
-また、Scene Builder(α)の仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
+また、Scene Builderの仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
+
+
+## Vket Cloudについて
+Scene Builderは、Vket Cloudという誰もが自分だけのメタバースを作成し利用できるメタバース開発エンジンによって開発されています。
+Vket Cloudの利用については、下記リンクのウェブサイトをご覧ください。
+
+**[![index_3](img/index_3.jpg)](https://cloud.vket.com/#about)**
 
 <br>
 
 ## VketCloudSDKについて
+
 Vket Cloudのコンテンツ・ワールド制作のための開発キットとして、Unityで動作するVketCloudSDKを使った開発を行うことが出来ます。
 VketCloudSDKでは、Unityを扱えるユーザーにとってさらに多くの機能と複雑な実装のためのサポートツールが搭載されています。
 VketCloudSDKを使ってみたい方は、下のリンクからVketCloudSDKマニュアルをチェックしてみてください
