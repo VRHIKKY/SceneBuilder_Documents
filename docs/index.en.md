@@ -1,4 +1,4 @@
-# **Scene Builder** マニュアル
+# **Scene Builder** マニュアルへようこそ！
 
 ## Scene Builderとは
 
@@ -56,6 +56,8 @@ Scene Builderを使ってみるには、下記リンクのウェブサイトに�
 
 また、Scene Builderの仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
 
+<br>
+<br>
 
 ## Vket Cloudについて
 Scene Builderは、Vket Cloudという誰もが自分だけのメタバースを作成し利用できるメタバース開発エンジンによって開発されています。
