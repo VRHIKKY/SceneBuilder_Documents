@@ -4,11 +4,13 @@
   --md-primary-fg-color--dark:  #DC3A88;
 }
 
-.hover-fade {
-  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.hover-fade:hover {
-  opacity: 0.5;
+@media (hover: hover) {
+  .link {
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .link:hover {
+    opacity: 0.5;
+  }
 }

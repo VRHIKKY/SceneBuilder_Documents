@@ -13,7 +13,7 @@ Scene Builderで3D空間を制作することで、特別なアプリのイン�
 
 Scene Builderを使ってみるには、下記リンクのウェブサイトに遷移するだけで使い始めることが出来るようになります。
 
-**[![index_2](img/index_2.jpg){.hover-fade}](https://scenebuilder.vket.com/)**
+**[![index_2](img/index_2.jpg){.link}](https://scenebuilder.vket.com/)**
 
 ワールド制作に使える様々な素材を使いたくなった時は、
 [SceneBuilderProject_Alpha.zip](https://drive.google.com/file/d/1XTkBdcUL1scaxELPSQAdT5G6VAuzSHpd/view)からアセットをダウンロードすることが出来ます。
@@ -63,7 +63,7 @@ Scene Builderを使ってみるには、下記リンクのウェブサイトに�
 Scene Builderは、Vket Cloudという誰もが自分だけのメタバースを作成し利用できるメタバース開発エンジンによって開発されています。
 Vket Cloudの利用については、下記リンクのウェブサイトをご覧ください。
 
-**[![index_3](img/index_3.jpg){.hover-fade}](https://cloud.vket.com/#about)**
+**[![index_3](img/index_3.jpg){.link}](https://cloud.vket.com/#about)**
 
 <br>
 
