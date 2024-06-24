@@ -1,11 +1,5 @@
 # SceneBuilderのセットアップ
 
-## プロジェクトをダウンロードする
-
-以下のURLからScene Builder(α)用のプロジェクトファイルをダウンロードし、zipを解凍します。
-
-[SceneBuilderProject_Alpha.zip](https://drive.google.com/file/d/1XTkBdcUL1scaxELPSQAdT5G6VAuzSHpd/view?usp=sharing){target=_blank}
-
 ## Scene Builder(α)のURLにアクセスする
 
 以下のURLにアクセスします。
@@ -14,8 +8,14 @@
 
 ## プロジェクトを開く
 
-Scene Builder(α)が開けたら、どのプロジェクトを開くか問われるので、ダウンロードしたScene Builder(α)用のプロジェクトファイルを開きます。
+Scene Builder(α)が開けたら、どのプロジェクトを開くか問われます。
 
 ![SceneBuilderSetup_1](img/SceneBuilderSetup_1.jpg)
 
+プロジェクトを開くボタンを押すと、フォルダ選択ダイアログが開かれるので、任意の場所に新しいフォルダを作ります
+
+![SceneBuilderSetup_2](img/SceneBuilderSetup_2.jpg)
+
 アセットパネルのModelにプリセットのモデルが複数個表示されていれば成功です。
+
+![SceneBuilderSetup_3](img/SceneBuilderSetup_3.jpg)
