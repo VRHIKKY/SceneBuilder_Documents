@@ -6,7 +6,7 @@
 
 **<ruby>Scene<rt>シーン</rt></ruby> <ruby>Builder<rt>ビルダー</rt></ruby>**は、<ruby>Web<rt></rt>ウェブ</ruby>ブラウザだけ動作する<ruby>Vket<rt>ブイケット</rt></ruby> <ruby>Cloud<rt>クラウド</rt></ruby>のコンテンツ・ワールド<ruby>制作<rt>せいさく</rt></ruby>のための開発</ruby>キットです。
 
-<ruby>Scene<rt>シーン</rt></ruby> <ruby>Builder<rt>ビルダー</rt></ruby>で3D空間を<ruby>制作<rt>せいさく</rt></ruby>することで、特別なアプリのインストールや機器の用意をすることなく、ブラウザだけ他のユーザーと交流したり、コンテンツを楽しむことが<ruby>出来<rt>でき</rt></ruby>る空間>を自分の手で作ることが<ruby>出来<rt>でき</rt></ruby>ます。
+<ruby>Scene<rt>シーン</rt></ruby> <ruby>Builder<rt>ビルダー</rt></ruby>で3D空間を<ruby>制作<rt>せいさく</rt></ruby>することで、特別なアプリのインストールや機器の用意をすることなく、ブラウザだけ他のユーザーと交流したり、コンテンツを楽しむことが<ruby>出来<rt>でき</rt></ruby>る空間を自分の手で作ることが<ruby>出来<rt>でき</rt></ruby>ます。
 
 
 ## さあ、はじめましょう！
