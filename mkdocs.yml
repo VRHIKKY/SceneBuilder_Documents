@@ -79,6 +79,12 @@ plugins:
             SceneBuilder Setup: SceneBuilderのセットアップ
             Saving Scenes: シーンを保存する方法
             Reformatting Assets: アセットの再フォーマット
+            What is Reformatting Assets: アセットの再フォーマットとは
+            Exporting GLB Using Blender: Blenderを利用して、GLBを書き出す
+            Exporting GLB Using Maya: Mayaを利用して、GLBを書き出す
+            Preparation in Unity: Unityを利用する場合の準備
+            Exporting GLB Using UniVRM in Unity: UnityでUniVRMを利用して、GLBを書き出す
+            Exporting HEO Using VketCloudSDK in Unity: UnityでVketCloudSDKを利用して、HEOを書き出す
             How to Import Items: アイテムの読み込み・配置
             How to Create Gimmicks: ギミックを作成する
             World Upload: ワールドをアップロードする
@@ -141,7 +147,13 @@ nav:
   - Operating Environment: GettingStarted/OperatingEnvironment.md
   - SceneBuilder Setup: GettingStarted/SceneBuilderSetup.md
   - Saving Scenes: GettingStarted/SavingScenes.md
-  - Reformatting Assets: GettingStarted/ReformattingAssets.md
+  - Reformatting Assets: 
+    - What is Reformatting Assets: GettingStarted\ReformattingAssets\WhatIsReformattingAssets.md
+    - Exporting GLB Using Blender: GettingStarted\ReformattingAssets\ExportingGLBUsingBlender.md
+    - Exporting GLB Using Maya: GettingStarted\ReformattingAssets\ExportingGLBUsingMaya.md
+    - Preparation in Unity: GettingStarted\ReformattingAssets\PreparationUnity.md
+    - Exporting GLB Using UniVRM in Unity: GettingStarted\ReformattingAssets\ExportingGLBUsingUniVRM.md
+    - Exporting HEO Using VketCloudSDK in Unity: GettingStarted\ReformattingAssets\ExportingHEOUsingVketCloudSDK.md
   - How to Import Items: GettingStarted/ImportItems.md
   - How to Create Gimmicks: GettingStarted/CreateGimmicks.md
   - World Upload: GettingStarted/WorldUpload.md
