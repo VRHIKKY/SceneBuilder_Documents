@@ -1,6 +1,6 @@
-# Scene Builderの動作環境
+# World Builderの動作環境
 
-Scene Builder(α)の動作には、以下の環境が必要です。
+World Builderの動作には、以下の環境が必要です。
 
 ## OS
 
