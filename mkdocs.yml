@@ -78,7 +78,7 @@ plugins:
             Setup Account: アカウント準備
             Operating Environment: 動作環境
             World Builder Setup: World Builderのセットアップ
-            Saving Editing Worlds: シーンを保存する方法
+            Saving Editing Worlds: 編集中のワールドを保存する
             Reformatting Assets: アセットの再フォーマット
             What is Reformatting Assets: アセットの再フォーマットとは
             Exporting GLB Using Blender: Blenderを利用して、GLBを書き出す
