@@ -19,11 +19,11 @@ VketCloudSDKの導入には、Vket Accountへの登録と、ライセンスIDへ
 
 出力を行う前に、heoファイルはpng画像のテクスチャしか使用できないため、変換を行います。
 
-![ReformattingAssets_10](img/ReformattingAssets_10.jpg)
+![ExportingHEOUsingVketCloudSDK_1](img/ExportingHEOUsingVketCloudSDK_1.jpg)
 
 使用されているテクスチャを選択し、Export Compressed Textureを行うことで、png画像が出力され、変換完了後に出てくるウインドウにてOKを押すと自動的に参照先のテクスチャが切り替わります。
 
-![ReformattingAssets_11](img/ReformattingAssets_11.jpg)
+![ExportingHEOUsingVketCloudSDK_2](img/ExportingHEOUsingVketCloudSDK_2.jpg)
 
 データの整理が終わったら、**VketCloudSDKタブからExport Field**を選択し、ファイルの出力を実行します。
 
@@ -31,10 +31,10 @@ VketCloudSDKの導入には、Vket Accountへの登録と、ライセンスIDへ
 
 そうでないとWorld Builderで配置したときに意図しない場所に設置されることがあります。
 
-![ReformattingAssets_12](img/ReformattingAssets_12.jpg)
+![ExportingHEOUsingVketCloudSDK_3](img/ExportingHEOUsingVketCloudSDK_3.jpg)
 
 複数のファイルが書き出されるため、モデルと同じ名称のフォルダを作成して、そこを選択することで、一つのフォルダとして書き出した方がWorld Builderに配置しやすくなります。
 
-![ReformattingAssets_13](img/ReformattingAssets_13.jpg)
+![ExportingHEOUsingVketCloudSDK_4](img/ExportingHEOUsingVketCloudSDK_4.jpg)
 
 これで、heoファイルの書き出しは完了です。

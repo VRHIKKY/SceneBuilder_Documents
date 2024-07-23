@@ -75,12 +75,12 @@ plugins:
             Glossary: 単語集
             #基本ページ
             Getting Started: World Builderの基本
-            Setup Account: アカウント準備
             Operating Environment: 動作環境
+            Setup Account: アカウント準備
             World Builder Setup: World Builderのセットアップ
             Saving Editing Worlds: 編集中のワールドを保存する
-            Reformatting Assets: アセットの再フォーマット
-            What is Reformatting Assets: アセットの再フォーマットとは
+            Reformatting 3DModels: 3Dモデルの再フォーマット
+            What is Reformatting 3DModels: 3Dモデルの再フォーマットとは
             Exporting GLB Using Blender: Blenderを利用して、GLBを書き出す
             Preparation in Unity: Unityを利用する場合の準備
             Exporting GLB Using UniVRM in Unity: UnityでUniVRMを利用して、GLBを書き出す
@@ -147,17 +147,17 @@ nav:
 - Introduction: index.md
 - Glossary: Glossary/Glossary.md
 - Getting Started: #基本ページ
-  - Setup Account : GettingStarted/SetupAccount.md
   - Operating Environment: GettingStarted/OperatingEnvironment.md
+  - Setup Account : GettingStarted/SetupAccount.md
   - World Builder Setup: GettingStarted/WorldBuilderSetup.md
   - Saving Editing Worlds: GettingStarted/SavingEditingWorlds.md
-  - Reformatting Assets: 
-    - What is Reformatting Assets: GettingStarted\ReformattingAssets\WhatIsReformattingAssets.md
-    - Exporting GLB Using Blender: GettingStarted\ReformattingAssets\ExportingGLBUsingBlender.md
-    - Preparation in Unity: GettingStarted\ReformattingAssets\PreparationUnity.md
-    - Exporting GLB Using UniVRM in Unity: GettingStarted\ReformattingAssets\ExportingGLBUsingUniVRM.md
-    - Exporting HEO Using VketCloudSDK in Unity: GettingStarted\ReformattingAssets\ExportingHEOUsingVketCloudSDK.md
   - How to Import Items: GettingStarted/ImportItems.md
+  - Reformatting 3DModels: 
+    - What is Reformatting 3DModels: GettingStarted\Reformatting3DModels\WhatIsReformatting3DModels.md
+    - Exporting GLB Using Blender: GettingStarted\Reformatting3DModels\ExportingGLBUsingBlender.md
+    - Preparation in Unity: GettingStarted\Reformatting3DModels\PreparationUnity.md
+    - Exporting GLB Using UniVRM in Unity: GettingStarted\Reformatting3DModels\ExportingGLBUsingUniVRM.md
+    - Exporting HEO Using VketCloudSDK in Unity: GettingStarted\Reformatting3DModels\ExportingHEOUsingVketCloudSDK.md
   - How to Create Gimmicks: GettingStarted/CreateGimmicks.md
   - World Upload: GettingStarted/WorldUpload.md
 - Controls and Properties: #操作解説
