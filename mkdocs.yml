@@ -77,7 +77,7 @@ plugins:
             Getting Started: World Builderの基本
             Operating Environment: 動作環境
             Setup Account: アカウント準備
-            World Builder Setup: World Builderのセットアップ
+            Create World: ワールドの作成
             Saving Editing Worlds: 編集中のワールドを保存する
             Reformatting 3DModels: 3Dモデルの再フォーマット
             What is Reformatting 3DModels: 3Dモデルの再フォーマットとは
@@ -149,7 +149,7 @@ nav:
 - Getting Started: #基本ページ
   - Operating Environment: GettingStarted/OperatingEnvironment.md
   - Setup Account : GettingStarted/SetupAccount.md
-  - World Builder Setup: GettingStarted/WorldBuilderSetup.md
+  - Create World: GettingStarted/CreateWorld.md
   - Saving Editing Worlds: GettingStarted/SavingEditingWorlds.md
   - How to Import Items: GettingStarted/ImportItems.md
   - Reformatting 3DModels: 
@@ -246,3 +246,4 @@ nav:
     - v0.3: releasenote/releasenote-0.3.md
     - v0.4: releasenote/releasenote-0.4.md
     - v0.5: releasenote/releasenote-0.5.md
+    - v0.6: releasenote/releasenote-0.6.md
