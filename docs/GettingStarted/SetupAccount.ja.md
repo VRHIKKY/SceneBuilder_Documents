@@ -18,7 +18,11 @@ World Builderでワールドアップロード昨日や、サーバー上へ編�
 
     ![SetupAccount_2](./img/SetupAccount_3.ja.jpg)
 
-1. Vketアカウントの連携が完了後、再びトップページに戻ったのち「ログイン」を押すと、Vket Cloudの新規登録画面へ遷移し、以下の情報を入力する事で登録が完了します。
+
+## ライセンスID登録
+
+1. Vketアカウントの連携が完了後、再びトップページに戻ったのち「ログイン」を押すと、Vket Cloudの新規登録画面へ遷移します。
+以下の情報を入力する事で登録が完了します。
 
     - チームID
     - チームの名称
@@ -28,8 +32,3 @@ World Builderでワールドアップロード昨日や、サーバー上へ編�
     - 種別(個人/法人)
 
     ![SetupAccount_2](./img/SetupAccount_4.ja.jpg)
-
-
-## ライセンスID登録
-
-[こちら](https://cloud.vket.com/#howto){target=blank}よりライセンスを新規登録してください。

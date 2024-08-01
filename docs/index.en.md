@@ -15,22 +15,28 @@ World Builderを使ってみるには、下記リンクのウェブサイトに�
 
 **[![index_2](img/index_2.jpg){.link}](https://scenebuilder.vket.com/)**
 
+また、[VketCloud公式サイト](https://cloud.vket.com/)で、ワールドを登録することで、自分のワールドを公開してランキングに乗せることができるようになります！
+
 <br>
 
 ## より詳しく操作方法を知りたくなった時は
-より詳しくシーンビルダーの使い方を知りたくなった時や、ワールドのアップロードを行ないたくなった時は下記リンクを確認してみましょう。
+より詳しくWorld Builderの使い方を知りたくなった時や、ワールドのアップロードを行ないたくなった時は下記リンクを確認してみましょう。
 
-### Scene Builderの基本
+### World Builderの基本
 
-1. [シーンを保存する方法](GettingStarted/SavingScenes.md)
+1. [アカウント準備](GettingStarted/SetupAccount.md)
 
-2. [アセットの再フォーマット](GettingStarted/ReformattingAssets.md)
+1. [ワールドの作成](GettingStarted/CreateWorld.md)
 
-3. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
+1. [編集中のワールドを保存する](GettingStarted/SavingEditingWorlds.md)
 
-4. [ギミックを作成する](GettingStarted/CreateGimmicks.md)
+1. [アセットの再フォーマット](GettingStarted/ReformattingAssets.md)
 
-5. [ワールドをアップロードする](GettingStarted/WorldUpload.md)
+1. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
+
+1. [ギミックを作成する](GettingStarted/CreateGimmicks.md)
+
+1. [ワールドをアップロードする](GettingStarted/WorldUpload.md)
 
 ### 各種操作・設定
 
@@ -49,13 +55,13 @@ World Builderを使ってみるには、下記リンクのウェブサイトに�
 質問、要望、バグ報告については[VketCloud/MyVket discordサーバー](https://discord.com/invite/wJjtZRKjqU){target=_blank}のチャンネルにてお願いいたします！
 よりよいサービスとするため、皆様のご意見お待ちしております
 
-また、Scene Builderの仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
+また、World Builderの仕様は、サービス改善のため予告なく変更することがあります。ご了承のほどよろしくお願いいたします。
 
 <br>
 <br>
 
 ## Vket Cloudについて
-Scene Builderは、Vket Cloudという誰もが自分だけのメタバースを作成し利用できるメタバース開発エンジンによって開発されています。
+World Builderは、Vket Cloudという誰もが自分だけのメタバースを作成し利用できるメタバース開発エンジンによって開発されています。
 Vket Cloudの利用については、下記リンクのウェブサイトをご覧ください。
 
 **[![index_3](img/index_3.jpg){.link}](https://cloud.vket.com/#about)**

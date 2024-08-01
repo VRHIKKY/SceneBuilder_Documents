@@ -3,7 +3,7 @@
 Vket Cloudでは、HeliScriptというエンジン独自のスクリプトを使用してプログラミングを行うことができます。  
 HeliScriptを使用すると、[アクション](../Actions/ActionsOverview.md)と比べてより複雑なギミック・挙動を実装できます。
 
-HeliScriptの文法については[基本系](./hs_var.md)から順番に読むことで習得できます。
+HeliScriptの文法については[基本系](./hs_var.md)から順番に読むことで習得できます。  
 また、ここでは以下にてHello Worldを出力する方法を通じて、基本的な実装の例を示します。
 
 !!! note "VketCloudSDKについて"
@@ -22,7 +22,7 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 
 ![hs_overview_2](img/hs_overview_2.jpg)
 
-### 2\.スクリプトをシーンに追加する
+### 2\. スクリプトをシーンに追加する
 
 HeliScriptファイルを追加したら、次はシーンにHeliScriptの設定を行います。 HeliScriptは
 
@@ -78,7 +78,7 @@ PlayerのHeliScriptでの取り扱いは[Playerクラス](./hs_class_player.md)�
 ## Item
 
 Vket Cloud上でワールドを構成する際、Player以外の各要素はItemとして表現されます。  
-SceneBuilderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
+World Builderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
 
 ItemのHeliScriptでの取り扱いは[Itemクラス](./hs_class_item.md)をご参照ください。
 

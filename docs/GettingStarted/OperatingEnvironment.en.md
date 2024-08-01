@@ -14,7 +14,7 @@ World Builderの動作には、以下の環境が必要です。
 
 - Edge
 
-ならびに、Scene Builderでアップロードしたワールドに入室する端末スペックは以下を推奨します。
+ならびに、World Builderでアップロードしたワールドに入室する端末スペックは以下を推奨します。
 
 - PC: Chrome / Firefox / Safari / Edge等のWebブラウザが使用できるもの。
 
