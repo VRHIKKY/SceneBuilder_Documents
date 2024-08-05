@@ -6,6 +6,9 @@ theme:
   favicon: images/VketCloudIcon.png
   logo: images/VketCloudIcon.png
   name: material
+  font:
+    text: Noto Sans JP
+    code: Inconsolata
   palette:
   - scheme: default
     primary: custom

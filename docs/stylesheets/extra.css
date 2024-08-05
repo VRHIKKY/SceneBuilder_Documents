@@ -1,7 +1,27 @@
 :root {
-  --md-primary-fg-color:        #DC3A88;
-  --md-primary-fg-color--light: #DC3A88;
-  --md-primary-fg-color--dark:  #DC3A88;
+  --md-primary-fg-color:        #707fca;
+  --md-primary-fg-color--light: #707fca;
+  --md-primary-fg-color--dark:  #707fca;
+}
+
+.md-typeset h1 {
+  font-weight: bold;
+  color: #4d5475;
+  padding-bottom: 5px;
+}
+
+.md-typeset h2 {
+  font-weight: bold;
+  color: #5f5f5f;
+  border-bottom: solid 2px #707fca;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.md-typeset h3 {
+  font-weight: bold;
+  color: #5f5f5f;
 }
 
 @media (hover: hover) {
