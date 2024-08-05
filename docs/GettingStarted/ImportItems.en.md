@@ -11,7 +11,7 @@ World Builderにアイテムを追加するには、ローカルのプロジェ�
 | script | スクリプト（.hs）を格納するフォルダです。 |
 | activity| アクティビティ（.json）を格納するフォルダです。 |
 
-## ファイルフォーマットが、.heo、.glb以外の3Dモデルを追加したい場合
+## .heo、.glb以外の3Dモデルを追加したい場合
 3Dモデルのフォーマットを、blenderや、Unityで変更する必要があります。
 
 [3Dモデルの再フォーマットとは](Reformatting3DModels/WhatIsReformatting3DModels.ja.md) から、フォーマットの変更を行ってください。
