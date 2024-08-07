@@ -16,7 +16,7 @@ World Builderを使ってみるには、下記リンクのウェブサイトに�
 
 **[![index_2](img/index_2.png){.link}](https://scenebuilder.vket.com/)**
 
-また、[VketCloud公式サイト](https://cloud.vket.com/)で、ワールドを登録することで、自分のワールドを公開してランキングに乗せることができるようになります！
+また、[VketCloud公式サイト](https://cloud.vket.com/)で、ワールドを登録することで、自分のワールドを公開することができるようになります！
 
 <br>
 
