@@ -65,9 +65,7 @@ Add Actionボタンを押下することで、アクションを追加するた�
 
 その状態で、WASDボタンで、キャラクターを操作し、エリアコライダーに触れることでギミックの動作確認を行うことができます。
 
-![CreateGimmicks_7](img/CreateGimmicks_7.jpg)
-
-この状態でクリックするためのオブジェクトをクリックすると、アクションが動作し、OpenWebであれば別のWebサイトに遷移することが確認できます。
+![CreateGimmicks_12](img/CreateGimmicks_12.jpg)
 
 ## モデルのクリック、もしくはエリアコライダーからHeliscriptの発火
 

@@ -39,7 +39,7 @@ modelのHEO、もしくはアクティビティに関しては、メニューバ
 
 ![ImportItems_4](img/ImportItems_4.jpg)
 
-orld Builderで、モデルを追加したプロジェクトを開きアイテムパネルのモデルタブを見ると、追加したアセットが表示されていることが確認できます。
+World Builderで、モデルを追加したプロジェクトを開きアイテムパネルのモデルタブを見ると、追加したアセットが表示されていることが確認できます。
 
 ![ImportItems_5](img/ImportItems_5.jpg)
 
