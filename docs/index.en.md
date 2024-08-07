@@ -31,7 +31,7 @@ World Builderを使ってみるには、下記リンクのウェブサイトに�
 
 1. [編集中のワールドを保存する](GettingStarted/SavingEditingWorlds.md)
 
-1. [アセットの再フォーマット](GettingStarted/ReformattingAssets.md)
+1. [アセットの再フォーマット](GettingStarted/Reformatting3DModels/WhatIsReformatting3DModels.md)
 
 1. [アイテムの読み込み・配置](GettingStarted/ImportItems.md)
 
@@ -75,4 +75,4 @@ Vket Cloudのコンテンツ・ワールド制作のための開発キットと�
 VketCloudSDKでは、Unityを扱えるユーザーにとってさらに多くの機能と複雑な実装のためのサポートツールが搭載されています。
 VketCloudSDKを使ってみたい方は、下のリンクからVketCloudSDKマニュアルをチェックしてみてください
 
-[VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}    
+[VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/index.html){target=blank}    

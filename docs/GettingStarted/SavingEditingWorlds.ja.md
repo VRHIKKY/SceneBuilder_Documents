@@ -11,7 +11,7 @@ World Builderでは、VketCloudのワールドに紐づけて、編集中のワ�
 
 まだVketAccountと、ライセンスIDをお持ちでない方は、以下の手順に従い、ライセンス登録を実施してください。
 
-[アカウント準備](GettingStarted/SetupAccount.md)
+[アカウント準備](SetupAccount.md)
 
 ## ワールドを作成する
 

@@ -74,7 +74,7 @@ Window>Rendering>Lighting SettingからLightingウィンドウを開きます。
 
 数秒～数分待つとライトベイクが完了するため、このオブジェクトをheoとして変換してください。
 
-変換を行うには、[アセットの再フォーマット](../GettingStarted/ReformattingAssets.md)の記事を参照しながら書き出しを行ってください。
+変換を行うには、[アセットの再フォーマット](../GettingStarted/Reformatting3DModels/WhatIsReformatting3DModels.md)の記事を参照しながら書き出しを行ってください。
 
 上記の手順はheoファイルのライトとリフレクションプローブのベイクを行うのに最低限の手順を記したものです。
 

@@ -2,9 +2,9 @@
 
 Unityで3Dモデルの再フォーマットを行う前に、使用する3Dモデルを用意します。
 
-例として、今回は[Vket Storeで入手したモデル](https://store.vket.com/ja/items/7530){target=_blank}と、モデルに使用しているシェーダーをUnlitシェーダーに変換して、書き出しを行います。
+例として、今回は[Vket Storeで入手したモデル](https://store.vket.com/items/7530){target=_blank}と、モデルに使用しているシェーダーをUnlitシェーダーに変換して、書き出しを行います。
 
-[【無料配布】カフェのソファとテーブルセット【VRChat】](https://store.vket.com/ja/items/7530){target=_blank}
+[【無料配布】カフェのソファとテーブルセット【VRChat】](https://store.vket.com/items/7530){target=_blank}
 
 ![PreparationUnity_1](img/PreparationUnity_1.jpg)
 
