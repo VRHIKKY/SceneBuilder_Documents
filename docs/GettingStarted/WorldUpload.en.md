@@ -10,9 +10,9 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 
 事前に下記の手順からワールドを登録してから、World Builderにアクセスしてください。
 
-1. [アカウント準備](GettingStarted/SetupAccount.md)
+1. [アカウント準備](SetupAccount.md)
 
-1. [ワールドの作成](GettingStarted/CreateWorld.md)
+1. [ワールドの作成](CreateWorld.md)
     
 
 ## ワールドアップロード

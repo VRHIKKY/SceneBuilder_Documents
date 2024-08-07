@@ -9,7 +9,7 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 !!! note "VketCloudSDKについて"
     このドキュメントは、ブラウザ上で自分のVket Cloudのワールドが開発できる"Scene Builder"についてのドキュメントとなっております。<br>
     Unity上でVket Cloudのワールドが作成できる"VketCloudSDK"についてのマニュアルは別サイトとなっておりますので、下のリンクからご確認ください：<br>
-    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}
+    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/index.html){target=blank}
 
 ## HeliScriptの使い方の例 (Hello Worldをコンソールに出力する)
 
