@@ -6,39 +6,39 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="SceneBuilderの公式マニュアルです!">
+        <meta name="description" content="World Builderの公式マニュアルです!">
       
       
         <meta name="author" content="HIKKY">
       
       
       
-        <link rel="prev" href="OperatingEnvironment.html">
+        <link rel="prev" href="PreparationUnity.html">
       
       
-        <link rel="next" href="SavingScenes.html">
+        <link rel="next" href="ExportingHEOUsingVketCloudSDK.html">
       
       
-      <link rel="icon" href="../images/VketCloudIcon.png">
+      <link rel="icon" href="../../images/VketCloudIcon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>SceneBuilderのセットアップ - SceneBuilder Manual</title>
+        <title>UnityでUniVRMを利用して、GLBを書き出す - World Builder Manual</title>
       
     
     
   
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
 
     
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../../css/styles.css">
 
     
       
@@ -48,14 +48,14 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,300i,400,400i,700,700i%7CInconsolata:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans JP";--md-code-font:"Inconsolata"}</style>
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -102,7 +102,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scenebuilder" class="md-skip">
+        <a href="#univrmglb" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -122,9 +122,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="ヘッダー">
-    <a href="../index.html" title="SceneBuilder Manual" class="md-header__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
+    <a href="../../index.html" title="World Builder Manual" class="md-header__button md-logo" aria-label="World Builder Manual" data-md-component="logo">
       
-  <img src="../images/VketCloudIcon.png" alt="logo">
+  <img src="../../images/VketCloudIcon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -135,13 +135,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            SceneBuilder Manual
+            World Builder Manual
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SceneBuilderのセットアップ
+              UnityでUniVRMを利用して、GLBを書き出す
             
           </span>
         </div>
@@ -188,13 +188,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../en/GettingStarted/SceneBuilderSetup.html" hreflang="en" class="md-select__link">
+            <a href="../../en/GettingStarted/Reformatting3DModels/ExportingGLBUsingUniVRM.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="SceneBuilderSetup.html" hreflang="ja" class="md-select__link">
+            <a href="ExportingGLBUsingUniVRM.html" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -270,12 +270,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="SceneBuilder Manual" class="md-nav__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
+    <a href="../../index.html" title="World Builder Manual" class="md-nav__button md-logo" aria-label="World Builder Manual" data-md-component="logo">
       
-  <img src="../images/VketCloudIcon.png" alt="logo">
+  <img src="../../images/VketCloudIcon.png" alt="logo">
 
     </a>
-    SceneBuilder Manual
+    World Builder Manual
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -287,7 +287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../index.html" class="md-nav__link">
+      <a href="../../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -307,7 +307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Glossary/Glossary.html" class="md-nav__link">
+      <a href="../../Glossary/Glossary.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -345,6 +345,8 @@
       
         
       
+        
+      
     
     
     
@@ -361,7 +363,7 @@
             
   
   <span class="md-ellipsis">
-    SceneBuilderの基本
+    World Builderの基本
   </span>
   
 
@@ -371,7 +373,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            SceneBuilderの基本
+            World Builderの基本
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -382,11 +384,209 @@
   
   
     <li class="md-nav__item">
-      <a href="OperatingEnvironment.html" class="md-nav__link">
+      <a href="../OperatingEnvironment.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     動作環境
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SetupAccount.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    アカウント準備
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CreateWorld.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ワールドの作成
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SavingEditingWorlds.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    編集中のワールドを保存する
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ImportItems.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    アイテムの読み込み・配置
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    3Dモデルの再フォーマット
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            3Dモデルの再フォーマット
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="WhatIsReformatting3DModels.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3Dモデルの再フォーマットとは
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ExportingGLBUsingBlender.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blenderを利用して、GLBを書き出す
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PreparationUnity.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unityを利用する場合の準備
   </span>
   
 
@@ -416,18 +616,18 @@
           
   
   <span class="md-ellipsis">
-    SceneBuilderのセットアップ
+    UnityでUniVRMを利用して、GLBを書き出す
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="SceneBuilderSetup.html" class="md-nav__link md-nav__link--active">
+      <a href="ExportingGLBUsingUniVRM.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    SceneBuilderのセットアップ
+    UnityでUniVRMを利用して、GLBを書き出す
   </span>
   
 
@@ -449,18 +649,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#scene-builderurl" class="md-nav__link">
+  <a href="#unigltf-univrm" class="md-nav__link">
     <span class="md-ellipsis">
-      Scene Builder(α)のURLにアクセスする
+      UniGLTF (UniVRMの導入)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#glb" class="md-nav__link">
     <span class="md-ellipsis">
-      プロジェクトを開く
+      モデルをglbで出力する
     </span>
   </a>
   
@@ -482,15 +682,23 @@
   
   
     <li class="md-nav__item">
-      <a href="SavingScenes.html" class="md-nav__link">
+      <a href="ExportingHEOUsingVketCloudSDK.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    シーンを保存する方法
+    UnityでVketCloudSDKを利用して、HEOを書き出す
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -503,49 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ReformattingAssets.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    アセットの再フォーマット
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ImportItems.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    アイテムの読み込み・配置
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="CreateGimmicks.html" class="md-nav__link">
+      <a href="../CreateGimmicks.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,7 +732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="WorldUpload.html" class="md-nav__link">
+      <a href="../WorldUpload.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -641,7 +807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ControlsProperties/WindowOverview.html" class="md-nav__link">
+      <a href="../../ControlsProperties/WindowOverview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -662,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ControlsProperties/Manipulator.html" class="md-nav__link">
+      <a href="../../ControlsProperties/Manipulator.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -683,7 +849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ControlsProperties/CameraControls.html" class="md-nav__link">
+      <a href="../../ControlsProperties/CameraControls.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -704,7 +870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ControlsProperties/ItemConfig.html" class="md-nav__link">
+      <a href="../../ControlsProperties/ItemConfig.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -775,7 +941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../CreationTips/LightRefProbe.html" class="md-nav__link">
+      <a href="../../CreationTips/LightRefProbe.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -796,7 +962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../CreationTips/HowToActivity.html" class="md-nav__link">
+      <a href="../../CreationTips/HowToActivity.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -873,7 +1039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/ActionsOverview.html" class="md-nav__link">
+      <a href="../../Actions/ActionsOverview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -941,7 +1107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/System/Openweb.html" class="md-nav__link">
+      <a href="../../Actions/System/Openweb.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -962,7 +1128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/System/Warp.html" class="md-nav__link">
+      <a href="../../Actions/System/Warp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -983,7 +1149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/System/WhiteOutIn.html" class="md-nav__link">
+      <a href="../../Actions/System/WhiteOutIn.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1004,7 +1170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/System/FadeOutIn.html" class="md-nav__link">
+      <a href="../../Actions/System/FadeOutIn.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1078,7 +1244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Node/ShowHideNode.html" class="md-nav__link">
+      <a href="../../Actions/Node/ShowHideNode.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1099,7 +1265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Node/EnableDisableClickableNode.html" class="md-nav__link">
+      <a href="../../Actions/Node/EnableDisableClickableNode.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1120,7 +1286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Node/EnableDisableCollider.html" class="md-nav__link">
+      <a href="../../Actions/Node/EnableDisableCollider.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1196,7 +1362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Item/PlayStopItem.html" class="md-nav__link">
+      <a href="../../Actions/Item/PlayStopItem.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1217,7 +1383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Item/ShowHideItem.html" class="md-nav__link">
+      <a href="../../Actions/Item/ShowHideItem.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1238,7 +1404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Item/SetPosRelativePlayer.html" class="md-nav__link">
+      <a href="../../Actions/Item/SetPosRelativePlayer.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1259,7 +1425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Item/MoveTo.html" class="md-nav__link">
+      <a href="../../Actions/Item/MoveTo.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1329,7 +1495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Actions/Programmatic/CallScript.html" class="md-nav__link">
+      <a href="../../Actions/Programmatic/CallScript.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1418,7 +1584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_overview.html" class="md-nav__link">
+      <a href="../../hs/hs_overview.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1486,7 +1652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_var.html" class="md-nav__link">
+      <a href="../../hs/hs_var.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1507,7 +1673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_string.html" class="md-nav__link">
+      <a href="../../hs/hs_string.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1528,7 +1694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_list.html" class="md-nav__link">
+      <a href="../../hs/hs_list.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1549,7 +1715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_delegate.html" class="md-nav__link">
+      <a href="../../hs/hs_delegate.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1578,7 +1744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_class.html" class="md-nav__link">
+      <a href="../../hs/hs_class.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1599,7 +1765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_component.html" class="md-nav__link">
+      <a href="../../hs/hs_component.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1669,7 +1835,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_struct_vector3.html" class="md-nav__link">
+      <a href="../../hs/hs_struct_vector3.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1690,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_struct_quaternion.html" class="md-nav__link">
+      <a href="../../hs/hs_struct_quaternion.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1711,7 +1877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_struct_matrix.html" class="md-nav__link">
+      <a href="../../hs/hs_struct_matrix.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1732,7 +1898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_class_item.html" class="md-nav__link">
+      <a href="../../hs/hs_class_item.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1753,7 +1919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_class_player.html" class="md-nav__link">
+      <a href="../../hs/hs_class_player.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1841,7 +2007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1862,7 +2028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_math.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_math.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1883,7 +2049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_net.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_net.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1904,7 +2070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_nameplate.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_nameplate.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1925,7 +2091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_gui.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_gui.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1946,7 +2112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_textchat.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_textchat.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1967,7 +2133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_chatgpt.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_chatgpt.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1988,7 +2154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_physics.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_physics.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2009,7 +2175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_camera.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_camera.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2030,7 +2196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_system_function_commondialog.html" class="md-nav__link">
+      <a href="../../hs/hs_system_function_commondialog.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2104,7 +2270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_statement_def.html" class="md-nav__link">
+      <a href="../../hs/hs_statement_def.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2125,7 +2291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_statement_control.html" class="md-nav__link">
+      <a href="../../hs/hs_statement_control.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2146,7 +2312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hs/hs_operator.html" class="md-nav__link">
+      <a href="../../hs/hs_operator.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2235,6 +2401,8 @@
       
         
       
+        
+      
     
     
     
@@ -2272,7 +2440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../releasenote/releasenote-0.1.html" class="md-nav__link">
+      <a href="../../releasenote/releasenote-0.1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2293,7 +2461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../releasenote/releasenote-0.2.html" class="md-nav__link">
+      <a href="../../releasenote/releasenote-0.2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2314,7 +2482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../releasenote/releasenote-0.3.html" class="md-nav__link">
+      <a href="../../releasenote/releasenote-0.3.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2335,7 +2503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../releasenote/releasenote-0.4.html" class="md-nav__link">
+      <a href="../../releasenote/releasenote-0.4.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2356,11 +2524,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../releasenote/releasenote-0.5.html" class="md-nav__link">
+      <a href="../../releasenote/releasenote-0.5.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     v0.5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../releasenote/releasenote-0.6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v0.6
   </span>
   
 
@@ -2412,18 +2601,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#scene-builderurl" class="md-nav__link">
+  <a href="#unigltf-univrm" class="md-nav__link">
     <span class="md-ellipsis">
-      Scene Builder(α)のURLにアクセスする
+      UniGLTF (UniVRMの導入)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#glb" class="md-nav__link">
     <span class="md-ellipsis">
-      プロジェクトを開く
+      モデルをglbで出力する
     </span>
   </a>
   
@@ -2444,17 +2633,25 @@
                   
 
 
-<h1 id="scenebuilder">SceneBuilderのセットアップ</h1>
-<h2 id="scene-builderurl">Scene Builder(α)のURLにアクセスする</h2>
-<p>以下のURLにアクセスします。</p>
-<p><a href="https://scenebuilder.vket.com/" target="_blank">https://scenebuilder.vket.com/</a></p>
-<h2 id="_1">プロジェクトを開く</h2>
-<p>Scene Builder(α)が開けたら、どのプロジェクトを開くか問われます。</p>
-<p><img alt="SceneBuilderSetup_1" src="img/SceneBuilderSetup_1.jpg" /></p>
-<p>プロジェクトを開くボタンを押すと、フォルダ選択ダイアログが開かれるので、任意の場所に新しいフォルダを作ります</p>
-<p><img alt="SceneBuilderSetup_2" src="img/SceneBuilderSetup_2.jpg" /></p>
-<p>アセットパネルのModelにプリセットのモデルが複数個表示されていれば成功です。</p>
-<p><img alt="SceneBuilderSetup_3" src="img/SceneBuilderSetup_3.jpg" /></p>
+<h1 id="univrmglb">UniVRMを使用してglbファイルを書き出す</h1>
+<p>UniVRMを使用したglbファイルへの変換では.fbx、.obj、.dae (<a href="https://www.khronos.org/collada/" target="_blank">Collada</a>)、そして.dxfファイルが<a href="https://docs.unity3d.com/ja/2022.3/Manual/3D-formats.html" target="_blank">使用できます</a>。</p>
+<h3 id="unigltf-univrm">UniGLTF (UniVRMの導入)</h3>
+<p>はじめに、glbファイルを出力するための環境を用意します。
+Blenderなどのモデリングソフトから直にglbファイルを出力することもできます。今回の場合は使用したいモデルがUnitypackageに格納されているため、マテリアルやサイズ調整の利便性を踏まえてUnityを使って作業します。</p>
+<p>glbファイルへの変換を行うにあたって、VRM Consortiumが配布している<a href="https://github.com/vrm-c/UniVRM/releases" target="_blank">UniVRMパッケージ</a>内の<a href="https://vrm.dev/gltf/index.html" target="_blank">UniGLTF</a>を使用します。
+VRMはglTF規格の拡張であるため、本ライブラリの導入によってUnityでのglbファイル出力が容易になります。</p>
+<p>本ページ公開時点では最新のUniVRMが対応するUnityバージョンが2021.3LTS以降のため、本ページでは2022.3.8f1を使用しました。
+UniVRMは<a href="https://github.com/vrm-c/UniVRM/releases/tag/v0.114.0" target="_blank">UnityPackageをダウンロードする</a>か、UPMでパッケージを指定して導入します。</p>
+<p><img alt="ExportingGLBUsingUniVRM_1" src="img/ExportingGLBUsingUniVRM_1.jpg" /></p>
+<p>ダウンロードが完了したら、UnityPackageをエディター内にドラッグ＆ドロップしてインストールします。</p>
+<p><img alt="ExportingGLBUsingUniVRM_2" src="img/ExportingGLBUsingUniVRM_2.jpg" /></p>
+<p>インストールが完了したら、モデルをglbに変換します。</p>
+<h3 id="glb">モデルをglbで出力する</h3>
+<p>UniGLTFタブからExport to GLBを選択し、ファイルの出力を実行します。</p>
+<p><img alt="ExportingGLBUsingUniVRM_3" src="img/ExportingGLBUsingUniVRM_3.jpg" /></p>
+<p><img alt="ExportingGLBUsingUniVRM_4" src="img/ExportingGLBUsingUniVRM_4.jpg" /></p>
+<p>モデルによりますが、Exporterの設定は特に変更せずに出力します。</p>
+<p>これで、glbファイルの書き出しは完了です。</p>
 
 
 
@@ -2484,7 +2681,7 @@
       <div class="md-footer-nav md-grid md-grid--no-gutter">
         <div class="md-footer-nav__section">
           
-            <img class="md-footer-logo" src="../images/HikkyLogo.png" alt="SceneBuilder Manual" />
+            <img class="md-footer-logo" src="../../images/HikkyLogo.png" alt="World Builder Manual" />
           
           <div class="md-footer-copyright">
             ©HIKKY Co.,Ltd. All rights reserved.
@@ -2500,10 +2697,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>

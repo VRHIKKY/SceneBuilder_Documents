@@ -1,44 +1,44 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="SceneBuilderの公式マニュアルです!">
+        <meta name="description" content="World Builderの公式マニュアルです!">
       
       
         <meta name="author" content="HIKKY">
       
       
       
-        <link rel="prev" href="SceneBuilderSetup.html">
+        <link rel="prev" href="CreateWorld.html">
       
       
-        <link rel="next" href="ReformattingAssets.html">
+        <link rel="next" href="ImportItems.html">
       
       
-      <link rel="icon" href="../../images/VketCloudIcon.png">
+      <link rel="icon" href="../images/VketCloudIcon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>Saving Scenes - SceneBuilder Manual</title>
+        <title>編集中のワールドを保存する - World Builder Manual</title>
       
     
     
   
-      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
 
     
-  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
 
     
       
@@ -48,14 +48,14 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,300i,400,400i,700,700i%7CInconsolata:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans JP";--md-code-font:"Inconsolata"}</style>
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -103,7 +103,7 @@
       
         
         <a href="#_1" class="md-skip">
-          Skip to content
+          コンテンツにスキップ
         </a>
       
     </div>
@@ -121,10 +121,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../index.html" title="SceneBuilder Manual" class="md-header__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../index.html" title="World Builder Manual" class="md-header__button md-logo" aria-label="World Builder Manual" data-md-component="logo">
       
-  <img src="../../images/VketCloudIcon.png" alt="logo">
+  <img src="../images/VketCloudIcon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -135,13 +135,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            SceneBuilder Manual
+            World Builder Manual
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Saving Scenes
+              編集中のワールドを保存する
             
           </span>
         </div>
@@ -181,20 +181,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="SavingScenes.html" hreflang="en" class="md-select__link">
+            <a href="../en/GettingStarted/SavingEditingWorlds.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../GettingStarted/SavingScenes.html" hreflang="ja" class="md-select__link">
+            <a href="SavingEditingWorlds.html" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -213,16 +213,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="検索">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -235,7 +235,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            検索を初期化
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -268,14 +268,14 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="SceneBuilder Manual" class="md-nav__button md-logo" aria-label="SceneBuilder Manual" data-md-component="logo">
+    <a href="../index.html" title="World Builder Manual" class="md-nav__button md-logo" aria-label="World Builder Manual" data-md-component="logo">
       
-  <img src="../../images/VketCloudIcon.png" alt="logo">
+  <img src="../images/VketCloudIcon.png" alt="logo">
 
     </a>
-    SceneBuilder Manual
+    World Builder Manual
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -291,7 +291,7 @@
         
   
   <span class="md-ellipsis">
-    Introduction
+    はじめに
   </span>
   
 
@@ -311,7 +311,7 @@
         
   
   <span class="md-ellipsis">
-    Glossary
+    単語集
   </span>
   
 
@@ -330,6 +330,8 @@
   
     
     
+      
+        
       
         
       
@@ -361,7 +363,7 @@
             
   
   <span class="md-ellipsis">
-    Getting Started
+    World Builderの基本
   </span>
   
 
@@ -371,7 +373,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            World Builderの基本
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -386,7 +388,7 @@
         
   
   <span class="md-ellipsis">
-    Operating Environment
+    動作環境
   </span>
   
 
@@ -403,11 +405,32 @@
   
   
     <li class="md-nav__item">
-      <a href="SceneBuilderSetup.html" class="md-nav__link">
+      <a href="SetupAccount.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    SceneBuilder Setup
+    アカウント準備
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CreateWorld.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ワールドの作成
   </span>
   
 
@@ -437,18 +460,18 @@
           
   
   <span class="md-ellipsis">
-    Saving Scenes
+    編集中のワールドを保存する
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="SavingScenes.html" class="md-nav__link md-nav__link--active">
+      <a href="SavingEditingWorlds.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Saving Scenes
+    編集中のワールドを保存する
   </span>
   
 
@@ -456,7 +479,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
   
@@ -465,34 +488,64 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目次
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#vketcloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      VketCloudのワールドのワールドに紐づける方法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VketCloudのワールドのワールドに紐づける方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#id" class="md-nav__link">
+    <span class="md-ellipsis">
+      ライセンスIDの登録を行う
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      シーンを保存する
+      ワールドを作成する
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="ワールドを作成する">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      プロジェクトを開く
+      編集中のワールドを保存する
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      シーンを開く
+      編集中のワールドを開く
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -512,11 +565,81 @@
   
   
     <li class="md-nav__item">
-      <a href="ReformattingAssets.html" class="md-nav__link">
+      <a href="ImportItems.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Reformatting Assets
+    アイテムの読み込み・配置
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    3Dモデルの再フォーマット
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            3Dモデルの再フォーマット
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Reformatting3DModels/WhatIsReformatting3DModels.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3Dモデルの再フォーマットとは
   </span>
   
 
@@ -533,15 +656,86 @@
   
   
     <li class="md-nav__item">
-      <a href="ImportItems.html" class="md-nav__link">
+      <a href="Reformatting3DModels/ExportingGLBUsingBlender.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    How to Import Items
+    Blenderを利用して、GLBを書き出す
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Reformatting3DModels/PreparationUnity.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unityを利用する場合の準備
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Reformatting3DModels/ExportingGLBUsingUniVRM.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UnityでUniVRMを利用して、GLBを書き出す
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Reformatting3DModels/ExportingHEOUsingVketCloudSDK.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UnityでVketCloudSDKを利用して、HEOを書き出す
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -558,7 +752,7 @@
         
   
   <span class="md-ellipsis">
-    How to Create Gimmicks
+    ギミックを作成する
   </span>
   
 
@@ -579,7 +773,7 @@
         
   
   <span class="md-ellipsis">
-    World Upload
+    ワールドをアップロードする
   </span>
   
 
@@ -629,7 +823,7 @@
             
   
   <span class="md-ellipsis">
-    Controls and Properties
+    各種操作・設定
   </span>
   
 
@@ -639,7 +833,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Controls and Properties
+            各種操作・設定
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -654,7 +848,7 @@
         
   
   <span class="md-ellipsis">
-    Builder Window Overview
+    各ウィンドウの機能
   </span>
   
 
@@ -675,7 +869,7 @@
         
   
   <span class="md-ellipsis">
-    Using the Manipulator
+    マニピュレーターの操作方法
   </span>
   
 
@@ -696,7 +890,7 @@
         
   
   <span class="md-ellipsis">
-    Camera Controls
+    カメラの操作方法
   </span>
   
 
@@ -717,7 +911,7 @@
         
   
   <span class="md-ellipsis">
-    Item Configuration
+    アイテムタイプごとのプロパティ
   </span>
   
 
@@ -763,7 +957,7 @@
             
   
   <span class="md-ellipsis">
-    Creation Tips
+    ワールド制作のためのTips
   </span>
   
 
@@ -773,7 +967,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Creation Tips
+            ワールド制作のためのTips
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -788,7 +982,7 @@
         
   
   <span class="md-ellipsis">
-    Light and RefProbe Baking
+    アセットのライトマップとRefProbeのベイクについて
   </span>
   
 
@@ -809,7 +1003,7 @@
         
   
   <span class="md-ellipsis">
-    How To Activity
+    アクティビティの使い方
   </span>
   
 
@@ -861,7 +1055,7 @@
             
   
   <span class="md-ellipsis">
-    Actions
+    アクション
   </span>
   
 
@@ -871,7 +1065,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Actions
+            アクション
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -886,7 +1080,7 @@
         
   
   <span class="md-ellipsis">
-    Actions Overview
+    アクションとは
   </span>
   
 
@@ -929,7 +1123,7 @@
             
   
   <span class="md-ellipsis">
-    System
+    システム
   </span>
   
 
@@ -939,7 +1133,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            System
+            システム
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1184,7 +1378,7 @@
             
   
   <span class="md-ellipsis">
-    Item
+    Itemクラス
   </span>
   
 
@@ -1194,7 +1388,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            Item
+            Itemクラス
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1431,7 +1625,7 @@
         
   
   <span class="md-ellipsis">
-    HeliScript - Overview
+    HeliScript概要
   </span>
   
 
@@ -1474,7 +1668,7 @@
             
   
   <span class="md-ellipsis">
-    Built-in Types
+    組み込み型
   </span>
   
 
@@ -1484,7 +1678,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
-            Built-in Types
+            組み込み型
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1499,7 +1693,7 @@
         
   
   <span class="md-ellipsis">
-    Basic Types
+    基本型
   </span>
   
 
@@ -1520,7 +1714,7 @@
         
   
   <span class="md-ellipsis">
-    String
+    文字列(String)
   </span>
   
 
@@ -1541,7 +1735,7 @@
         
   
   <span class="md-ellipsis">
-    List
+    配列(List)
   </span>
   
 
@@ -1562,7 +1756,7 @@
         
   
   <span class="md-ellipsis">
-    Delegate
+    デリゲート(Delegate)
   </span>
   
 
@@ -1591,7 +1785,7 @@
         
   
   <span class="md-ellipsis">
-    Class
+    クラス
   </span>
   
 
@@ -1612,7 +1806,7 @@
         
   
   <span class="md-ellipsis">
-    Components / Callback functions
+    コンポーネント / コールバック関数
   </span>
   
 
@@ -1657,7 +1851,7 @@
             
   
   <span class="md-ellipsis">
-    Built-in Classes And Functions
+    組み込みクラス・関数
   </span>
   
 
@@ -1667,7 +1861,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_5">
             <span class="md-nav__icon md-icon"></span>
-            Built-in Classes And Functions
+            組み込みクラス・関数
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1682,7 +1876,7 @@
         
   
   <span class="md-ellipsis">
-    Vector3
+    Vector3クラス
   </span>
   
 
@@ -1703,7 +1897,7 @@
         
   
   <span class="md-ellipsis">
-    Quaternion
+    Quaternionクラス
   </span>
   
 
@@ -1724,7 +1918,7 @@
         
   
   <span class="md-ellipsis">
-    Matrix
+    Matrixクラス
   </span>
   
 
@@ -1745,7 +1939,7 @@
         
   
   <span class="md-ellipsis">
-    Item
+    Itemクラス
   </span>
   
 
@@ -1766,7 +1960,7 @@
         
   
   <span class="md-ellipsis">
-    Player
+    Playerクラス
   </span>
   
 
@@ -1829,7 +2023,7 @@
             
   
   <span class="md-ellipsis">
-    Built-in Functions
+    組み込み関数
   </span>
   
 
@@ -1839,7 +2033,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_6">
             <span class="md-nav__icon md-icon"></span>
-            Built-in Functions
+            組み込み関数
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1854,7 +2048,7 @@
         
   
   <span class="md-ellipsis">
-    System
+    システム
   </span>
   
 
@@ -1875,7 +2069,7 @@
         
   
   <span class="md-ellipsis">
-    Math
+    数学
   </span>
   
 
@@ -1896,7 +2090,7 @@
         
   
   <span class="md-ellipsis">
-    Network
+    ネットワーク
   </span>
   
 
@@ -1917,7 +2111,7 @@
         
   
   <span class="md-ellipsis">
-    NamePlate
+    ネームプレート
   </span>
   
 
@@ -1959,7 +2153,7 @@
         
   
   <span class="md-ellipsis">
-    TextChat
+    テキストチャット
   </span>
   
 
@@ -2001,7 +2195,7 @@
         
   
   <span class="md-ellipsis">
-    Physics
+    物理演算
   </span>
   
 
@@ -2022,7 +2216,7 @@
         
   
   <span class="md-ellipsis">
-    Camera
+    カメラ
   </span>
   
 
@@ -2043,7 +2237,7 @@
         
   
   <span class="md-ellipsis">
-    Common Dialog
+    汎用ダイアログ
   </span>
   
 
@@ -2092,7 +2286,7 @@
             
   
   <span class="md-ellipsis">
-    Statements and flow control
+    文法・制御構文
   </span>
   
 
@@ -2102,7 +2296,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_7">
             <span class="md-nav__icon md-icon"></span>
-            Statements and flow control
+            文法・制御構文
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2117,7 +2311,7 @@
         
   
   <span class="md-ellipsis">
-    Declarations and definitions
+    定義・宣言
   </span>
   
 
@@ -2138,7 +2332,7 @@
         
   
   <span class="md-ellipsis">
-    Control Statement
+    制御構文
   </span>
   
 
@@ -2159,7 +2353,7 @@
         
   
   <span class="md-ellipsis">
-    Operator
+    演算子
   </span>
   
 
@@ -2211,7 +2405,7 @@
             
   
   <span class="md-ellipsis">
-    Release Note
+    リリースノート
   </span>
   
 
@@ -2221,7 +2415,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
-            Release Note
+            リリースノート
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2233,6 +2427,8 @@
   
     
     
+      
+        
       
         
       
@@ -2379,6 +2575,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releasenote/releasenote-0.6.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v0.6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2407,7 +2624,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
   
@@ -2416,34 +2633,64 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目次
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#vketcloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      VketCloudのワールドのワールドに紐づける方法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VketCloudのワールドのワールドに紐づける方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#id" class="md-nav__link">
+    <span class="md-ellipsis">
+      ライセンスIDの登録を行う
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      シーンを保存する
+      ワールドを作成する
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="ワールドを作成する">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      プロジェクトを開く
+      編集中のワールドを保存する
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      シーンを開く
+      編集中のワールドを開く
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2462,20 +2709,33 @@
                   
 
 
-<h1 id="_1">シーンを保存する方法</h1>
-<p>シーンを保存することで、シーンビルダーで作業した内容を保存することができます。保存したファイルを読み込むことで、作業を再開することができます。</p>
-<h2 id="_2">シーンを保存する</h2>
-<p>シーンパネルでシーンの編集を行なったのち、<strong>ファイル &gt; シーンを保存</strong>をクリックします。</p>
-<p><img alt="SavingScenes_1" src="../../GettingStarted/img/SavingScenes_1.jpg" /></p>
-<p>エクスプローラーが開き、シーンを保存することができるようになるので、自身のプロジェクト/project/sceneフォルダに移動し、任意の名前を入力して保存します。</p>
-<p><img alt="SavingScenes_2" src="../../GettingStarted/img/SavingScenes_2.jpg" /></p>
-<p>これで、現在のシーンの作業状況が保存されたため、Scene Builderのタブを閉じても作業を再開することができます。</p>
-<h2 id="_3">プロジェクトを開く</h2>
-<p>シーンビルダーを開きなおすと、再度どのプロジェクトを開くの確認ウィンドウが表示されるので、シーンを保存したプロジェクトを選択し、プロジェクトを開きます。</p>
-<p><img alt="SavingScenes_3" src="../../GettingStarted/img/SavingScenes_3.jpg" /></p>
-<h2 id="_4">シーンを開く</h2>
-<p><strong>ファイル &gt; シーンを開く</strong>から、前回保存したシーンまでのフォルダを開くと保存していたシーンを再開することができます。</p>
-<p><img alt="SavingScenes_4" src="../../GettingStarted/img/SavingScenes_4.jpg" /></p>
+<h1 id="_1">編集中のワールドを保存する方法</h1>
+<p>編集中のワールドを保存することで、World Builderで作業した内容を保存することができます。保存した編集中のワールドを読み込むことで、作業を再開することができます。
+World Builderでは、VketCloudのワールドに紐づけて、編集中のワールド保存する方法と、PCに編集中のワールドを保存する方法の二つが存在しますが、ここではVketCloudのワールドに紐づける方法を説明します。</p>
+<h2 id="vketcloud">VketCloudのワールドのワールドに紐づける方法</h2>
+<h3 id="id">ライセンスIDの登録を行う</h3>
+<p>編集中のワールドを、VketCloudのワールドに紐づけるには、Vketアカウントの作成と、VketCloudサイトでのライセンスIDの登録が必要です。</p>
+<p>まだVketAccountと、ライセンスIDをお持ちでない方は、以下の手順に従い、ライセンス登録を実施してください。</p>
+<p><a href="SetupAccount.html">アカウント準備</a></p>
+<h2 id="_2">ワールドを作成する</h2>
+<h3 id="_3">編集中のワールドを保存する</h3>
+<p>シーンパネルでシーンの編集を行なったのち、<strong>メニュー &gt; ワールドを保存</strong>をクリックします。</p>
+<p><img alt="SavingScenes_1" src="img/SavingScenes_1.jpg" /></p>
+<p>new scene projectをクリックします。</p>
+<p><img alt="SavingScenes_2" src="img/SavingScenes_2.jpg" /></p>
+<h3 id="_4">編集中のワールドを開く</h3>
+<p>一度ワールドを保存したら、次回以降、<a href="https://cloud.vket.com/">VketCloud公式サイト</a>からワールドビルダーに移動したときに、前回保存したワールドを開いて編集を続けることができます。</p>
+<p>ワールドビルダーで作成/更新を押下します。</p>
+<p><img alt="SavingScenes_3" src="img/SavingScenes_3.jpg" /></p>
+<p>プロジェクトを選択するモーダルが表示されるので、開きたい編集中のワールドで、利用しているプロジェクトを選択します。</p>
+<p><img alt="SavingScenes_5" src="img/SavingScenes_5.jpg" /></p>
+<div class="admonition warning">
+<p class="admonition-title">利用していないプロジェクトを選択した場合</p>
+<p>プリセットアセット以外のモデルや画像、HeliScriptを作成して利用していた場合、読み込むべきファイルが見つからずに編集ができなくなります。
+必ずプロジェクトは同じものを開くようにしてください。</p>
+</div>
+<p>しばらく待つと、前回保存した内容が、自動的に立ち上がります。</p>
+<p><img alt="SavingScenes_6" src="img/SavingScenes_6.jpg" /></p>
 
 
 
@@ -2505,7 +2765,7 @@
       <div class="md-footer-nav md-grid md-grid--no-gutter">
         <div class="md-footer-nav__section">
           
-            <img class="md-footer-logo" src="../../images/HikkyLogo.png" alt="SceneBuilder Manual" />
+            <img class="md-footer-logo" src="../images/HikkyLogo.png" alt="World Builder Manual" />
           
           <div class="md-footer-copyright">
             ©HIKKY Co.,Ltd. All rights reserved.
@@ -2521,10 +2781,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "header.autohide", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": {"default": "latest", "homepage": "https://www.hikky.co.jp/vketcloud", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
