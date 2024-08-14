@@ -1,6 +1,6 @@
-# Scene Builderの動作環境
+# World Builderの動作環境
 
-Scene Builder(α)の動作には、以下の環境が必要です。
+World Builderの動作には、以下の環境が必要です。
 
 ## OS
 
@@ -14,7 +14,7 @@ Scene Builder(α)の動作には、以下の環境が必要です。
 
 - Edge
 
-ならびに、Scene Builderでアップロードしたワールドに入室する端末スペックは以下を推奨します。
+ならびに、World Builderでアップロードしたワールドに入室する端末スペックは以下を推奨します。
 
 - PC: Chrome / Firefox / Safari / Edge等のWebブラウザが使用できるもの。
 

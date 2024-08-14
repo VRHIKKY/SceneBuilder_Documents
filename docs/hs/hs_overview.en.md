@@ -9,7 +9,7 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 !!! note "VketCloudSDKについて"
     このドキュメントは、ブラウザ上で自分のVket Cloudのワールドが開発できる"Scene Builder"についてのドキュメントとなっております。<br>
     Unity上でVket Cloudのワールドが作成できる"VketCloudSDK"についてのマニュアルは別サイトとなっておりますので、下のリンクからご確認ください：<br>
-    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}
+    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/index.html){target=blank}
 
 ## HeliScriptの使い方の例 (Hello Worldをコンソールに出力する)
 
@@ -78,7 +78,7 @@ PlayerのHeliScriptでの取り扱いは[Playerクラス](./hs_class_player.md)�
 ## Item
 
 Vket Cloud上でワールドを構成する際、Player以外の各要素はItemとして表現されます。  
-SceneBuilderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
+World Builderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
 
 ItemのHeliScriptでの取り扱いは[Itemクラス](./hs_class_item.md)をご参照ください。
 
