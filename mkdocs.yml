@@ -243,7 +243,7 @@ nav:
         - Control Statement: hs/hs_statement_control.md
         - Operator: hs/hs_operator.md
 - Release Note: #リリースノート
-  - SceneBuilder(α):
+  - α版:
     - v0.1: releasenote/releasenote-0.1.md
     - v0.2: releasenote/releasenote-0.2.md
     - v0.3: releasenote/releasenote-0.3.md
