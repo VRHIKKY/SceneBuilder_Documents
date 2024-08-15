@@ -50,7 +50,7 @@
 
 | 項目名 | 詳細 |
 |----|----|
-| マニュアル | SceneBuilder Manualを開きます。 |
+| マニュアル | World Builder Manualを開きます。 |
 
 ### ツールバー
 
