@@ -658,6 +658,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      シーンに書き出したいモデルを配置する
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#glb" class="md-nav__link">
     <span class="md-ellipsis">
       モデルをglbで出力する
@@ -2610,6 +2619,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      シーンに書き出したいモデルを配置する
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#glb" class="md-nav__link">
     <span class="md-ellipsis">
       モデルをglbで出力する
@@ -2646,11 +2664,22 @@ UniVRMは<a href="https://github.com/vrm-c/UniVRM/releases/tag/v0.114.0" target=
 <p>ダウンロードが完了したら、UnityPackageをエディター内にドラッグ＆ドロップしてインストールします。</p>
 <p><img alt="ExportingGLBUsingUniVRM_2" src="img/ExportingGLBUsingUniVRM_2.jpg" /></p>
 <p>インストールが完了したら、モデルをglbに変換します。</p>
-<h3 id="glb">モデルをglbで出力する</h3>
-<p>UniGLTFタブからExport to GLBを選択し、ファイルの出力を実行します。</p>
+<h3 id="_1">シーンに書き出したいモデルを配置する</h3>
+<p>GLBとして書き出したいモデルを設定するために、対象のモデルをシーン上に配置します。</p>
+<p>その際、書き出したいメッシュは、すべて選択しているオブジェクトの<strong>子オブジェクト</strong>として配置する必要があるため、空のオブジェクトを追加し、それを親オブジェクトとします</p>
 <p><img alt="ExportingGLBUsingUniVRM_3" src="img/ExportingGLBUsingUniVRM_3.jpg" /></p>
+<h3 id="glb">モデルをglbで出力する</h3>
+<p>UniGLTFタブからExport to GLBを選択します。</p>
 <p><img alt="ExportingGLBUsingUniVRM_4" src="img/ExportingGLBUsingUniVRM_4.jpg" /></p>
+<p>Gltf Exporterウィンドウが表示されるので、Meshタブにて、</p>
+<ul>
+<li>ExportRootとして、追加した親オブジェクト。</li>
+<li>リストとして、書き出したいメッシュ</li>
+</ul>
+<p>それぞれが表示されるようになっていれば成功です。</p>
+<p><img alt="ExportingGLBUsingUniVRM_5" src="img/ExportingGLBUsingUniVRM_5.jpg" /></p>
 <p>モデルによりますが、Exporterの設定は特に変更せずに出力します。</p>
+<p><img alt="ExportingGLBUsingUniVRM_6" src="img/ExportingGLBUsingUniVRM_6.jpg" /></p>
 <p>これで、glbファイルの書き出しは完了です。</p>
 
 
