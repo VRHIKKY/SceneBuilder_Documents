@@ -30,12 +30,16 @@ GLBとして書き出したいモデルを設定するために、対象のモ�
 
 ### モデルをglbで出力する
 
-UniGLTFタブからExport to GLBを選択し、ファイルの出力を実行します。
+UniGLTFタブからExport to GLBを選択します。
 
 ![ExportingGLBUsingUniVRM_4](img/ExportingGLBUsingUniVRM_4.jpg)
 
-ExportRootに追加した親オブジェクト。
-リストとして、書き出したいメッシュが表示されるようになっていれば成功です。
+Gltf Exporterウィンドウが表示されるので、Meshタブにて、
+
+* ExportRootとして、追加した親オブジェクト。
+* リストとして、書き出したいメッシュ
+
+それぞれが表示されるようになっていれば成功です。
 
 ![ExportingGLBUsingUniVRM_5](img/ExportingGLBUsingUniVRM_5.jpg)
 
