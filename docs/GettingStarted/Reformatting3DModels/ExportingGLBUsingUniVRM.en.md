@@ -21,14 +21,30 @@ UniVRMは[UnityPackageをダウンロードする](https://github.com/vrm-c/UniV
 
 インストールが完了したら、モデルをglbに変換します。
 
-### モデルをglbで出力する
+### シーンに書き出したいモデルを配置する
+GLBとして書き出したいモデルを設定するために、対象のモデルをシーン上に配置します。
 
-UniGLTFタブからExport to GLBを選択し、ファイルの出力を実行します。
+その際、書き出したいメッシュは、すべて選択しているオブジェクトの**子オブジェクト**として配置する必要があるため、空のオブジェクトを追加し、それを親オブジェクトとします
 
 ![ExportingGLBUsingUniVRM_3](img/ExportingGLBUsingUniVRM_3.jpg)
 
+### モデルをglbで出力する
+
+UniGLTFタブからExport to GLBを選択します。
+
 ![ExportingGLBUsingUniVRM_4](img/ExportingGLBUsingUniVRM_4.jpg)
 
+Gltf Exporterウィンドウが表示されるので、Meshタブにて、
+
+* ExportRootとして、追加した親オブジェクト。
+* リストとして、書き出したいメッシュ
+
+それぞれが表示されるようになっていれば成功です。
+
+![ExportingGLBUsingUniVRM_5](img/ExportingGLBUsingUniVRM_5.jpg)
+
 モデルによりますが、Exporterの設定は特に変更せずに出力します。
+
+![ExportingGLBUsingUniVRM_6](img/ExportingGLBUsingUniVRM_6.jpg)
 
 これで、glbファイルの書き出しは完了です。
