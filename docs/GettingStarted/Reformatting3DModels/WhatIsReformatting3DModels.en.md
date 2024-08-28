@@ -12,6 +12,11 @@ World Builderでは、自分自身で用意した3Dモデルを利用するこ�
 
 glTFには、glbフォーマットと、gltfフォーマットの二つがありますが、World Builderで使用できるのは、glbフォーマットのみです。
 
+!!! warning "8mb以上のglbは読み込めません"
+    α版 v0.6時点にて、8mb以上のglbファイルをワールドに配置しようとすると、ワールドビルダーがフリーズします。
+    
+    お手数ですが、blenderなどでモデルの軽量化や、画像編集ソフトでのテクスチャの軽量化を行ってください。
+
 ### heoフォーマット
 **heo**は、World Builderを動かしているVket Cloudという開発エンジンに適した3Dモデルのファイルフォーマットです。
 
@@ -24,16 +29,16 @@ glbフォーマットでは、細かい当たり判定の調整や、UVスクロ
 
 ### Blender
 #### glbフォーマット
-[Blenderを利用して、GLBを書き出す](GettingStarted/Reformatting3DModels/ExportingGLBUsingBlender.md)
+[Blenderを利用して、GLBを書き出す](ExportingGLBUsingBlender.md)
 
 ### Unity
 Unityでの事前準備として、以下の記事を参考に3Dモデルの準備を行ってください。
 
-[Unityを利用する場合の準備](GettingStarted\Reformatting3DModels\PreparationUnity.md)
+[Unityを利用する場合の準備](PreparationUnity.md)
 
 #### glbフォーマット
-[UnityでUniVRMを利用して、GLBを書き出す](GettingStarted\Reformatting3DModels\ExportingGLBUsingUniVRM.md)
+[UnityでUniVRMを利用して、GLBを書き出す](ExportingGLBUsingUniVRM.md)
 
 #### heoフォーマット
-[UnityでVketCloudSDKを利用して、HEOを書き出す](GettingStarted\Reformatting3DModels\ExportingHEOUsingVketCloudSDK.md)
+[UnityでVketCloudSDKを利用して、HEOを書き出す](ExportingHEOUsingVketCloudSDK.md)
 
