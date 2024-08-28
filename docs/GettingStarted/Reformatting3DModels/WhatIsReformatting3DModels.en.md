@@ -29,16 +29,16 @@ glbフォーマットでは、細かい当たり判定の調整や、UVスクロ
 
 ### Blender
 #### glbフォーマット
-[Blenderを利用して、GLBを書き出す](GettingStarted/Reformatting3DModels/ExportingGLBUsingBlender.md)
+[Blenderを利用して、GLBを書き出す](ExportingGLBUsingBlender.md)
 
 ### Unity
 Unityでの事前準備として、以下の記事を参考に3Dモデルの準備を行ってください。
 
-[Unityを利用する場合の準備](GettingStarted\Reformatting3DModels\PreparationUnity.md)
+[Unityを利用する場合の準備](PreparationUnity.md)
 
 #### glbフォーマット
-[UnityでUniVRMを利用して、GLBを書き出す](GettingStarted\Reformatting3DModels\ExportingGLBUsingUniVRM.md)
+[UnityでUniVRMを利用して、GLBを書き出す](ExportingGLBUsingUniVRM.md)
 
 #### heoフォーマット
-[UnityでVketCloudSDKを利用して、HEOを書き出す](GettingStarted\Reformatting3DModels\ExportingHEOUsingVketCloudSDK.md)
+[UnityでVketCloudSDKを利用して、HEOを書き出す](ExportingHEOUsingVketCloudSDK.md)
 
