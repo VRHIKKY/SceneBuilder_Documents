@@ -13,7 +13,7 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 
 ## HeliScriptの使い方の例 (Hello Worldをコンソールに出力する)
 
-### 1\. アセットにHeliScriptファイルを追加する
+### 1. アセットにHeliScriptファイルを追加する
 
 ![hs_overview_1](img/hs_overview_1.jpg)
 
@@ -22,7 +22,7 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 
 ![hs_overview_2](img/hs_overview_2.jpg)
 
-### 2\. スクリプトをシーンに追加する
+### 2. スクリプトをシーンに追加する
 
 HeliScriptファイルを追加したら、次はシーンにHeliScriptの設定を行います。 HeliScriptは
 
@@ -34,7 +34,7 @@ HeliScriptファイルを追加したら、次はシーンにHeliScriptの設定
 
 ![hs_overview_3](img/hs_overview_3.jpg)
 
-### 4\. HeliScriptを書く
+### 3. HeliScriptを書く
 
 いよいよHeliScript本体を書いていきます。  
 HelloWorld.hsの実装として以下に例を示します。
@@ -56,7 +56,7 @@ component HelloWorld {
 }
 ```
 
-### 5\. 再生してテストする
+### 4. 再生してテストする
 
 コードの実装を完了した上で、メニュー左上から再生ボタンを押下しシーンを再生します。
 
