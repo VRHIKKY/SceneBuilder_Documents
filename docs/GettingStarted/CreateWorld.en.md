@@ -35,14 +35,6 @@ World Builderでワールドアップロード機能や、サーバー上へ編�
 
 ![CreateWorld_4](img/CreateWorld_4.jpg)
 
-World Builderが開けたら、どのプロジェクトを開くか問われます。
+World Builderで、ワールドの編集ができるようになります。
 
 ![CreateWorld_5](img/CreateWorld_5.jpg)
-
-プロジェクトを開くボタンを押すと、フォルダ選択ダイアログが開かれるので、任意の場所に新しいフォルダを作ります
-
-![CreateWorld_2](img/CreateWorld_6.jpg)
-
-モーダルの表示が消え、操作ができるようになったら成功です。
-
-![CreateWorld_3](img/CreateWorld_7.jpg)
