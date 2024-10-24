@@ -1,8 +1,6 @@
 # Show/HideNode
 
-![ShowNode](img/ShowNode.jpg)
-
-![HideNode](img/HideNode.jpg)
+![ShowHideNode](img/ShowHideNode.jpg)
 
 ノード表示やノード非表示は、アイテムを構成するノードのメッシュの表示・非表示をコントロールすることができます。
 

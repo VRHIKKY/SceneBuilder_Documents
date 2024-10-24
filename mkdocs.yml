@@ -104,13 +104,56 @@ plugins:
             Creation Tips: ワールド制作のためのTips
             How To Activity: アクティビティの使い方
             Light and RefProbe Baking: アセットのライトマップとRefProbeのベイクについて
-            #アクション
-            Actions: アクション
-            Actions Overview: アクションとは
-            System: システム
-            Item: Itemクラス
-            TextChat: テキストチャット
-            Physics: 物理演算
+            # アクション
+            Actions: アクションについて
+            Actions Overview: アクションの概要
+            Basics: 基本
+            Random: ランダム
+            Wait: 待機
+            Operation: 演算
+            Add Var: 値の追加
+            If Variable Equal To Value: 変数が値に等しい場合
+            If Variable Less Than Value: 変数が値より小さい場合
+            If Variable More Than Value: 変数が値より大きい場合
+            If Variable Not Equal To Value: 変数が値に等しくない場合
+            Set Var: 変数の設定
+            Action Item: アイテム
+            Show/Hide Item: アイテム表示/非表示
+            Play/Stop Item: アイテム再生/停止
+            Node: ノード
+            Show/Hide Node: ノード表示/非表示
+            Enable/Disable Clickable Node: クリック可能ノード有効化/無効化
+            Enable/Disable Collider: コライダー有効化/無効化
+            # Object: オブジェクト
+            # Show/Hide Object: オブジェクト表示/非表示
+            # Play/Stop Object: オブジェクト再生/停止
+            Fade: フェード
+            Fade Out/In: フェードアウト/イン
+            White Out/In: ホワイトアウト/イン
+            Transform: トランスフォーム
+            Move To: 移動
+            Set Pos Relative Player: プレイヤー相対位置に設定
+            Warp: ワープ
+            Motion/Emotion: モーション/エモーション
+            Emote: エモート
+            Motion: モーション
+            Next Motion: 次のモーション
+            HeliScript: HeliScript
+            Call Script: HeliScriptを呼び出す
+            # Physics: 物理
+            # Add Velocity: 速度を追加
+            # Add/Clear Force: 力を追加/削除
+            # Set Physics Enable: 物理有効化/無効化
+            # Set Position/Rotation: 位置/回転を設定
+            # Window State: ウィンドウ状態
+            # Voice Chat: ボイスチャット
+            # Enter/Leave Voice Group: 音声グループに参加/退出
+            Web: ウェブ
+            Open Links in New Tab: 新しいタブでWEBページを開く
+            # Open Links in Current Tab: 現在のタブでWEBページを開く
+            # Others: その他
+            # Set Cookie Text: クッキーテキストの設定
+            # Stop Video: ビデオ停止
             #HeliScript
             HeliScript - Overview: HeliScript概要
             Statements and flow control: 文法・制御構文
@@ -171,47 +214,55 @@ nav:
 - Creation Tips: #Tips
   - Light and RefProbe Baking: CreationTips/LightRefProbe.md
   - How To Activity: CreationTips/HowToActivity.md
-- Actions: #アクション
-#α段階でSDK本体にあってSceneBuilderにないアクションは除外
+- Actions: 
+    #- ActionNodeGraph: Actions/ActionNodeGraph.md #整備のために一旦取り下げ
     - Actions Overview: Actions/ActionsOverview.md
-    - System:
-      - Webを開く: Actions/System/Openweb.md
-    #  - StopVideo: Actions/System/StopVideo.md
-    #   - Wait: Actions/System/Wait.md
-      - ワープ: Actions/System/Warp.md
-    #  - Enter/LeaveVoiceGroup: Actions/System/EnterLeaveVoiceGroup.md
-      - ホワイトアウト/イン: Actions/System/WhiteOutIn.md
-      - フェードアウト/イン: Actions/System/FadeOutIn.md
+    - Basics:
+      - Random: Actions/Basics/Random.md
+      - Wait: Actions/Basics/Wait.md
+    - Operation:
+      - Add Var: Actions/Operation/AddVar.md
+      - If Variable Equal To Value: Actions/Operation/IfEqual.md
+      - If Variable Less Than Value: Actions/Operation/IfLessThan.md
+      - If Variable More Than Value: Actions/Operation/IfMoreThan.md
+      - If Variable Not Equal To Value: Actions/Operation/IfNotEqual.md
+      - Set Var: Actions/Operation/SetVar.md
+    - Action Item:
+      - Show/Hide Item: Actions/Item/ShowHideItem.md
+      - Play/Stop Item: Actions/Item/PlayStopItem.md
     - Node:
-      - ノード表示/非表示: Actions/Node/ShowHideNode.md
-      - クリック可能ノード有効化/無効化: Actions/Node/EnableDisableClickableNode.md
-      - コライダー有効化/無効化: Actions/Node/EnableDisableCollider.md
-    - Item:
-      - アイテム再生/停止: Actions/Item/PlayStopItem.md
-      - アイテム表示/非表示: Actions/Item/ShowHideItem.md
-      - プレイヤー相対位置にセット: Actions/Item/SetPosRelativePlayer.md
-      - 移動: Actions/Item/MoveTo.md
-   #  - Avatar:
-   #   - Play/StopObject: Actions/Avatar/PlayStopObject.md
-   #   - Show/HideObject: Actions/Avatar/ShowHideObject.md
-   #   - Emote: Actions/Avatar/Emote.md
-   #   - Motion: Actions/Avatar/Motion.md
-   #   - NextMotion: Actions/Avatar//NextMotion.md
-   # - Physics:
-   # - AddVelocity: Actions/Physics/PhysicsAddVelocity.md
-   # - Add / ClearForce: Actions/Physics/PhysicsClearAddForce.md
-   # - SetPhysicsEnable: Actions/Physics/PhysicsSetEnable.md
-   # - SetPosition / Rotation: Actions/Physics/PhysicsSetPosRot.md
-    - Programmatic:
-   #   - AddVar: Actions/Programmatic/AddVar.md
-   #   - SetVar: Actions/Programmatic/SetVar.md
-   #   - If A == B: Actions/Programmatic/IfEqual.md
-   #   - If A != B: Actions/Programmatic/IfNotEqual.md
-   #   - If A >= B: Actions/Programmatic/IfGreaterThanOrEqual.md
-   #   - If A <= B: Actions/Programmatic/IfLessThanOrEqual.md
-   #   - Random: Actions/Programmatic/Random.md
-   #   - SetCookieText: Actions/Programmatic/SetCookieText.md
-      - Heliscriptを呼び出す: Actions/Programmatic/CallScript.md
+      - Show/Hide Node: Actions/Node/ShowHideNode.md
+      - Enable/Disable Clickable Node: Actions/Node/EnableDisableClickableNode.md
+      - Enable/Disable Collider: Actions/Node/EnableDisableCollider.md
+    # - Object:
+      # - Show/Hide Object: Actions/Object/ShowHideObject.md
+      # - Play/Stop Object: Actions/Object/PlayStopObject.md
+    - Fade:
+      - Fade Out/In: Actions/Fade/FadeOutIn.md
+      - White Out/In: Actions/Fade/WhiteOutIn.md
+    - Transform:
+      - Move To: Actions/Transform/MoveTo.md
+      - Set Pos Relative Player: Actions/Transform/SetPosRelativePlayer.md
+      - Warp: Actions/Transform/Warp.md
+    - Motion/Emotion:
+      - Emote: Actions/Motion/Emote.md
+      - Motion: Actions/Motion/Motion.md
+      - Next Motion: Actions/Motion//NextMotion.md
+    - HeliScript:
+      - Call Script: Actions/HeliScript/CallScript.md
+    # - Physics:
+      # - Add Velocity: Actions/PhysicsEngine/PhysicsAddVelocity.md
+      # - Add/Clear Force: Actions/PhysicsEngine/PhysicsClearAddForce.md
+      # - Set Physics Enable: Actions/PhysicsEngine/PhysicsSetEnable.md
+      # - Set Position/Rotation: Actions/PhysicsEngine/PhysicsSetPosRot.md
+    # - Voice Chat:
+      # - Enter/Leave Voice Group: Actions/VoiceChat/EnterLeaveVoiceGroup.md
+    - Web:
+      # - Open Links in New Tab: Actions/Web/Openweb.md
+      - Open Links in New Tab: Actions/Web/Openweb.md
+    # - Others:
+      # - Set Cookie Text: Actions/Others/SetCookieText.md
+      # - Stop Video: Actions/Others/StopVideo.md
 - HeliScript: #HeliScript
     - HeliScript - Overview: hs/hs_overview.md
     - Built-in Types:
