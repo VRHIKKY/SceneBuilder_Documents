@@ -96,10 +96,11 @@ plugins:
             World Upload: ワールドをアップロードする
             #操作解説
             Controls and Properties: 各種操作・設定
-            Builder Window Overview: 各ウィンドウの機能
+            Builder Window Overview: メイン画面の機能
             Using the Manipulator: マニピュレーターの操作方法
             Camera Controls: カメラの操作方法
             Item Configuration: アイテムタイプごとのプロパティ
+            Item Panel Controls: アイテムパネルの操作方法
             #Tips
             Creation Tips: ワールド制作のためのTips
             How To Activity: アクティビティの使い方
@@ -211,6 +212,7 @@ nav:
   - Using the Manipulator: ControlsProperties/Manipulator.md
   - Camera Controls: ControlsProperties/CameraControls.md
   - Item Configuration: ControlsProperties/ItemConfig.md
+  - Item Panel Controls: ControlsProperties/ItemPanelControls.md
 - Creation Tips: #Tips
   - Light and RefProbe Baking: CreationTips/LightRefProbe.md
   - How To Activity: CreationTips/HowToActivity.md
