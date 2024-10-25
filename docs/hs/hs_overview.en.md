@@ -7,13 +7,13 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 また、ここでは以下にてHello Worldを出力する方法を通じて、基本的な実装の例を示します。
 
 !!! note "VketCloudSDKについて"
-    このドキュメントは、ブラウザ上で自分のVket Cloudのワールドが開発できる"Scene Builder"についてのドキュメントとなっております。<br>
+    このドキュメントは、ブラウザ上で自分のVket Cloudのワールドが開発できる"World Builder"についてのドキュメントとなっております。<br>
     Unity上でVket Cloudのワールドが作成できる"VketCloudSDK"についてのマニュアルは別サイトとなっておりますので、下のリンクからご確認ください：<br>
-    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/ja/index.html){target=blank}
+    [VketCloudSDKマニュアル](https://vrhikky.github.io/VketCloudSDK_Documents/latest/index.html){target=blank}
 
 ## HeliScriptの使い方の例 (Hello Worldをコンソールに出力する)
 
-### 1\. アセットにHeliScriptファイルを追加する
+### 1. アセットにHeliScriptファイルを追加する
 
 ![hs_overview_1](img/hs_overview_1.jpg)
 
@@ -22,7 +22,7 @@ HeliScriptの文法については[基本系](./hs_var.md)から順番に読む�
 
 ![hs_overview_2](img/hs_overview_2.jpg)
 
-### 2\. スクリプトをシーンに追加する
+### 2. スクリプトをシーンに追加する
 
 HeliScriptファイルを追加したら、次はシーンにHeliScriptの設定を行います。 HeliScriptは
 
@@ -34,7 +34,7 @@ HeliScriptファイルを追加したら、次はシーンにHeliScriptの設定
 
 ![hs_overview_3](img/hs_overview_3.jpg)
 
-### 4\. HeliScriptを書く
+### 3. HeliScriptを書く
 
 いよいよHeliScript本体を書いていきます。  
 HelloWorld.hsの実装として以下に例を示します。
@@ -56,7 +56,7 @@ component HelloWorld {
 }
 ```
 
-### 5\. 再生してテストする
+### 4. 再生してテストする
 
 コードの実装を完了した上で、メニュー左上から再生ボタンを押下しシーンを再生します。
 
@@ -78,7 +78,7 @@ PlayerのHeliScriptでの取り扱いは[Playerクラス](./hs_class_player.md)�
 ## Item
 
 Vket Cloud上でワールドを構成する際、Player以外の各要素はItemとして表現されます。  
-SceneBuilderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
+World Builderでは設置アイテム一覧にて配置されたキューブ、Field、コライダーなどのアイテムがこれにあたります。
 
 ItemのHeliScriptでの取り扱いは[Itemクラス](./hs_class_item.md)をご参照ください。
 

@@ -1,60 +1,65 @@
 # ワールドをアップロードする
 
-シーンビルダーではVket Accountに紐づいてワールドを一つアップロードすることが可能です。
+World Builderでワールドを作成したら、[My Vket](https://vket.com/play/world)にワールドを公開することができます。
 
 アップロードしたワールドは、URLを共有することで別の人とワールドを見て回ることが可能です。
 
-## Vket Accountにログインする
+## ワールドをアップロードする前に
 
-**ファイル > ログイン** からVket Accountにログインを行います。
-!!! info "ログインについて"
-    ワールドをアップロードする際は、必ずVketAccountへのログインが必須です。ログインをしていない状態だとシーンをアップロードというボタンが非アクティブになっています。
+Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）でVketAccountを登録する必要があります。
 
-![WorldUpload_1](img/WorldUpload_1.jpg)
+事前に下記の手順からVketAccountを作成してください。
 
-Vket Accountへのログインは、[https://account.vket.com/](https://account.vket.com) で行われるため、Scene Builderのサイトから一度離れる必要があります。
+1. [アカウント準備](SetupAccount.md)    
 
-保存していないシーンがある場合は、その編集が破棄されてしまいますので、同じファイルメニューからシーンの保存を行ってください。
+## ワールドアップロード
 
-![WorldUpload_2](img/WorldUpload_2.jpg)
+ワールドのアップロードを行うには、**アップロード** ボタンを押します。
 
-## ワールドシーンをアップロードする
+![UploadButton](img/UploadButton.jpg)
 
-Vket Accountへのログインを行い、Scene Builderサイトを開くと、プロジェクトとシーンを再度開きなおす必要があります。
+アップロード先のワールドが問題ないか確認するモーダルが表示されるので、問題なければOKボタンを押します
 
-Vket Accountへのログインが正常に行われると、ファイル > ログインと表示されていた箇所が、ファイル > ログアウト と表示され、非アクティブになっていた、シーンのアップロードと、自分のワールドを開くが選択できるようになります。
+![WorldUploadDialogu](img/WorldUploadDialogu.jpg)
 
-![WorldUpload_3](img/WorldUpload_3.jpg)
+この時、ワールドの設定で、新規ワールドを選ぶと、既存のワールドではなく、新しいワールドとして、保存することができます
 
-シーンのアップロードを行うには、**ファイル > シーンをアップロード** ボタンを押します。
+![WorldUploadProcess](img/WorldUploadProcess.jpg)
 
-「パッケージを出力しています」といったモーダルが出現します。このアップロード作業は、数分～数十分かかる可能性がございます。
+「ワールドをアップロードしています...」といったモーダルが出現します。このアップロード作業は、数分～数十分かかる可能性がございます。
 
-この間、Scene Builderのタブを
+この間、World Builderのタブを
 
 - 閉じる
 
 - 最小化する
 
-- 他のウインドウを最大化して、Scene Builderのタブを完全に隠す
+- 他のウインドウを最大化して、World Builderのタブを完全に隠す
 
 といった操作を行わないようにしてください。アップロードが途中で中断、もしくは、アップロード機能が正常に進まない可能性がございます。
 
-![WorldUpload_4](img/WorldUpload_4.jpg)
+![WorldUploadProcess](img/WorldUploadProcess.jpg)
 
 ## ワールドを開く
 
-パッケージを出力しています　といったモーダルが閉じられると、Scene Builderでのワールドアップロード作業が終了しています。
+ワールドのアップロードが完了すると、完了モーダルが表示されいます。
 
-**ファイル > 自分のワールドを開く** から、アップロードされたワールドに遷移を行うことが可能です。
+![WorldUploadComplete](img/WorldUploadComplete.jpg)
+
+ワールド公開設定ページに遷移すると、ワールドの詳細設定を行うことができます。
+
+![WorldDetail](img/WorldDetail.jpg)
+
+!!! ワールド公開設定について
+    詳細にあるワールド公開設定を有効にすると、他のユーザーが、アップロードしたワールドをカスタマイズして使うことができるようになります。
+    カスタマイズを許可したくない場合は、この設定をオフにしてください。
+    ![WorldDetailRedistributable](img/WorldDetailRedistributable.jpg)
+
+保存ボタンを押すことで、ワールドの設定を保存することができます。ワールドプレビューページで、アップロードを行ったワールドのワールドの確認や、SNSでのシェアが行えます。
+
+![WorldPreview](img/WorldPreview.jpg)
 
 !!! warning "アップロードにかかる時間について"
-    Scene Builderでのワールドアップロード作業が終わったのち、サーバーへのアップロードに数分～数十分かかる可能性がございます。
-
-    サーバーへのアップロードが終了していない場合、
-
-    `This XML file does not appear to have any style information associated with it. The document tree is shown below.`
-
-    といったメッセージが黒い背景の画面に表示されます。
+    World Builderでのワールドアップロード作業が終わったのち、ワールドプレビューボタンが有効になるまで数分～数十分かかる可能性がございます。
 
     こちらは正常な動作となっておりますので、お手数おかけいたしますがワールドのアップロードが終了するまで、お待ちいただけますと幸いです。
