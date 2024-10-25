@@ -6,24 +6,25 @@ World Builderでワールドを作成したら、[My Vket](https://vket.com/play
 
 ## ワールドをアップロードする前に
 
-Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）でワールドを登録する必要があります。
+Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）でVketAccountを登録する必要があります。
 
-事前に下記の手順からワールドを登録してから、World Builderにアクセスしてください。
+事前に下記の手順からVketAccountを作成してください。
 
-1. [アカウント準備](SetupAccount.md)
-
-1. [ワールドの作成](CreateWorld.md)
-    
+1. [アカウント準備](SetupAccount.md)    
 
 ## ワールドアップロード
 
-シーンのアップロードを行うには、**ワールドをアップロード** ボタンを押します。
+ワールドのアップロードを行うには、**アップロード** ボタンを押します。
 
-![WorldUpload_1](img/WorldUpload_1.jpg)
+![UploadButton](img/UploadButton.jpg)
 
 アップロード先のワールドが問題ないか確認するモーダルが表示されるので、問題なければOKボタンを押します
 
-![WorldUpload_2](img/WorldUpload_2.jpg)
+![WorldUploadDialogu](img/WorldUploadDialogu.jpg)
+
+この時、ワールドの設定で、新規ワールドを選ぶと、既存のワールドではなく、新しいワールドとして、保存することができます
+
+![WorldUploadProcess](img/WorldUploadProcess.jpg)
 
 「ワールドをアップロードしています...」といったモーダルが出現します。このアップロード作業は、数分～数十分かかる可能性がございます。
 
@@ -37,15 +38,26 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 
 といった操作を行わないようにしてください。アップロードが途中で中断、もしくは、アップロード機能が正常に進まない可能性がございます。
 
-![WorldUpload_3](img/WorldUpload_3.jpg)
+![WorldUploadProcess](img/WorldUploadProcess.jpg)
 
 ## ワールドを開く
 
-「ワールドをアップロードしています...」といったモーダルが閉じられると、World Builderでのワールドアップロード作業が終了しています。
+ワールドのアップロードが完了すると、完了モーダルが表示されいます。
 
-[VketCloud公式サイトのワールド管理ページ](https://cloud.vket.com/account/world)にて、アップロードを行ったワールドのワールドプレビューボタンを押すと、アップロードされたワールドを確認することができるようになります。
+![WorldUploadComplete](img/WorldUploadComplete.jpg)
 
-![WorldUpload_4](img/WorldUpload_4.jpg)
+ワールド公開設定ページに遷移すると、ワールドの詳細設定を行うことができます。
+
+![WorldDetail](img/WorldDetail.jpg)
+
+!!! ワールド公開設定について
+    詳細にあるワールド公開設定を有効にすると、他のユーザーが、アップロードしたワールドをカスタマイズして使うことができるようになります。
+    カスタマイズを許可したくない場合は、この設定をオフにしてください。
+    ![WorldDetailRedistributable](img/WorldDetailRedistributable.jpg)
+
+保存ボタンを押すことで、ワールドの設定を保存することができます。ワールドプレビューページで、アップロードを行ったワールドのワールドの確認や、SNSでのシェアが行えます。
+
+![WorldPreview](img/WorldPreview.jpg)
 
 !!! warning "アップロードにかかる時間について"
     World Builderでのワールドアップロード作業が終わったのち、ワールドプレビューボタンが有効になるまで数分～数十分かかる可能性がございます。
