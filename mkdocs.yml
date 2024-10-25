@@ -56,7 +56,6 @@ use_directory_urls: false
 plugins:
   - search:
       lang: 
-        - en
         - ja
   - mike:
       version_selector: true
@@ -66,9 +65,6 @@ plugins:
   - i18n:
       docs_structure: suffix
       languages:
-        - locale: en
-          name: English
-          build: true
         - locale: ja
           name: 日本語
           build: true
