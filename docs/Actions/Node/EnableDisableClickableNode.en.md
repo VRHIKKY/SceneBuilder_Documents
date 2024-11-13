@@ -1,5 +1,9 @@
 # Enable/DisableClickableNode
 
+!!! warning クリック可能ノード有効化/無効化について
+    現バージョンでは、World Builder上でこのアクションを実行することができません。
+    ワールドをアップロードすることで、アクションを実行することができます。
+
 ![EnableDisableClickableNode](img/EnableDisableClickableNode.jpg)
 
 このアクションは、アイテムを構成するノードがクリックできるかどうかを切り替えます。
