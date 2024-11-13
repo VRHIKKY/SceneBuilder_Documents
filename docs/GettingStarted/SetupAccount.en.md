@@ -6,17 +6,17 @@ World Builderでワールドアップロード機能や、サーバー上へ編�
 
 まだVketAccountと、ライセンスIDをお持ちでない方は、以下の手順に従い、ライセンス登録を実施してください。
 
-1. Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）にアクセスし、右上の「新規登録」ボタンを押してください。
+1. Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）にアクセスし、右上の「ログイン・新規登録」ボタンを押してください。
 
-    ![SetupAccount_1](./img/SetupAccount_1.ja.jpg)
+    ![SetupAccount_1](./img/SetupAccount_1.jpg)
 
 1. ログイン画面が表示されますので、「新規登録」ボタンを押します。
 
-    ![SetupAccount_2](./img/SetupAccount_2.ja.jpg)
+    ![SetupAccount_2](./img/SetupAccount_2.jpg)
 
 1. Vketアカウントと紐付けたい任意のアカウントを選択し、アカウントの連携を行ってください。
 
-    ![SetupAccount_2](./img/SetupAccount_3.ja.jpg)
+    ![SetupAccount_2](./img/SetupAccount_3.jpg)
 
 
 ## ライセンスID登録
@@ -31,4 +31,4 @@ World Builderでワールドアップロード機能や、サーバー上へ編�
     - 国・地域
     - 種別(個人/法人)
 
-    ![SetupAccount_2](./img/SetupAccount_4.ja.jpg)
+    ![SetupAccount_2](./img/SetupAccount_4.jpg)
