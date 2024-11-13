@@ -1,6 +1,6 @@
 # ワールドをアップロードする
 
-World Builderでワールドを作成したら、[My Vket](https://vket.com/play/world)にワールドを公開することができます。
+World Builderでワールドを作成したら、[VketCloud公式サイト](https://cloud.vket.com/)や、[My Vket](https://vket.com/play/world)にワールドを公開することができます。
 
 アップロードしたワールドは、URLを共有することで別の人とワールドを見て回ることが可能です。
 
@@ -18,15 +18,15 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 
 ![UploadButton](img/UploadButton.jpg)
 
-アップロード先のワールドが問題ないか確認するモーダルが表示されるので、問題なければOKボタンを押します
+アップロード先のワールドが問題ないか確認するモーダルが表示されるので、問題なければ**アップロード**を押します
 
 ![WorldUploadDialogu](img/WorldUploadDialogu.jpg)
 
 この時、ワールドの設定で、新規ワールドを選ぶと、既存のワールドではなく、新しいワールドとして、保存することができます
 
-![WorldUploadProcess](img/WorldUploadProcess.jpg)
+![WorldUploadDialoguNewWorld](img/WorldUploadDialoguNewWorld.jpg)
 
-「ワールドをアップロードしています...」といったモーダルが出現します。このアップロード作業は、数分～数十分かかる可能性がございます。
+アップロード中のモーダルが出現します。
 
 この間、World Builderのタブを
 
@@ -58,8 +58,3 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 保存ボタンを押すことで、ワールドの設定を保存することができます。ワールドプレビューページで、アップロードを行ったワールドのワールドの確認や、SNSでのシェアが行えます。
 
 ![WorldPreview](img/WorldPreview.jpg)
-
-!!! warning "アップロードにかかる時間について"
-    World Builderでのワールドアップロード作業が終わったのち、ワールドプレビューボタンが有効になるまで数分～数十分かかる可能性がございます。
-
-    こちらは正常な動作となっておりますので、お手数おかけいたしますがワールドのアップロードが終了するまで、お待ちいただけますと幸いです。
