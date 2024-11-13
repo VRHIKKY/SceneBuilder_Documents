@@ -15,4 +15,4 @@ To play audio, you need to add the audio to the world.
 StopItem will stop audio.
 
 !!! warning Regarding Audio Playback
-    Regarding Audio Playback In the current version, you can play audio in the World Builder. By uploading the world, you can enable audio playback.
+    Regarding Audio Playback In the current version, you can't play audio in the World Builder. By uploading the world, you can enable audio playback.
