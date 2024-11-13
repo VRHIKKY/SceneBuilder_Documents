@@ -1,8 +1,6 @@
 # Enable/DisableClickableNode
 
-![EnableClickableNode](img/EnableClickableNode.jpg)
-
-![DisableClickableNode](img/DisableClickableNode.jpg)
+![EnableDisableClickableNode](img/EnableDisableClickableNode.jpg)
 
 このアクションは、アイテムを構成するノードがクリックできるかどうかを切り替えます。
 

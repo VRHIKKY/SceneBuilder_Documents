@@ -1,20 +1,18 @@
-# Play/StopItem
+# Play/Stop Item
 
-![PlayItem](img/PlayItem.jpg)
+![PlayStopItem_1](img/PlayStopItem_1.jpg)
 
-![StopItem](img/StopItem.jpg)
+## Overview
 
-アイテム再生は、指定したアイテムのサウンド・アニメーションを再生します。
+PlayItem will play audio.
 
-アイテム停止は、逆に再生を停止します。
+To play audio, you need to add the audio to the world.
 
-| 名称 | 機能 |
-| ---- | ---- |
-| Name | 再生させたいアイテムの設置アイテム一覧上の名前を指定します。|
-| Index | アニメーションを再生する際に、指定したIndex番号のアニメーションを再生します。 |
+*For playing avatar animation, see the [Motion](../Motion/Motion.md) page.
 
-!!! warning "アニメーションについて"
-    αテスト時点ではアバター未対応のため、アニメーションの再生は対応しておりません。
+## About StopItem
 
-!!! warning "アイテム停止について"
-    αテスト時点ではアイテム停止は使用できません。
+StopItem will stop audio.
+
+!!! warning Regarding Audio Playback
+    Regarding Audio Playback In the current version, you can play audio in the World Builder. By uploading the world, you can enable audio playback.

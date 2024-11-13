@@ -1,8 +1,6 @@
-# Enable/DisableCollider
+# コライダー有効化/無効化
 
-![EnableCollider](img/EnableCollider.jpg)
-
-![DisableCollider](img/DisableCollider.jpg)
+![EnableDisableCollider](img/EnableDisableCollider.jpg)
 
 コライダー有効化/無効化は、アイテムを構成するノードに含まれるコライダーの無効化・有効化をコントロールします。
 
