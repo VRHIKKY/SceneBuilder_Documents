@@ -12,29 +12,33 @@ World Builderでワールドアップロード機能や、サーバー上へ編�
 
 [Account準備](SetupAccount.md)から、チームIDの作成を行ってください。
 
-## ワールドを追加登録する
-
-一度もワールドを作成したことがない場合、ページの中央にあるワールドを追加するボタンを押下します。
-
-![CreateWorld_1](img/CreateWorld_1.jpg)
-
-ワールド名、ワールド説明文、ワールドサムネイル画像を入力して、ページ最下部の保存ボタンを押下します。
-
-![CreateWorld_2](img/CreateWorld_2.jpg)
-
-![CreateWorld_3](img/CreateWorld_3.jpg)
-
-保存が完了したら、ワールド管理ボタンを押下して、ワールド管理に戻ります。
-
 
 ## ワールドビルダーに移動する
 
-ワールドの追加登録が完了したら、いよいよワールドビルダーに移動します。
+画面右下の「ワールドを作ってみる」を押します。
 
-新しく登録したワールドの右側にある、ワールドビルダーで作成/更新ボタンを押下します。
+![CreateWorld](img/CreateWorld.jpg)
 
-![CreateWorld_4](img/CreateWorld_4.jpg)
+テンプレートワールドとして、ワールドが表示されます
 
-World Builderで、ワールドの編集ができるようになります。
+### テンプレートワールドからワールドを作り始めたい場合
 
-![CreateWorld_5](img/CreateWorld_5.jpg)
+「このワールドをカスタマイズして作る」から、すでに出来上がったワールドを参考にしながらワールドを作り始めることができます。
+
+![CreateWorldFromTenplateWorld_1](img/CreateWorldFromTenplateWorld_1.jpg)
+
+ワールドビルダーの操作に慣れていない人は、操作方法チュートリアルワールドの「このワールドをカスタマイズして作る」を押すと、ワールドビルダーの操作を学ぶことができるテンプレートワールドを開くことができます。
+
+表示されている文言に沿いながら操作をすることで、ワールドビルダーでワールドを作るための操作方法を一通り学ぶことができます。
+
+![CreateWorldFromTenplateWorld_2](img/CreateWorldFromTenplateWorld_2.jpg)
+
+### ゼロからワールドを作り始めたい場合
+
+「ワールドをゼロから作ってみよう」から、何もない配置されていないワールドを開くことができます。
+
+![CreateWorldFromScratch_1](img/CreateWorldFromScratch_1.jpg)
+
+ゼロからワールドを作り始めたい場合はこちらからワールドビルダーを開くことで、新しいワールドを作ることができます。
+
+![CreateWorldFromScratch_2](img/CreateWorldFromScratch_2.jpg)

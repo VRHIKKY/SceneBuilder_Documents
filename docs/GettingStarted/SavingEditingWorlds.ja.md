@@ -21,7 +21,7 @@ World Builderでは、VketCloudのワールドに紐づけて、編集中のワ�
 
 ![SavingScenes_1](img/SavingScenes_1.jpg)
 
-new scene projectをクリックします。
+保存したいワールドを選び、**ワールドを保存**
 
 ![SavingScenes_2](img/SavingScenes_2.jpg)
 
@@ -32,17 +32,12 @@ new scene projectをクリックします。
 
 ワールドビルダーで作成/更新を押下します。
 
-![SavingScenes_3](img/SavingScenes_3.jpg)
-
-プロジェクトを選択するモーダルが表示されるので、開きたい編集中のワールドで、利用しているプロジェクトを選択します。
-
-![SavingScenes_5](img/SavingScenes_5.jpg)
+![OpenScenes_1](img/OpenScenes_1.jpg)
 
 !!! warning "利用していないプロジェクトを選択した場合"
     プリセットアセット以外のモデルや画像、HeliScriptを作成して利用していた場合、読み込むべきファイルが見つからずに編集ができなくなります。
     必ずプロジェクトは同じものを開くようにしてください。
 
-
 しばらく待つと、前回保存した内容が、自動的に立ち上がります。
 
-![SavingScenes_6](img/SavingScenes_6.jpg)
+![OpenScenes_3](img/OpenScenes_2.jpg)
