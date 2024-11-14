@@ -3,12 +3,12 @@
     "version": "beta",
     "title": "beta",
     "aliases": [
-      "latest"]
+      "latest"
+    ]
   },
   {
     "version": "alpha",
     "title": "alpha",
-    "aliases": [
-    ]
+    "aliases": []
   }
 ]
