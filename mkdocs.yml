@@ -78,6 +78,7 @@ plugins:
             Glossary: 単語集
             #基本ページ
             Getting Started: World Builderの基本
+            Vket Cloud Guidelines: VketCloudの仕様制限
             Operating Environment: 動作環境
             Setup Account: アカウント準備
             Create World: ワールドの作成
@@ -195,6 +196,7 @@ nav:
 - Glossary: Glossary/Glossary.md
 - Getting Started: #基本ページ
   - Operating Environment: GettingStarted/OperatingEnvironment.md
+  - Vket Cloud Guidelines: GettingStarted/VketCloudGuidelines.md
   - Setup Account : GettingStarted/SetupAccount.md
   - Create World: GettingStarted/CreateWorld.md
   - Saving Editing Worlds: GettingStarted/SavingEditingWorlds.md

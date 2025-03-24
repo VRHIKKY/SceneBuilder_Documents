@@ -10,7 +10,13 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 
 事前に下記の手順からVketAccountを作成してください。
 
-1. [アカウント準備](SetupAccount.md)    
+1. [アカウント準備](SetupAccount.md)
+
+## ワールドアップロード時の仕様制限について
+
+ワールドのデータが多すぎると、訪れた人によっては、ワールドに入ることができなくなることがあります。
+
+[こちら](.\VketCloudGuidelines.md)のページをもとに、作成したワールドのデータを確認することで、より多くの人に自分が作成したワールドを遊んでもらうことができるようになります。
 
 ## ワールドアップロード
 
@@ -18,11 +24,11 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 
 ![UploadButton](img/UploadButton.jpg)
 
-アップロード先のワールドが問題ないか確認するモーダルが表示されるので、問題なければ**アップロード**を押します
+アップロード先のワールドが問題ないか確認するモーダルが表示されるので、問題なければ**アップロード**を押します。
 
 ![WorldUploadDialogu](img/WorldUploadDialogu.jpg)
 
-この時、ワールドの設定で、新規ワールドを選ぶと、既存のワールドではなく、新しいワールドとして、保存することができます
+この時、ワールドの設定で、新規ワールドを選ぶと、既存のワールドではなく、新しいワールドとして、保存することができます。
 
 ![WorldUploadDialoguNewWorld](img/WorldUploadDialoguNewWorld.jpg)
 
@@ -36,7 +42,7 @@ Vket Cloud公式サイト（[https://cloud.vket.com](https://cloud.vket.com/)）
 
 - 他のウインドウを最大化して、World Builderのタブを完全に隠す
 
-といった操作を行わないようにしてください。アップロードが途中で中断、もしくは、アップロード機能が正常に進まない可能性がございます。
+といった操作を行わないようにしてください。アップロードが途中で中断、もしくは、アップロード機能が正常に進まない可能性があります。
 
 ![WorldUploadProcess](img/WorldUploadProcess.jpg)
 
