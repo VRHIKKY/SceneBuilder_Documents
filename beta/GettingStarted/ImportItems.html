@@ -347,6 +347,8 @@
       
         
       
+        
+      
     
     
     
@@ -389,6 +391,27 @@
   
   <span class="md-ellipsis">
     動作環境
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VketCloudGuidelines.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VketCloudの仕様制限
   </span>
   
 
@@ -592,10 +615,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
         
           
-          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -606,8 +629,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_6">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
             <span class="md-nav__icon md-icon"></span>
             3Dモデルの再フォーマット
           </label>
@@ -3357,6 +3380,12 @@
 <p class="admonition-title">8mb以上のglbは読み込めません</p>
 <p>現バージョンでは、8mb以上のglbファイルをワールドに配置しようとすると、World Builderがフリーズします。</p>
 <p>お手数ですが、blenderなどでモデルの軽量化や、画像編集ソフトでのテクスチャの軽量化を行ってください。</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">glbファイルのコライダーはバウンディングボックスとなります</p>
+<p>glbファイルのコライダーはバウンディングボックス（モデルにぴったりと被さる透明の箱のようなイメージ）として設定されます。</p>
+<p>現バージョンでは、MeshColliderへの変換は対応していません。</p>
+<p>細かくモデルを編集するか、heoフォーマットでの書き出しを行ってください。heoフォーマットの書き出し方法については<a href="Reformatting3DModels/ExportingHEOUsingVketCloudSDK.html">こちら</a>をご覧ください。</p>
 </div>
 <h3 id="_4">ファイルをプロジェクトフォルダに直接配置する</h3>
 <p>プロジェクトフォルダのassetフォルダに、直接モデルの追加を行う事も出来ます。
