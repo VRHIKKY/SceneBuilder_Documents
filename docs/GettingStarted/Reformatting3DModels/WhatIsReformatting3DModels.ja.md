@@ -22,7 +22,7 @@ glTFには、glbフォーマットと、gltfフォーマットの二つがあり
     
     現バージョンでは、MeshColliderへの変換は対応しておらず、コライダーの無効化を行うこともできません。
 
-    バウンディングボックスではないコライダーを設定したい場合は、heoフォーマットでの書き出しを行ってください。heoフォーマットの書き出し方法については[こちら](./Reformatting3DModels/ExportingHEOUsingVketCloudSDK.md)をご覧ください。
+    バウンディングボックスではないコライダーを設定したい場合は、heoフォーマットでの書き出しを行ってください。heoフォーマットの書き出し方法については[こちら](./ExportingHEOUsingVketCloudSDK.md)をご覧ください。
 
 ### heoフォーマット
 **heo**は、World Builderを動かしているVket Cloudという開発エンジンに適した3Dモデルのファイルフォーマットです。
