@@ -8,7 +8,7 @@ Unityで3Dモデルの再フォーマットを行う前に、使用する3Dモ�
 
 ![PreparationUnity_1](img/PreparationUnity_1.jpg)
 
-!!! note warning
+!!! warning モデルの利用ライセンスあるいはガイドライン違反について
     ※World Builderにモデルをアップロードする際は、モデルの利用ライセンスあるいはガイドライン等に違反していないか注意してください。
 
 ## 下準備：見た目の調整

@@ -1,12 +1,15 @@
+# フェードアウト/イン
 
-# FadeOutIn
+!!! warning "フェードアウト/インについて"
+    現バージョンでは、World Builder上でこのアクションを実行することができません。
+    ワールドをアップロードすることで、アクションを実行することができます。
+
 ![FadeOutIn](img/FadeOutIn.jpg)
 
-FadeOut lets you blackout the screen across a specified period of time.
+フェードアウトが実行されると、指定した時間をかけて、画面を暗転させます。
 
-FadeIn returns the screen to normal across a specified period of time.
+フェードインが実行されると、指定した時間をかけて、暗転を解除します。
 
 |  Label |  function  |
 | ----   | ---- |
-| time | Set the transition time for FadeOut/FadeIn.
- |
+| time | フェードインにかかる時間を設定します。 |
