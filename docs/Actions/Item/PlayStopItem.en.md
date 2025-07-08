@@ -1,18 +1,19 @@
-# Play/Stop Item
+# アイテム再生/停止
+
+!!! warning "アイテム再生/停止について"
+    現バージョンでは、World Builder上でこのアクションを実行することができません。
+    ワールドをアップロードすることで、アクションを実行することができます。
 
 ![PlayStopItem_1](img/PlayStopItem_1.jpg)
 
-## Overview
+## 概要
 
-PlayItem will play audio.
+アイテム再生は、音声を再生します。
 
-To play audio, you need to add the audio to the world.
+音声を再生するには、ワールドに音声を追加する必要があります。
 
-*For playing avatar animation, see the [Motion](../Motion/Motion.md) page.
+※アバターアニメーションの再生については[モーション](../Motion/Motion.md)をご参照ください。
 
-## About StopItem
+## StopItemについて
 
-StopItem will stop audio.
-
-!!! warning Regarding Audio Playback
-    Regarding Audio Playback In the current version, you can't play audio in the World Builder. By uploading the world, you can enable audio playback.
+アイテム停止は、音声を停止します。
